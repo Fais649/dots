@@ -1,5 +1,5 @@
-vim.g.loaded_netrw = 0
-vim.g.loaded_netrwPlugin = 0
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
 
 -- vim.api.nvim_create_autocmd('VimEnter', {
 --   callback = function()
@@ -28,7 +28,7 @@ vim.opt.mouse = 'a'
 
 -- Don't show the mode, since it's already in the status line
 vim.opt.showmode = false
-vim.opt.autochdir = false
+-- vim.opt.autochdir = true
 
 -- Sync clipboard between OS and Neovim.
 --  Schedule the setting after `UiEnter` because it can increase startup-time.
@@ -52,11 +52,11 @@ vim.opt.smartcase = true
 vim.opt.signcolumn = 'yes'
 
 -- Decrease update time
-vim.opt.updatetime = 350
+vim.opt.updatetime = 150
 
 -- Decrease mapped sequence wait time
 -- Displays which-key popup sooner
-vim.opt.timeoutlen = 500
+vim.opt.timeoutlen = 300
 
 -- Configure how new splits should be opened
 vim.opt.splitright = true
@@ -64,7 +64,6 @@ vim.opt.splitbelow = true
 
 vim.opt.list = true
 vim.opt.listchars = { tab = '| ', trail = '·', nbsp = '␣' }
-vim.opt.tabstop = 3
 
 -- Preview substitutions live, as you type!
 vim.opt.inccommand = 'split'
@@ -73,4 +72,7 @@ vim.opt.inccommand = 'split'
 vim.opt.cursorline = true
 
 -- Minimal number of screen lines to keep above and below the cursor.
-vim.opt.scrolloff = 10
+vim.opt.scrolloff = 30
+vim.opt.tabstop = 3
+
+vim.opt.textwidth = 80

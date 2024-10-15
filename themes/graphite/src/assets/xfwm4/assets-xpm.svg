@@ -1,0 +1,30 @@
+<svg width="80" height="80" version="1.1" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+ <g id="title" transform="translate(-3,-6)">
+  <rect x="22" y="18" width="6" height="34" fill="#2c2c2c"/>
+  <rect x="22" y="16" width="6" height="2" fill="#e0e0e0"/>
+ </g>
+ <g id="top-left-active" transform="translate(-3,-6)">
+  <path d="m19 18v1h-2v1h-1v2h-1v30h6v-34z" fill="#2c2c2c"/>
+  <path d="m18 16v1h-2v1h-1v1h-1v2h-1v31h2v-30h1v-2h1v-1h2v-1h2v-2z" fill="#e0e0e0"/>
+ </g>
+ <g id="left-active" transform="translate(-36,-687.36)">
+  <rect transform="scale(-1,1)" x="-48" y="734.36" width="2" height="16" fill="#e0e0e0"/>
+ </g>
+ <g id="bottom-left-active" transform="translate(-86,-666.36)">
+  <path d="m98 730.36h-2v9h1v1l9-1.2e-4v-2l-8 1.2e-4z" fill="#e0e0e0"/>
+ </g>
+ <g id="bottom-right-active" transform="matrix(-1,0,0,1,146,-666.36)">
+  <path d="m98 730.36h-2v9h1v1l9-1.2e-4v-2l-8 1.2e-4z" fill="#e0e0e0"/>
+ </g>
+ <g id="bottom-active" transform="matrix(0,-1,-1,0,772.36,120)">
+  <rect transform="scale(-1,1)" x="-48" y="734.36" width="2" height="16" fill="#e0e0e0"/>
+ </g>
+ <g id="button">
+  <rect x="26" y="10" width="34" height="36" fill="none"/>
+  <path d="m40 15v1h-2v1h-2v1h-2v1h-1v1h-1v2h-0.99023v2h-1.0098v2h-0.99023v6h0.99023v2h1.0098v2h0.99023v2h1v1h1v1h2v1h2v1h2v1h6v-1h2v-1h2v-1h2v-1h1v-1h1v-2h0.99023v-2h1.0098v-2h0.99023v-6h-0.99023v-2h-1.0098v-2h-0.99023v-2h-1v-1h-1v-1h-2v-1h-2v-1h-2v-1z" fill="#2c2c2c"/>
+ </g>
+ <g id="top-right-active" transform="translate(-3,-6)">
+  <path d="m67 18v1h2v1h1v2h1v30h-6v-34z" fill="#2c2c2c"/>
+  <path d="m68 16v1h2v1h1v1h1v2h1v31h-2v-30h-1v-2h-1v-1h-2v-1h-2v-2z" fill="#e0e0e0"/>
+ </g>
+</svg>

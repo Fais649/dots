@@ -3,6 +3,7 @@ vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagn
 vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit Terminal Mode' })
 
 vim.keymap.set({ 'n', 'v', 'i', 't' }, '<f12>', '<cmd>ToggleTerm direction=horizontal<CR>', { desc = 'Toggle Terminal' })
+vim.keymap.set({ 'n', 'v', 'i', 't' }, '<f1>', '<cmd>lua MiniFiles.open()<CR>', { desc = 'Toggle Terminal' })
 
 vim.keymap.set({ 'n', 'v' }, '{', '10j', { desc = '5 Lines Down' })
 vim.keymap.set({ 'n', 'v' }, '}', '10k', { desc = '5 Lines Up' })
@@ -28,3 +29,5 @@ vim.keymap.set({ 'n', 'x' }, '<leader>ri', ':Refactor inline_var')
 vim.keymap.set('n', '<leader>rI', ':Refactor inline_func')
 vim.keymap.set('n', '<leader>rb', ':Refactor extract_block')
 vim.keymap.set('n', '<leader>rbf', ':Refactor extract_block_to_file')
+
+vim.keymap.set('n', '<leader>.', '<C-w>w')

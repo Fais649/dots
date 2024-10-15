@@ -14,7 +14,7 @@ return {
         -- position = 'left',
         -- size = 40,
 
-        -- Alternatively, you can have it floating.
+        -- -- Alternatively, you can have it floating.
         size = 40,
         position = 'float',
         win_config = {
@@ -24,7 +24,7 @@ return {
           width = 40,
           height = '80%',
         },
-
+        --
         on_vim_enter = function(event)
           -- - Open the drawer on startup.
           -- event.instance.open {
@@ -80,6 +80,10 @@ return {
             quit_on_open = true,
           },
         },
+        hijack_cursor = true,
+        hijack_netrw = true,
+        update_cwd = true,
+        sync_root_with_cwd = true,
       }
 
       vim.api.nvim_create_autocmd('BufEnter', {

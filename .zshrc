@@ -35,6 +35,7 @@ alias tauri="npm run tauri"
 alias tauri-android-run="emulator -avd smol > /dev/null 2>&1  & sleep 10 && tauri android dev"
 alias tauri-desktop-run="GDK_BACKEND=x11 tauri dev"
 alias yd="yazi"
+alias lvim="NVIM_APPNAME=lvim nvim"
 
 export PATH="$HOME/.local/bin:$PATH:$HOME/.cargo/bin"
 export EDITOR='nvim'
@@ -52,7 +53,7 @@ else
 	export ANDROID_SDK_ROOT="$HOME/Android/Sdk/"
 	export PATH="$PATH:$ANDROID_HOME/emulator/"
 	export JAVA_HOME="/opt/android-studio/jbr/"
-
+	export CAPACITOR_ANDROID_STUDIO_PATH="/opt/android-studio/bin/studio.sh"
 	export CHROME_EXECUTABLE="/usr/bin/google-chrome-stable"
 	export PKG_CONFIG_PATH=/usr/lib/wlroots0.17/pkgconfig:$PKG_CONFIG_PATH
 	# export JAVA_HOME='/usr/lib/jvm/java-22-openjdk/'

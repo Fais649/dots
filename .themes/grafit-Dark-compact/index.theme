@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=grafit-Dark-compact
+Comment=An Flat Gtk+ theme based on Elegant Design
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=grafit-Dark-compact
+MetacityTheme=grafit-Dark-compact
+IconTheme=Tela-circle-dark
+CursorTheme=grafit-cursors
+ButtonLayout=close,minimize,maximize:menu
