@@ -1,0 +1,7 @@
+vim.cmd.colorscheme 'kanagawa-dragon'
+vim.cmd.hi 'Visual ctermbg=236 guifg=#aaaaaa guibg=#323232'
+vim.cmd.hi 'Visual guibg=#323232'
+vim.cmd.hi 'Pmenu ctermbg=none guibg=none'
+vim.cmd.hi 'Normal ctermbg=black guifg=#bac1b8 guibg=black'
+vim.cmd.hi 'LineNr ctermbg=black guifg=#bac1b8 guibg=black'
+vim.cmd.hi 'CursorColumn ctermbg=black guifg=#bac1b8 guibg=black'
