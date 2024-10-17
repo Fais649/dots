@@ -37,7 +37,7 @@ alias tauri-desktop-run="GDK_BACKEND=x11 tauri dev"
 alias yd="yazi"
 alias lvim="NVIM_APPNAME=lvim nvim"
 
-export PATH="$HOME/.local/bin:$PATH:$HOME/.cargo/bin"
+export PATH="$HOME/.local/bin:$PATH:$HOME/.cargo/bin:/opt/android-studio/bin"
 export EDITOR='nvim'
 export PATH="$PATH:$HOME/esp/xtensa-esp32-elf/bin"
 export IDF_PATH=~/esp/esp-idf
