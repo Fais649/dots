@@ -40,11 +40,12 @@ return { -- Fuzzy Finder (files, lsp, etc)
       -- },
       defaults = {
         theme = 'dropdown',
-        -- autochdir = true,
+        layout_config = { width = 0.6, height = 0.6 },
       },
       -- autochdir = true,
       pickers = {
-        find_files = { previewer = false, theme = 'dropdown', cwd = '~', hidden = true },
+        live_grep = { previewer = true, theme = 'dropdown', hidden = true },
+        find_files = { previewer = false, theme = 'dropdown', layout_config = { width = 0.6, height = 0.6 }, hidden = true },
         oldfiles = {
           theme = 'dropdown',
           previewer = false,
@@ -80,10 +81,10 @@ return { -- Fuzzy Finder (files, lsp, etc)
     local builtin = require 'telescope.builtin'
     vim.keymap.set('n', '<leader>fh', builtin.help_tags, { desc = '[F]ind [H]elp' })
     vim.keymap.set('n', '<leader>fk', builtin.keymaps, { desc = '[F]ind [K]eymaps' })
-    vim.keymap.set({ 'n', 'v', 'i', 't' }, '<f2>', builtin.find_files, { desc = '[F]ind [F]iles' })
+    vim.keymap.set({ 'n', 'v', 'i', 't' }, '<f1>', builtin.find_files, { desc = '[F]ind [F]iles' })
     vim.keymap.set('n', '<leader>fs', builtin.builtin, { desc = '[F]ind [S]elect Telescope' })
     vim.keymap.set('n', '<leader>fw', builtin.grep_string, { desc = '[F]ind current [W]ord' })
-    vim.keymap.set('n', '<leader>fg', builtin.live_grep, { desc = '[F]ind by [G]rep' })
+    vim.keymap.set('n', '<f2>', builtin.live_grep, { desc = '[F]ind by [G]rep' })
     vim.keymap.set('n', '<leader>fd', builtin.diagnostics, { desc = '[F]ind [D]iagnostics' })
     vim.keymap.set('n', '<leader>fr', builtin.resume, { desc = '[F]ind [R]esume' })
     vim.keymap.set('n', '<leader>f.', builtin.oldfiles, { desc = '[F]ind Recent Files ("." for repeat)' })

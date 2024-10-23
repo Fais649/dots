@@ -3,7 +3,6 @@ vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagn
 vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit Terminal Mode' })
 
 vim.keymap.set({ 'n', 'v', 'i', 't' }, '<f12>', '<cmd>ToggleTerm direction=horizontal<CR>', { desc = 'Toggle Terminal' })
--- vim.keymap.set({ 'n', 'v', 'i', 't' }, '<f1>', '<cmd>lua MiniFiles.open()<CR>', { desc = '' })
 
 vim.keymap.set({ 'n', 'v' }, '{', '10j', { desc = '5 Lines Down' })
 vim.keymap.set({ 'n', 'v' }, '}', '10k', { desc = '5 Lines Up' })
@@ -14,9 +13,6 @@ vim.keymap.set('n', '<leader><Tab>', '<C-^>')
 
 vim.keymap.set({ 'n', 'i' }, '<A-j>', 'ddp', { desc = 'Move Line Down' })
 vim.keymap.set({ 'n', 'i' }, '<A-k>', 'ddkP', { desc = 'Move Line Up' })
-
--- vim.keymap.set('n', '<TAB>', '<cmd>bnext<CR>', { desc = 'Next Tab' })
--- vim.keymap.set('n', '<S-TAB>', '<cmd>bprevious<CR>', { desc = 'Last Tab' })
 
 vim.keymap.set('n', '<A-l>', '>>', { desc = 'Indent ->' })
 vim.keymap.set('n', '<A-h>', '<<', { desc = 'Indent <-' })

@@ -4,7 +4,7 @@ return {
   keys = {
     -- 👇 in this section, choose your own keymappings!
     {
-      '<f1>',
+      '<S-f3>',
       '<cmd>Yazi<cr>',
       desc = 'Open yazi at the current file',
     },
@@ -17,7 +17,7 @@ return {
     {
       -- NOTE: this requires a version of yazi that includes
       -- https://github.com/sxyazi/yazi/pull/1305 from 2024-07-18
-      '<c-up>',
+      '<f3>',
       '<cmd>Yazi toggle<cr>',
       desc = 'Resume the last yazi session',
     },
@@ -26,7 +26,7 @@ return {
     -- if you want to open yazi instead of netrw, see below for more info
     open_for_directories = true,
     keymaps = {
-      show_help = '<f2>',
+      show_help = '<A-f3>',
     },
   },
 }

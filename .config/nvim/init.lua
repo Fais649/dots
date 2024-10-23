@@ -31,6 +31,7 @@ require('lazy').setup({
   require 'plugins.suda',
   require 'plugins.refactor',
   require 'plugins.yazi',
+  require 'plugins.flutter',
 }, {
   ui = {
     icons = vim.g.have_nerd_font and {} or {

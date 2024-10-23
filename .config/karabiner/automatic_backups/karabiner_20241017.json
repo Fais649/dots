@@ -7,6 +7,70 @@
                         "description": "German mapping for programming (/, \\, |, {}, [], ~) (rev 2)",
                         "manipulators": [
                             {
+                                "from": {
+                                    "key_code": "open_bracket",
+                                    "modifiers": {
+                                        "mandatory": ["option"],
+                                        "optional": ["any"]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "7",
+                                        "modifiers": ["option"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": { "key_code": "open_bracket" },
+                                "to": [
+                                    {
+                                        "key_code": "7",
+                                        "modifiers": ["left_shift"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "open_bracket",
+                                    "modifiers": {
+                                        "mandatory": ["shift"],
+                                        "optional": ["any"]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "7",
+                                        "modifiers": ["left_shift", "left_option"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "caps_lock",
+                                    "modifiers": {
+                                        "mandatory": ["shift"],
+                                        "optional": ["any"]
+                                    }
+                                },
+                                "to": [{ "key_code": "caps_lock" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "caps_lock",
+                                    "modifiers": {
+                                        "mandatory": ["shift"],
+                                        "optional": ["any"]
+                                    }
+                                },
+                                "to": [{ "key_code": "caps_lock" }],
+                                "type": "basic"
+                            },
+                            {
                                 "from": { "key_code": "caps_lock" },
                                 "to": [{ "key_code": "escape" }],
                                 "type": "basic"
@@ -96,42 +160,6 @@
                                 "type": "basic"
                             },
                             {
-                                "from": { "key_code": "open_bracket" },
-                                "to": [
-                                    {
-                                        "key_code": "7",
-                                        "modifiers": ["shift"]
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "open_bracket",
-                                    "modifiers": { "mandatory": ["shift"] }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "7",
-                                        "modifiers": ["shift", "option"]
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "open_bracket",
-                                    "modifiers": { "mandatory": ["option"] }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "7",
-                                        "modifiers": ["option"]
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
                                 "from": {
                                     "key_code": "close_bracket",
                                     "modifiers": {
@@ -164,17 +192,11 @@
                                 "type": "basic"
                             },
                             {
-                                "from": {
-                                    "key_code": "hyphen",
-                                    "modifiers": {
-                                        "mandatory": ["right_option"],
-                                        "optional": ["any"]
-                                    }
-                                },
+                                "from": { "key_code": "hyphen" },
                                 "to": [
                                     {
-                                        "key_code": "7",
-                                        "modifiers": ["left_shift", "left_option"]
+                                        "key_code": "hyphen",
+                                        "modifiers": ["left_shift"]
                                     }
                                 ],
                                 "type": "basic"
@@ -201,7 +223,7 @@
             },
             "name": "Default profile",
             "selected": true,
-            "virtual_hid_keyboard": { "keyboard_type_v2": "ansi" }
+            "virtual_hid_keyboard": { "keyboard_type_v2": "iso" }
         }
     ]
 }

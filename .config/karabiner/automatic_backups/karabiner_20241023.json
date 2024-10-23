@@ -108,25 +108,15 @@
                             {
                                 "from": {
                                     "key_code": "open_bracket",
-                                    "modifiers": { "mandatory": ["shift"] }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "7",
-                                        "modifiers": ["shift", "option"]
+                                    "modifiers": {
+                                        "mandatory": ["shift"],
+                                        "optional": ["any"]
                                     }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "open_bracket",
-                                    "modifiers": { "mandatory": ["option"] }
                                 },
                                 "to": [
                                     {
-                                        "key_code": "7",
-                                        "modifiers": ["option"]
+                                        "key_code": "hyphen",
+                                        "modifiers": ["shift"]
                                     }
                                 ],
                                 "type": "basic"
