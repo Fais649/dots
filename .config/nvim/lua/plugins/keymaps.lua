@@ -14,8 +14,8 @@ vim.keymap.set('n', '<leader><Tab>', '<C-^>')
 vim.keymap.set({ 'n', 'i' }, '<A-j>', 'ddp', { desc = 'Move Line Down' })
 vim.keymap.set({ 'n', 'i' }, '<A-k>', 'ddkP', { desc = 'Move Line Up' })
 
-vim.keymap.set('n', '<A-l>', '>>', { desc = 'Indent ->' })
-vim.keymap.set('n', '<A-h>', '<<', { desc = 'Indent <-' })
+vim.keymap.set('n', '<A-l>', '<C-o>', { desc = 'Go Back' })
+vim.keymap.set('n', '<A-h>', '<C-i>', { desc = 'Go Forward' })
 vim.keymap.set({ 'n' }, '<Esc>', '<cmd>noh <CR>', { desc = 'Escape and Clear hlsearch' })
 
 vim.keymap.set('n', '<A-left>', '<C-o>', { desc = 'Go Back' })
@@ -30,3 +30,4 @@ vim.keymap.set('n', '<leader>rb', ':Refactor extract_block')
 vim.keymap.set('n', '<leader>rbf', ':Refactor extract_block_to_file')
 
 vim.keymap.set('n', '<leader>.', '<C-w>w')
+vim.keymap.set('n', '<A-f1>', '<cmd>w<CR>')
