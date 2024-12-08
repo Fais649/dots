@@ -2,15 +2,14 @@
 font_family GohuFont uni11 Nerd Font Mono
 font_size 12
 
+include themes/cyberdream.conf
 confirm_os_window_close 0
 enable_audio_bell no
 window_padding_width 5
-# background_opacity 0.5
-# background_blur 4000
 
-macos_option_as_alt no
-macos_titlebar_color background
-# wayland_titlebar_color background
+wayland_titlebar_color background
+
+background #000000
 # foreground #c5c8c6
 # selection_background #1d2021
 # selection_foreground #ffffff
@@ -36,10 +35,3 @@ map ctrl+shift+up scroll_page_up
 map ctrl+shift+down scroll_page_down 
 
 map alt+t new_tab_with_cwd
-
-
-# BEGIN_KITTY_THEME
-# Cyberdream
-include current-theme.conf
-background #000000
-# END_KITTY_THEME

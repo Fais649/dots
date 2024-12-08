@@ -4,58 +4,7 @@
             "complex_modifications": {
                 "rules": [
                     {
-                        "description": "Fix Circumflex",
-                        "manipulators": [
-                            {
-                                "from": { "key_code": "non_us_backslash" },
-                                "to": [
-                                    { "key_code": "non_us_backslash" },
-                                    { "key_code": "spacebar" }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Fix Tilde",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "n",
-                                    "modifiers": { "mandatory": ["left_option"] }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "n",
-                                        "modifiers": ["left_option"]
-                                    },
-                                    { "key_code": "spacebar" }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Fix Backtick",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "equal_sign",
-                                    "modifiers": { "mandatory": ["left_shift"] }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "equal_sign",
-                                        "modifiers": ["left_shift"]
-                                    },
-                                    { "key_code": "spacebar" }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "CoderDream",
+                        "description": "German mapping for programming (/, \\, |, {}, [], ~) (rev 2)",
                         "manipulators": [
                             {
                                 "from": { "key_code": "caps_lock" },
@@ -66,7 +15,7 @@
                                 "from": {
                                     "key_code": "semicolon",
                                     "modifiers": {
-                                        "mandatory": ["option", "shift"],
+                                        "mandatory": ["option"],
                                         "optional": ["any"]
                                     }
                                 },
@@ -87,7 +36,7 @@
                                 "from": {
                                     "key_code": "quote",
                                     "modifiers": {
-                                        "mandatory": ["option", "shift"],
+                                        "mandatory": ["option"],
                                         "optional": ["any"]
                                     }
                                 },
@@ -172,7 +121,7 @@
                                 "from": {
                                     "key_code": "open_bracket",
                                     "modifiers": {
-                                        "mandatory": ["option", "shift"],
+                                        "mandatory": ["option"],
                                         "optional": ["any"]
                                     }
                                 },

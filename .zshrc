@@ -2,7 +2,7 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="minimal"
 plugins=(git git-prompt fzf)
 source $ZSH/oh-my-zsh.sh
-
+export LC_ALL=de_DE.UTF-8
 autoload -Uz vcs_info
 zstyle ':vcs_info:*' enable git svn
 precmd() {
@@ -19,6 +19,8 @@ export PUNKD="$HOME/punk.systems/dots/"
 export PUNKC="$HOME/punk.systems/code/"
 
 alias zshconfig="nvim ~/.zshrc"
+alias nvimconfig="cd ~/.config/nvim/ && nvim init.lua"
+alias lvimconfig="cd ~/.config/lvim/ && lvim init.lua"
 alias punkssh="ssh root@punk.systems"
 alias inputs="echo dead | sudo -S input-remapper-service & sleep 2 && echo dead | sudo -S input-remapper-control --device 'Asus Keyboard' --preset default --command start"
 alias idf="source /opt/esp-idf/export.sh && idf.py "
@@ -35,7 +37,13 @@ alias tauri="npm run tauri"
 alias tauri-android-run="emulator -avd smol > /dev/null 2>&1  & sleep 10 && tauri android dev"
 alias tauri-desktop-run="GDK_BACKEND=x11 tauri dev"
 alias yd="yazi"
-alias lvim="NVIM_APPNAME=lvim nvim"
+
+alias nvim="NVIM_APPNAME=lvim nvim"
+
+vv() {
+  select config in lazyvim kickstart nvchad astrovim lunarvim
+  do NVIM_APPNAME=nvim-$config nvim $@; break; done
+}
 
 export PATH="$HOME/.local/bin:$PATH:$HOME/.cargo/bin:/opt/android-studio/bin"
 export EDITOR='nvim'
@@ -64,3 +72,13 @@ else
 
 fi
 
+
+# bun completions
+[ -s "/Users/faisalalalaiwat/.bun/_bun" ] && source "/Users/faisalalalaiwat/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+export ANDROID_NDK_HOME="/opt/homebrew/share/android-ndk"
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
