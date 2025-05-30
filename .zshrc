@@ -38,7 +38,7 @@ alias tauri-android-run="emulator -avd smol > /dev/null 2>&1  & sleep 10 && taur
 alias tauri-desktop-run="GDK_BACKEND=x11 tauri dev"
 alias yd="yazi"
 
-alias nvim="NVIM_APPNAME=lvim nvim"
+alias lvim="NVIM_APPNAME=lvim nvim"
 
 vv() {
   select config in lazyvim kickstart nvchad astrovim lunarvim
@@ -82,3 +82,32 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 export ANDROID_NDK_HOME="/opt/homebrew/share/android-ndk"
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
+
+export PATH=$PATH:$HOME/.local/bin
+
+# export PLATFORMIO_SYSTEM_TYPE="darwin_x86_64"
+if command -v zoxide > /dev/null; then
+  eval "$(zoxide init zsh)"
+fi
+# Source the Lazyman shell initialization for aliases and nvims selector
+# shellcheck source=.config/nvim-Lazyman/.lazymanrc
+[ -f ~/.config/nvim-Lazyman/.lazymanrc ] && source ~/.config/nvim-Lazyman/.lazymanrc
+# Source the Lazyman .nvimsbind for nvims key binding
+# shellcheck source=.config/nvim-Lazyman/.nvimsbind
+[ -f ~/.config/nvim-Lazyman/.nvimsbind ] && source ~/.config/nvim-Lazyman/.nvimsbind
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/opt/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/opt/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/opt/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+

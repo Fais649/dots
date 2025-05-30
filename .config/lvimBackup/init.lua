@@ -1,0 +1,31 @@
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")
+
+require("cyberdream").setup({
+  -- Enable transparent background
+  transparent = false,
+
+  italic_comments = true,
+
+  hide_fillchars = true,
+
+  borderless_telescope = false,
+
+  terminal_colors = true,
+  cache = false,
+  theme = {
+    variant = "default", -- use "light" for the light variant. Also accepts "auto" to set dark or light colors based on the current value of `vim.o.background`
+    saturation = 0.5, -- accepts a value between 0 and 1. 0 will be fully desaturated (greyscale) and 1 will be the full color (default)
+    colors = {
+      bg = "#000000",
+    },
+  },
+
+  extensions = {
+    telescope = true,
+    notify = true,
+    mini = true,
+  },
+})
+
+vim.cmd.colorscheme("cyberdream")
