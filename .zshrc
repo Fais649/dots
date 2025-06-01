@@ -50,27 +50,27 @@ export EDITOR='nvim'
 export PATH="$PATH:$HOME/esp/xtensa-esp32-elf/bin"
 export IDF_PATH=~/esp/esp-idf
 
-if [[ "$OSTYPE" == "darwin"* ]]; then
-	export ANDROID_HOME="$HOME/Library/Android/sdk/"
-	export NDK_HOME="$ANDROID_HOME/ndk/$(ls -1 $ANDROID_HOME/ndk)"
-export JAVA_HOME=$(/usr/libexec/java_home)
-	# export JAVA_HOME="/opt/homebrew/Caskroom/android-studio/2024.1.2.13/Android Studio.app/Contents/jbr/"
-else
-	export ANDROID_HOME="$HOME/Android/Sdk"
-	export NDK_HOME="$ANDROID_HOME/ndk/$(ls -1 $ANDROID_HOME/ndk)"
-	export ANDROID_SDK_ROOT="$HOME/Android/Sdk/"
-	export PATH="$PATH:$ANDROID_HOME/emulator/"
-	export JAVA_HOME="/opt/android-studio/jbr/"
-	export CAPACITOR_ANDROID_STUDIO_PATH="/opt/android-studio/bin/studio.sh"
-	export CHROME_EXECUTABLE="/usr/bin/google-chrome-stable"
-	export PKG_CONFIG_PATH=/usr/lib/wlroots0.17/pkgconfig:$PKG_CONFIG_PATH
-	# export JAVA_HOME='/usr/lib/jvm/java-22-openjdk/'
-
-	export NVM_DIR="$HOME/.nvm"
-	[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-	[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-fi
+# if [[ "$OSTYPE" == "darwin"* ]]; then
+# 	export ANDROID_HOME="$HOME/Library/Android/sdk/"
+# 	export NDK_HOME="$ANDROID_HOME/ndk/$(ls -1 $ANDROID_HOME/ndk)"
+# export JAVA_HOME=$(/usr/libexec/java_home)
+# 	# export JAVA_HOME="/opt/homebrew/Caskroom/android-studio/2024.1.2.13/Android Studio.app/Contents/jbr/"
+# else
+# 	export ANDROID_HOME="$HOME/Android/Sdk"
+# 	export NDK_HOME="$ANDROID_HOME/ndk/$(ls -1 $ANDROID_HOME/ndk)"
+# 	export ANDROID_SDK_ROOT="$HOME/Android/Sdk/"
+# 	export PATH="$PATH:$ANDROID_HOME/emulator/"
+# 	export JAVA_HOME="/opt/android-studio/jbr/"
+# 	export CAPACITOR_ANDROID_STUDIO_PATH="/opt/android-studio/bin/studio.sh"
+# 	export CHROME_EXECUTABLE="/usr/bin/google-chrome-stable"
+# 	export PKG_CONFIG_PATH=/usr/lib/wlroots0.17/pkgconfig:$PKG_CONFIG_PATH
+# 	# export JAVA_HOME='/usr/lib/jvm/java-22-openjdk/'
+#
+# 	export NVM_DIR="$HOME/.nvm"
+# 	[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# 	[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+#
+# fi
 
 
 # bun completions
