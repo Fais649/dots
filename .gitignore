@@ -1,4 +1,5 @@
 esp/
+.config/discord/
 .config/Epic/
 .config/chromium/
 .config/google-chrome/
