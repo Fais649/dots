@@ -1,0 +1,82 @@
+8/6/2025, 8:12:18 PM UTC 0: 
+
+----------------------------------------------
+8/6/2025, 8:12:18 PM UTC 1: Discord starting: {"releaseChannel":"stable","version":"0.0.104"}, modulepath: /home/fais/.config/discord/0.0.104/modules
+8/6/2025, 8:12:18 PM UTC 2: ✅ webContents.created web1 "index.html"
+8/6/2025, 8:12:18 PM UTC 3: ✅ window.created win1 "discord"
+8/6/2025, 8:12:18 PM UTC 4: ✅ webContents.did-finish-load web1
+8/6/2025, 8:12:26 PM UTC 5: ✅ webContents.created web2 ""
+8/6/2025, 8:12:26 PM UTC 6: ✅ window.created win2 "Discord"
+8/6/2025, 8:12:28 PM UTC 7: ✅ webContents.did-finish-load web2
+8/6/2025, 8:12:29 PM UTC 8: window.close win1
+8/6/2025, 8:12:29 PM UTC 9: webContents.destroyed web1
+8/6/2025, 8:12:29 PM UTC 10: window.closed win1
+8/6/2025, 9:23:14 PM UTC 11: before-quit
+8/13/2025, 8:08:48 PM UTC 0: 
+
+----------------------------------------------
+8/13/2025, 8:08:48 PM UTC 1: Discord starting: {"releaseChannel":"stable","version":"0.0.104"}, modulepath: /home/fais/.config/discord/0.0.104/modules
+8/13/2025, 8:08:48 PM UTC 2: ✅ webContents.created web1 ""
+8/13/2025, 8:08:48 PM UTC 3: ✅ window.created win1 "discord"
+8/13/2025, 8:08:48 PM UTC 4: ✅ webContents.did-finish-load web1
+8/13/2025, 8:08:48 PM UTC 5: ✅ webContents.created web2 ""
+8/13/2025, 8:08:48 PM UTC 6: ✅ window.created win2 "Discord"
+8/13/2025, 8:08:50 PM UTC 7: ✅ webContents.did-finish-load web2
+8/13/2025, 8:08:50 PM UTC 8: window.close win1
+8/13/2025, 8:08:50 PM UTC 9: webContents.destroyed web1
+8/13/2025, 8:08:50 PM UTC 10: window.closed win1
+8/13/2025, 9:57:16 PM UTC 11: window.close win2
+8/13/2025, 11:48:01 PM UTC 12: before-quit
+8/13/2025, 11:48:01 PM UTC 13: window.close win2
+8/13/2025, 11:48:01 PM UTC 14: ❌ child-process-gone {
+  type: 'Utility',
+  reason: 'killed',
+  exitCode: 15,
+  serviceName: 'audio.mojom.AudioService',
+  name: 'Audio Service'
+}
+8/13/2025, 11:48:01 PM UTC 15: ❌ child-process-gone {
+  type: 'Utility',
+  reason: 'killed',
+  exitCode: 15,
+  serviceName: 'network.mojom.NetworkService',
+  name: 'Network Service'
+}
+8/15/2025, 6:22:31 PM UTC 0: 
+
+----------------------------------------------
+8/15/2025, 6:22:31 PM UTC 1: Discord starting: {"releaseChannel":"stable","version":"0.0.104"}, modulepath: /home/fais/.config/discord/0.0.104/modules
+8/15/2025, 6:22:31 PM UTC 2: ✅ webContents.created web1 ""
+8/15/2025, 6:22:31 PM UTC 3: ✅ window.created win1 "discord"
+8/15/2025, 6:22:32 PM UTC 4: ✅ webContents.did-finish-load web1
+8/15/2025, 6:22:32 PM UTC 5: ✅ webContents.created web2 ""
+8/15/2025, 6:22:32 PM UTC 6: ✅ window.created win2 "Discord"
+8/15/2025, 6:22:34 PM UTC 7: ✅ webContents.did-finish-load web2
+8/15/2025, 6:22:34 PM UTC 8: window.close win1
+8/15/2025, 6:22:34 PM UTC 9: webContents.destroyed web1
+8/15/2025, 6:22:34 PM UTC 10: window.closed win1
+8/15/2025, 8:48:14 PM UTC 11: before-quit
+8/15/2025, 8:48:14 PM UTC 12: window.close win2
+8/15/2025, 8:48:14 PM UTC 13: ❌ child-process-gone {
+  type: 'Utility',
+  reason: 'killed',
+  exitCode: 15,
+  serviceName: 'audio.mojom.AudioService',
+  name: 'Audio Service'
+}
+8/15/2025, 8:51:23 PM UTC 0: 
+
+----------------------------------------------
+8/15/2025, 8:51:23 PM UTC 1: Discord starting: {"releaseChannel":"stable","version":"0.0.104"}, modulepath: /home/fais/.config/discord/0.0.104/modules
+8/15/2025, 8:51:23 PM UTC 2: ✅ webContents.created web1 ""
+8/15/2025, 8:51:23 PM UTC 3: ✅ window.created win1 "discord"
+8/15/2025, 8:51:23 PM UTC 4: ✅ webContents.did-finish-load web1
+8/15/2025, 8:51:24 PM UTC 5: ✅ webContents.created web2 ""
+8/15/2025, 8:51:24 PM UTC 6: ✅ window.created win2 "Discord"
+8/15/2025, 8:51:25 PM UTC 7: ✅ webContents.did-finish-load web2
+8/15/2025, 8:51:26 PM UTC 8: window.close win1
+8/15/2025, 8:51:26 PM UTC 9: webContents.destroyed web1
+8/15/2025, 8:51:26 PM UTC 10: window.closed win1
+8/16/2025, 6:53:12 AM UTC 11: window.close win2
+8/17/2025, 12:57:36 AM UTC 12: before-quit
+8/17/2025, 12:57:37 AM UTC 13: window.close win2

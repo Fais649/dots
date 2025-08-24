@@ -1,0 +1,45 @@
+Unity Editor version:    6000.1.14f1 (db7aa045cc2c)
+Branch:                  6000.1/staging
+Build type:              Release
+Batch mode:              NO
+System name:             Linux
+Distro version:          #1 SMP PREEMPT_DYNAMIC Tue, 29 Jul 2025 15:05:00 +0000
+Kernel version:          6.15.8-arch1-2
+Architecture:            x86_64
+Window Protocol:         Wayland (XWayland)
+Available memory:        15180 MB
+Date:                    2025-08-02T20:15:12Z
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-fais" at "2025-08-02T20:15:12.679754Z"
+[SignatureVerifier] Application signature verification not supported on this platform.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.0+aa6cfba
+  Session Id:              f0d95ca9d7ec4aac820b4e58c0d8cacb
+  Correlation Id:          95efbd57d4818985b188e2d1ba6ab831
+  External correlation Id: 4418025111729949944
+  Machine Id:              l5BrmzC7tZ/4/DIXJBhB6fr7fzg=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-fais" (connect: 0.00s, validation: 0.01s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-fais-notifications" at "2025-08-02T20:15:12.691303Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Serial number assigned to: "9071096487907-UnityPersXXXX"
+[Licensing::Client] Successfully updated license, isAync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+Pro License: NO
+Selected window backend: (null) 
+
+(Unity:157152): Gtk-WARNING **: 20:15:13.689: Theme parsing error: <data>:1:29: Not using units is deprecated. Assuming 'px'.
+
+(Unity:157152): Gtk-WARNING **: 20:15:13.689: Theme parsing error: <data>:1:34: Not using units is deprecated. Assuming 'px'.
+
+(Unity:157152): Gtk-WARNING **: 20:15:13.690: Theme parsing error: <data>:1:29: Not using units is deprecated. Assuming 'px'.
+
+(Unity:157152): Gtk-WARNING **: 20:15:13.690: Theme parsing error: <data>:1:34: Not using units is deprecated. Assuming 'px'.
+Desktop is 1920 x 1200 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+Unity/Hub/Editor/6000.1.14f1/Editor/Unity
+-force-wayland
+
+SDL leaked 2 allocations

@@ -1,0 +1,3 @@
+[Bookmarks]
+[Recent]
+/home/fais/punk.systems/code/godot/hardkour/assets/player/

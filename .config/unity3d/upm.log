@@ -1,0 +1,28 @@
+[2025-08-02T20:17:01.137Z][INFO] Command-line: /home/fais/Unity/Hub/Editor/6000.1.14f1/Editor/Data/Resources/PackageManager/Server/UnityPackageManager -s 157547 -ipc -ipc-path /tmp/Unity-Upm-157547.sock -l 2
+[2025-08-02T20:17:01.153Z][INFO] IPC server started (IPC path=/tmp/Unity-Upm-157547.sock).
+[2025-08-02T20:17:01.153Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-157547.
+[2025-08-02T20:17:03.395Z][INFO] project:list-packages <-- Request received
+params: {}
+[2025-08-02T20:17:03.412Z][INFO] project:list-packages <-- Request received
+params: {}
+[2025-08-02T20:17:03.459Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2025-08-02T20:17:03.517Z][INFO] config:project:get-registries --> 200 (59 ms)
+[2025-08-02T20:17:04.340Z][INFO] project:list-packages --> 200 (945 ms)
+[2025-08-02T20:17:05.249Z][INFO] project:list-packages --> 200 (1838 ms)
+[2025-08-02T20:17:11.236Z][INFO] project:list-packages <-- Request received
+params: {}
+[2025-08-02T20:17:11.247Z][INFO] project:list-packages <-- Request received
+params: {}
+[2025-08-02T20:17:11.257Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2025-08-02T20:17:11.264Z][INFO] config:project:get-registries --> 200 (7 ms)
+[2025-08-02T20:17:11.537Z][INFO] project:list-packages --> 200 (301 ms)
+[2025-08-02T20:17:11.574Z][INFO] project:list-packages --> 200 (326 ms)
+[2025-08-02T20:17:14.203Z][INFO] project:list-packages <-- Request received
+params: {}
+[2025-08-02T20:17:14.213Z][INFO] project:list-packages <-- Request received
+params: {}
+[2025-08-02T20:17:14.566Z][INFO] project:list-packages --> 200 (363 ms)
+[2025-08-02T20:17:14.606Z][INFO] project:list-packages --> 200 (393 ms)
+[2025-08-02T20:17:30.172Z][INFO] Received shutdown request (SIGINT), shutting down Unity Package Manager

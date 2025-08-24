@@ -1,0 +1,37 @@
+#startup_session startup
+font_family GohuFont uni11 Nerd Font Mono
+font_size 12
+
+include themes/cyberdream.conf
+confirm_os_window_close 0
+enable_audio_bell no
+window_padding_width 5
+
+wayland_titlebar_color background
+
+background #000000
+# foreground #c5c8c6
+# selection_background #1d2021
+# selection_foreground #ffffff
+# cursor #aeafad
+# color0 #1d2021
+# color1 #cc6666
+# color2 #b5bd68
+# color3 #f0c674
+# color4 #81a2be
+# color5 #b294bb
+# color6 #8abeb7
+# color7 #c5c8c6
+# color8 #969896
+# color9 #cc6666
+# color10 #b5bd68
+# color11 #f0c674
+# color12 #81a2be
+# color13 #b294bb
+# color14 #8abeb7
+# color15 #ffffff
+
+map ctrl+shift+up scroll_page_up
+map ctrl+shift+down scroll_page_down 
+
+map alt+t new_tab_with_cwd

@@ -1,0 +1,10 @@
+[Unit]
+Description=Keyboard Backlight Script
+After=graphical-session.target 
+
+[Service]
+ExecStart=/bin/kbd-backlight.sh
+Restart=on-failure
+
+[Install]
+WantedBy=graphical-session.target 

@@ -1,0 +1,10 @@
+layout tall
+launch zsh
+
+new_os_window
+os_window_class quest-tui
+launch --color color0=#000000 --color background=#000000 --title quest-tui quest-tui
+
+new_os_window
+os_window_class tjournal
+launch --color color0=#000000 --color background=#000000 --title tjournal tjournal

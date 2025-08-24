@@ -1,0 +1,175 @@
+INFO 8/6/2025, 9:24:53 PM  launch with argv [/usr/share/typora/Typora, --enable-wayland-ime]
+INFO 8/6/2025, 9:24:53 PM  ------------------start------------------
+DEBUG 8/6/2025, 9:24:53 PM  prepDatabase /home/fais/.config/Typora/profile.data
+DEBUG 8/6/2025, 9:24:53 PM  prepDatabase /home/fais/.config/Typora/history.data
+INFO 8/6/2025, 9:24:53 PM  OS is linux 6.15.9-arch1-1
+INFO 8/6/2025, 9:24:53 PM  launchFromDiffVersion, pre version is undefined
+INFO 8/6/2025, 9:24:53 PM  start LM in devVersion=false
+INFO 8/6/2025, 9:24:53 PM  [watch L]
+DEBUG 8/6/2025, 9:24:53 PM  prepDatabase /home/fais/.config/Typora/7rV5TNZUbe
+INFO 8/6/2025, 9:24:53 PM  ls put SLicense
+DEBUG 8/6/2025, 9:24:53 PM  onUnfillLicense
+DEBUG 8/6/2025, 9:24:53 PM  trailRemains is 15
+INFO 8/6/2025, 9:24:53 PM  [L] installDate is 8/6/2025, trail remains: 15 days
+INFO 8/6/2025, 9:24:53 PM  [watch L] hasL: false
+INFO 8/6/2025, 9:24:53 PM  overwriteThemeFolder
+INFO 8/6/2025, 9:24:53 PM  typora version: 1.10.8
+DEBUG 8/6/2025, 9:24:53 PM  app.openFile
+DEBUG 8/6/2025, 9:24:53 PM  added recovery 1 null  (0)
+DEBUG 8/6/2025, 9:24:53 PM  putAccelerator File -> &File
+DEBUG 8/6/2025, 9:24:53 PM  putAccelerator Edit -> &Edit
+DEBUG 8/6/2025, 9:24:53 PM  putAccelerator Paragraph -> &Paragraph
+DEBUG 8/6/2025, 9:24:53 PM  putAccelerator Format -> F&ormat
+DEBUG 8/6/2025, 9:24:53 PM  putAccelerator View -> &View
+DEBUG 8/6/2025, 9:24:53 PM  putAccelerator Themes -> &Themes
+DEBUG 8/6/2025, 9:24:53 PM  putAccelerator Help -> &Help
+INFO 8/6/2025, 9:24:53 PM  synced recovery
+user-dict.json not found
+INFO 8/6/2025, 9:24:54 PM  [focus] 1
+DEBUG 8/6/2025, 9:24:54 PM  onUnfillLicense
+ERROR 8/6/2025, 9:24:54 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:117533)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+ERROR 8/6/2025, 9:24:54 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:117533)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+INFO 8/6/2025, 9:24:54 PM  handle document.loadData
+DEBUG 8/6/2025, 9:24:54 PM  document.loadData 0
+INFO 8/6/2025, 9:24:54 PM  [RenderProcess 1][Log] [UndoManager] reset commandStack
+INFO 8/6/2025, 9:24:54 PM  [RenderProcess 1][Log] reset NodeMap
+DEBUG 8/6/2025, 9:24:54 PM  added recovery 1   (0)
+INFO 8/6/2025, 9:24:54 PM  synced recovery
+INFO 8/6/2025, 9:24:55 PM  [RenderProcess 1][Log] onBecomeActive
+INFO 8/6/2025, 9:24:55 PM  [RenderProcess 1][Log] File.activeWindow = true
+ERROR 8/6/2025, 9:24:59 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:117533)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+ERROR 8/6/2025, 9:24:59 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:117533)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+ERROR 8/6/2025, 9:25:01 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:117533)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+ERROR 8/6/2025, 9:25:01 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:117533)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+ERROR 8/6/2025, 9:25:03 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:117533)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+ERROR 8/6/2025, 9:25:03 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:117533)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+ERROR 8/6/2025, 9:25:05 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:117533)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+ERROR 8/6/2025, 9:25:05 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:117533)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+ERROR 8/6/2025, 9:25:06 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:117533)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+ERROR 8/6/2025, 9:25:06 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:117533)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+ERROR 8/6/2025, 9:25:08 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:117533)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+ERROR 8/6/2025, 9:25:08 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:117533)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+ERROR 8/6/2025, 9:25:09 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:117533)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+ERROR 8/6/2025, 9:25:09 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:117533)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+DEBUG 8/6/2025, 9:25:27 PM  added recovery 1  what the  (9)
+INFO 8/6/2025, 9:25:27 PM  synced recovery
+DEBUG 8/6/2025, 9:25:30 PM  added recovery 1  what the fuck is thisq (22)
+INFO 8/6/2025, 9:25:30 PM  synced recovery
+DEBUG 8/6/2025, 9:25:34 PM  added recovery 1  what the fuck is thisq (22)
+INFO 8/6/2025, 9:25:34 PM  synced recovery
+INFO 8/6/2025, 9:25:42 PM  synced recovery
+INFO 8/6/2025, 9:25:42 PM  ----------------before-quit-----------------
+INFO 8/6/2025, 9:25:42 PM  ------------------will-quit------------------
+INFO 8/6/2025, 9:25:42 PM  -----------------quit------------------
+INFO 8/6/2025, 9:25:42 PM  closeLogging
+INFO 8/19/2025, 5:08:08 PM  launch with argv [/usr/share/typora/Typora, --enable-wayland-ime, /home/fais/Downloads/B00merang-Blackout-1.01/README.md]
+INFO 8/19/2025, 5:08:08 PM  ------------------start------------------
+DEBUG 8/19/2025, 5:08:08 PM  prepDatabase /home/fais/.config/Typora/profile.data
+DEBUG 8/19/2025, 5:08:08 PM  prepDatabase /home/fais/.config/Typora/history.data
+INFO 8/19/2025, 5:08:08 PM  OS is linux 6.16.1-arch1-1
+INFO 8/19/2025, 5:08:08 PM  start LM in devVersion=false
+INFO 8/19/2025, 5:08:08 PM  [watch L]
+DEBUG 8/19/2025, 5:08:08 PM  prepDatabase /home/fais/.config/Typora/7rV5TNZUbe
+INFO 8/19/2025, 5:08:08 PM  ls put SLicense
+DEBUG 8/19/2025, 5:08:08 PM  onUnfillLicense
+DEBUG 8/19/2025, 5:08:08 PM  trailRemains is 3
+INFO 8/19/2025, 5:08:08 PM  [L] installDate is 8/6/2025, trail remains: 3 days
+INFO 8/19/2025, 5:08:08 PM  [watch L] hasL: false
+INFO 8/19/2025, 5:08:08 PM  typora version: 1.10.8
+DEBUG 8/19/2025, 5:08:08 PM  app.openFile
+INFO 8/19/2025, 5:08:08 PM  addRecentDocument
+DEBUG 8/19/2025, 5:08:08 PM  added recovery 1 /home/fais/Downloads/B00merang-Blackout-1.01/README.md  (0)
+user-dict.json not found
+INFO 8/19/2025, 5:08:08 PM  [focus] 1
+DEBUG 8/19/2025, 5:08:08 PM  putAccelerator File -> &File
+DEBUG 8/19/2025, 5:08:08 PM  putAccelerator Edit -> &Edit
+DEBUG 8/19/2025, 5:08:08 PM  putAccelerator Paragraph -> &Paragraph
+DEBUG 8/19/2025, 5:08:08 PM  putAccelerator Format -> F&ormat
+DEBUG 8/19/2025, 5:08:08 PM  putAccelerator View -> &View
+DEBUG 8/19/2025, 5:08:08 PM  putAccelerator Themes -> &Themes
+DEBUG 8/19/2025, 5:08:08 PM  putAccelerator Help -> &Help
+INFO 8/19/2025, 5:08:08 PM  synced recovery
+DEBUG 8/19/2025, 5:08:09 PM  onUnfillLicense
+ERROR 8/19/2025, 5:08:09 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:117533)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+ERROR 8/19/2025, 5:08:09 PM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:117533)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+INFO 8/19/2025, 5:08:09 PM  handle document.loadData
+DEBUG 8/19/2025, 5:08:09 PM  document.loadData 0
+INFO 8/19/2025, 5:08:09 PM  [RenderProcess 1][Log] [UndoManager] reset commandStack
+INFO 8/19/2025, 5:08:09 PM  [RenderProcess 1][Log] reset NodeMap
+INFO 8/19/2025, 5:08:09 PM  [RenderProcess 1][Log] readContentFrom /home/fais/Downloads/B00merang-Blackout-1.01/README.md
+DEBUG 8/19/2025, 5:08:09 PM  added recovery 1 /home/fais/Downloads/B00merang-Blackout-1.01/README.md  (0)
+INFO 8/19/2025, 5:08:09 PM  synced recovery
+INFO 8/19/2025, 5:08:09 PM  [RenderProcess 1][Log] onBecomeActive
+INFO 8/19/2025, 5:08:09 PM  [RenderProcess 1][Log] File.activeWindow = true
+INFO 8/19/2025, 5:08:16 PM  [blur] 1
+INFO 8/19/2025, 5:08:16 PM  [win] blur
+INFO 8/19/2025, 5:08:16 PM  [focus] 1
+INFO 8/19/2025, 5:08:17 PM  switchDocument 1 [/home/fais/Downloads/B00merang-Blackout-1.01/gtk-2.0/gtkrc]
+INFO 8/19/2025, 5:08:17 PM  addRecentDocument
+DEBUG 8/19/2025, 5:08:17 PM  added recovery 1 /home/fais/Downloads/B00merang-Blackout-1.01/gtk-2.0/gtkrc  (0)
+INFO 8/19/2025, 5:08:17 PM  [RenderProcess 1][Log] File.activeWindow = true
+INFO 8/19/2025, 5:08:17 PM  synced recovery
+INFO 8/19/2025, 5:08:17 PM  [RenderProcess 1][Log] [UndoManager] reset commandStack
+INFO 8/19/2025, 5:08:17 PM  [RenderProcess 1][Log] reset NodeMap
+INFO 8/19/2025, 5:08:17 PM  [RenderProcess 1][Log] readContentFrom /home/fais/Downloads/B00merang-Blackout-1.01/gtk-2.0/gtkrc
+DEBUG 8/19/2025, 5:08:17 PM  added recovery 1 /home/fais/Downloads/B00merang-Blackout-1.01/gtk-2.0/gtkrc  (0)
+INFO 8/19/2025, 5:08:17 PM  synced recovery
+INFO 8/19/2025, 5:08:22 PM  switchDocument 1 [/home/fais/Downloads/B00merang-Blackout-1.01/README.md]
+INFO 8/19/2025, 5:08:22 PM  addRecentDocument
+DEBUG 8/19/2025, 5:08:22 PM  added recovery 1 /home/fais/Downloads/B00merang-Blackout-1.01/README.md  (0)
+INFO 8/19/2025, 5:08:22 PM  synced recovery
+INFO 8/19/2025, 5:08:22 PM  [RenderProcess 1][Log] File.activeWindow = true
+DEBUG 8/19/2025, 5:08:22 PM  lastSync 2025-08-19T15:08:09.381Z, timestamp 1755616089387, mtime 1565017717000
+INFO 8/19/2025, 5:08:22 PM  [RenderProcess 1][Log] [UndoManager] reset commandStack
+INFO 8/19/2025, 5:08:22 PM  [RenderProcess 1][Log] reset NodeMap
+INFO 8/19/2025, 5:08:22 PM  [RenderProcess 1][Log] readContentFrom /home/fais/Downloads/B00merang-Blackout-1.01/README.md
+INFO 8/19/2025, 5:08:22 PM  [RenderProcess 1][Log] do restoreEditStateFromData true true
+INFO 8/19/2025, 5:08:22 PM  [RenderProcess 1][Log] reset NodeMap
+INFO 8/19/2025, 5:08:22 PM  [RenderProcess 1][Log] [UndoManager] restoreFromJson all: 0 at: -1
+DEBUG 8/19/2025, 5:08:22 PM  added recovery 1 /home/fais/Downloads/B00merang-Blackout-1.01/README.md  (0)
+INFO 8/19/2025, 5:08:22 PM  [RenderProcess 1][Log] File.reloadContent, {"fromDiskChange":true,"onInit":true}
+INFO 8/19/2025, 5:08:22 PM  [RenderProcess 1][Log] reset NodeMap
+INFO 8/19/2025, 5:08:22 PM  synced recovery
+DEBUG 8/19/2025, 5:08:23 PM  added recovery 1 /home/fais/Downloads/B00merang-Blackout-1.01/README.md  (0)
+INFO 8/19/2025, 5:08:23 PM  synced recovery
+INFO 8/19/2025, 5:08:27 PM  synced recovery
+INFO 8/19/2025, 5:08:27 PM  ----------------before-quit-----------------
+INFO 8/19/2025, 5:08:27 PM  ------------------will-quit------------------
+INFO 8/19/2025, 5:08:27 PM  -----------------quit------------------
+INFO 8/19/2025, 5:08:27 PM  closeLogging

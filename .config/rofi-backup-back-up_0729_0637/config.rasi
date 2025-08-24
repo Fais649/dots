@@ -1,0 +1,8 @@
+configuration {
+	width: 1000;
+	show-icons: true;
+	font: "GohuFont 14 Nerd Font Mono 14";
+}
+
+
+@theme "~/.config/rofi/theme.rasi"

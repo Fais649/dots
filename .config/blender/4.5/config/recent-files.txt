@@ -1,0 +1,2 @@
+/home/fais/punk.systems/code/godot/hardkour/assets/player/player.blend
+/home/fais/Downloads/HumanBasicMotionsFREE_BlenderFiles/HumanM_BasicMotionsFREE_2.4.blend

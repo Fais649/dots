@@ -1,0 +1,21 @@
+2025/08/15-20:51:23.559 98d Reusing MANIFEST /home/fais/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/08/15-20:51:23.565 98d Recovering log #95
+2025/08/15-20:51:23.566 98d Reusing old log /home/fais/.config/discord/Local Storage/leveldb/000095.log 
+2025/08/15-20:55:30.479 98e Level-0 table #99: started
+2025/08/15-20:55:30.513 98e Level-0 table #99: 1584820 bytes OK
+2025/08/15-20:55:30.516 98e Delete type=0 #95
+2025/08/16-19:18:13.945 98d Level-0 table #101: started
+2025/08/16-19:18:13.950 98d Level-0 table #101: 35501 bytes OK
+2025/08/16-19:18:13.953 98d Delete type=0 #98
+2025/08/16-19:18:13.953 98d Compacting 4@0 + 1@1 files
+2025/08/16-19:18:13.996 98d Generated table #102@0: 115 keys, 3122942 bytes
+2025/08/16-19:18:13.997 98d Compacted 4@0 + 1@1 files => 3122942 bytes
+2025/08/16-19:18:13.999 98d compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/08/16-19:18:13.999 98d Delete type=2 #92
+2025/08/16-19:18:13.999 98d Delete type=2 #94
+2025/08/16-19:18:13.999 98d Delete type=2 #96
+2025/08/16-19:18:13.999 98d Delete type=2 #99
+2025/08/16-19:18:13.999 98d Delete type=2 #101
+2025/08/16-21:28:52.201 98d Level-0 table #104: started
+2025/08/16-21:28:52.245 98d Level-0 table #104: 1555681 bytes OK
+2025/08/16-21:28:52.250 98d Delete type=0 #100

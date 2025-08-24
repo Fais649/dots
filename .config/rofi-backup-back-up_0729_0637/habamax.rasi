@@ -1,0 +1,101 @@
+
+/* habamax Rofi Theme */
+
+* {
+    background-color: #1C1C1C;
+    border-color:     #767676;
+    text-color:       #BCBCBC;
+    selected-text-color: #1C1C1C;
+    selected-background-color: #87AFD7;
+    alternate-row-background-color: #303030;
+    font: "Hack 10";
+}
+
+window {
+    border: 2px solid @border-color;
+    padding: 10px;
+    background-color: @background-color;
+}
+
+mainbox {
+    background-color: @background-color;
+    padding: 10px;
+}
+
+inputbar {
+    background-color: @background-color;
+    text-color: @text-color;
+}
+
+message {
+    background-color: @background-color;
+    border: 1px solid @border-color;
+    padding: 5px;
+    text-color: @text-color;
+}
+
+listview {
+    background-color: @background-color;
+    border: 1px solid @border-color;
+    fixed-height: 0;
+    spacing: 2px;
+    scrollbar: true;
+}
+
+element {
+    padding: 5px;
+    border-radius: 0;
+}
+
+element normal {
+    text-color: @text-color;
+    background-color: @background-color;
+}
+
+element selected {
+    text-color: @selected-text-color;
+    background-color: @selected-background-color;
+}
+
+element alternate {
+    background-color: @alternate-row-background-color;
+}
+
+element urgent {
+    text-color: #D75F5F;
+    background-color: @background-color;
+}
+
+element active {
+    text-color: #87AF87;
+    background-color: @background-color;
+}
+
+scrollbar {
+    handle-color: #767676;
+    handle-width: 10px;
+    border: 0;
+    padding: 0;
+}
+
+button {
+    border: 1px solid @border-color;
+    background-color: @background-color;
+    text-color: @text-color;
+    padding: 5px;
+}
+
+button selected {
+    background-color: #87AFD7;
+    text-color: @selected-text-color;
+}
+
+textbox {
+    background-color: @background-color;
+    text-color: @text-color;
+}
+
+separator {
+    color: @border-color;
+    padding: 2px 0;
+}

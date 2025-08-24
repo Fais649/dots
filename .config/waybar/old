@@ -1,0 +1,82 @@
+
+{
+     "position": "top", // Waybar position (top|bottom|left|right)
+    "height": 5, // Waybar height (to be removed for auto height)
+    "modules-left": ["hyprland/workspaces", "hyprland/mode", "custom/media"],
+    "modules-center": ["hyprland/window"],
+    "modules-right": ["pulseaudio", "network", "battery", "power-profiles-daemon", "clock"],
+     "hyprland/workspaces": {
+         "disable-scroll": false,
+         "all-outputs": true,
+         "format": "{icon}",
+         "persistent-workspaces": { "1": [], "2": [], "3": []},
+         "format-icons": {
+             "1": "",
+             "2": "",
+             "3": "",
+             "urgent": "",
+             "focused": "",
+             "default": ""
+         }
+     },
+    "hyprland/window": {
+        "format": "{class}"
+    },
+    "hyprland/mode": {
+        "format": "<span style=\"italic\">{}</span>"
+    },
+"power-profiles-daemon": {
+  "format": "{icon}",
+  "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+  "tooltip": false,
+  "format-icons": {
+    "default": "",
+    "performance": "",
+    "balanced": "",
+    "power-saver": ""
+  },
+	"on-click": "powerprofilesctl set power-saver",
+	"on-double-click": "powerprofilesctl set balanced",
+	"on-click-right": "powerprofilesctl set performance"
+},
+    "tray": {
+        "spacing": 10
+    },
+    "clock": {
+        "format": "{:%m-%d | %I:%M }",
+        "format-alt": "{:%Y-%m-%d}"
+      
+    },
+    "battery": {
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon} {capacity}%",
+        "format-charging": "{icon} {capacity}%",
+        "format-plugged": "{icon} {capacity}%",
+        "format-alt": "{icon} {time} ",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+         "format-icons": ["", "", "", "", ""]
+    },
+    "network": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "format-wifi": "{essid} ",
+        "format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "Disconnected ",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}",
+				"on-click": "ronema"
+    },
+    "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": "󰕾 {volume}%",
+        "format-bluetooth": "󰕾 {volume}%  {format_source}",
+        "format-bluetooth-muted": "󰖁 {format_source}",
+        "format-muted": "󰖁 {format_source}",
+        "format-source": "󰕾 {volume}% ",
+        "format-source-muted": ""
+    },
+}

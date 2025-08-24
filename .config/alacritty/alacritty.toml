@@ -1,0 +1,21 @@
+general.import = [ "~/.config/omarchy/current/theme/alacritty.toml" ]
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+normal = { family = "Terminess Nerd Font Mono" }
+bold = { family = "Terminess Nerd Font Mono" }
+italic = { family = "Terminess Nerd Font Mono" }
+size = 9
+
+[window]
+padding.x = 14
+padding.y = 14
+decorations = "None"
+opacity = 1
+
+[keyboard]
+bindings = [
+{ key = "F11", action = "ToggleFullscreen" }
+]

@@ -1,0 +1,6 @@
+esp/
+.config/Epic/
+.config/chromium/
+.config/google-chrome/
+.config/google-chrome/DeferredBrowserMetrics/
+.config/google-chrome/GrShaderCache/

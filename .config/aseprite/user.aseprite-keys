@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<keyboard version="1">
+    <commands>
+        <key command="ChangeColor" shortcut="9" removed="true">
+            <param name="change" value="decrement-index"/>
+            <param name="target" value="foreground"/>
+        </key>
+        <key command="Zoom" shortcut="2" removed="true">
+            <param name="percentage" value="200"/>
+        </key>
+        <key command="Zoom" shortcut="4" removed="true">
+            <param name="percentage" value="800"/>
+        </key>
+    </commands>
+    <tools>
+        <key tool="pencil" shortcut="7"/>
+        <key tool="eraser" shortcut="9"/>
+        <key tool="zoom" shortcut="4"/>
+    </tools>
+    <quicktools>
+        <key tool="hand" shortcut="2"/>
+    </quicktools>
+    <actions/>
+    <wheel/>
+    <drag/>
+</keyboard>

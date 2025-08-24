@@ -1,0 +1,90 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+k z",
+        "command": "-workbench.action.toggleZenMode",
+        "when": "!isAuxiliaryWindowFocusedContext"
+    },
+    {
+        "key": "escape escape",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "sideBarFocus"
+    },
+    {
+        "key": "f1",
+        "command": "-workbench.action.showCommands",
+    },
+    {
+        "key": "f1",
+        "command": "workbench.files.action.focusFilesExplorer",
+        "when": "editorTextFocus && vim.mode == 'Normal'"
+    },
+    {
+        "key": "f1",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "sideBarVisible"
+    },
+    {
+        "key": "enter",
+        "command": "-explorer.openAndPassFocus",
+        "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsFolder && !inputFocus"
+      },
+      {
+        "key": "enter",
+        "command": "extension.multiCommand.execute",
+        "args": { 
+            "sequence": [
+                "explorer.openAndPassFocus",
+                "workbench.action.toggleSidebarVisibility"
+            ]
+        },
+        "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsFolder && !inputFocus"
+    },
+    // {
+    //     "key": "space space",
+    //     "command": "workbench.action.quickOpen",
+    //     "when": "editorFocus && vim.mode == 'Normal'"
+    // },
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "alt+h",
+        "command": "workbench.action.quickOpen",
+        "when": "vim.mode == 'Normal'"
+    },
+    {
+        "key": "alt+h",
+        "command": "workbench.action.quickOpenNavigateNext",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "alt+l",
+        "command": "workbench.action.quickOpen",
+        "when": "vim.mode == 'Normal'"
+    },
+    {
+        "key": "alt+j",
+        "command": "workbench.action.navigateBack",
+        "when": "vim.mode == 'Normal' && editorFocus"
+    },
+    {
+        "key": "alt+k",
+        "command": "workbench.action.navigateForward",
+        "when": "vim.mode == 'Normal' && editorFocus"
+    },
+    {
+        "key": "alt+l",
+        "command": "workbench.action.quickOpenNavigatePrevious",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "f12",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "f2",
+        "command": "workbench.action.showCommands"
+    },
+]

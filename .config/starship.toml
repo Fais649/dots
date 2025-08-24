@@ -1,0 +1,61 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# Inserts a blank line between shell prompts
+add_newline = false
+
+format = '''
+\[$username@$hostname\] : $directory| $git_branch$git_status> '''
+
+[character]
+success_symbol = "[❯](purple)"
+error_symbol = "[❯](red)"
+vimcmd_symbol = "[❮](green)"
+
+[git_branch]
+format = "$branch"
+style = "white"
+
+[git_status]
+format = "[[($conflicted$untracked$modified$staged$renamed$deleted)](218)]($style)"
+style = "white"
+conflicted = "!"
+untracked = "?"
+modified = "*"
+staged = "s"
+renamed = ""
+deleted = "​"
+stashed = "≡"
+
+[git_state]
+format = '\([$state( $progress_current/$progress_total)]($style)\)'
+style = "white"
+
+[cmd_duration]
+format = "[$duration]($style) "
+style = "white"
+
+[python]
+format = "[$virtualenv]($style) "
+style = "white"
+
+
+
+# Replace the '❯' symbol in the prompt with '➜'
+# [character] # The name of the module we are configuring is 'character'
+# success_symbol = '[➜](bold green)' # The 'success_symbol' segment is being set to '➜' with the color 'bold green'
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true
+
+[username]
+format = '$user'
+show_always= true
+
+# [git_branch]
+# format = '[$symbol$branch(:$remote_branch)]($style)'
+
+[hostname]
+ssh_only = false
+format='$hostname'

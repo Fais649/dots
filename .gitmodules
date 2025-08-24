@@ -1,0 +1,10 @@
+[submodule ".config/nvim"]
+	path = .config/nvim
+	url = https://github.com/Fais649/nvim
+
+[submodule "typerCorne"]
+	path = typerCorne
+	url = https://github.com/Fais649/typerCorne
+[submodule "hyprraise"]
+	path = hyprraise
+	url = https://github.com/fais649/hyprraise.git

@@ -1,0 +1,24 @@
+font-size = 12
+font-family = "Noto Sans Mono Thin"
+background = #000000
+foreground = #CCCCCC
+window-theme = ghostty
+window-titlebar-background = #000000
+macos-non-native-fullscreen = true
+macos-option-as-alt = true
+macos-titlebar-proxy-icon = hidden
+fullscreen = false
+window-decoration = none
+mouse-hide-while-typing = true
+shell-integration = detect
+quick-terminal-position = bottom
+
+keybind = shift+ctrl+space=equalize_splits
+keybind = ctrl+backspace=esc:[3
+keybind = ctrl+right=esc:f
+keybind = ctrl+left=esc:b
+keybind = ctrl+enter=toggle_fullscreen
+keybind = ctrl+,=reload_config
+
+keybind = global:super+shift+enter=toggle_quick_terminal
+

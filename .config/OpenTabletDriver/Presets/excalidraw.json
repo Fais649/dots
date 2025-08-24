@@ -1,0 +1,215 @@
+{
+  "Profiles": [
+    {
+      "Tablet": "Huion Kamvas Pro 22 (2019)",
+      "OutputMode": {
+        "Path": "OpenTabletDriver.Desktop.Output.AbsoluteMode",
+        "Settings": [],
+        "Enable": true
+      },
+      "Filters": [
+        {
+          "Path": "OTD.EnhancedOutputMode.Lib.Tools.TouchSettings",
+          "Settings": [
+            {
+              "Property": "IsTouchToggled",
+              "Value": true
+            },
+            {
+              "Property": "DisableWhenPenInRange",
+              "Value": false
+            },
+            {
+              "Property": "PenResetTime",
+              "Value": 100
+            },
+            {
+              "Property": "MatchPenSensibilityInRelativeMode",
+              "Value": false
+            },
+            {
+              "Property": "MaxX",
+              "Value": 4095
+            },
+            {
+              "Property": "MaxY",
+              "Value": 4095
+            }
+          ],
+          "Enable": false
+        }
+      ],
+      "AbsoluteModeSettings": {
+        "Display": {
+          "Width": 1920.0,
+          "Height": 1080.0,
+          "X": 4399.0,
+          "Y": 540.0,
+          "Rotation": 0.0
+        },
+        "Tablet": {
+          "Width": 476.75,
+          "Height": 268.22,
+          "X": 238.375,
+          "Y": 134.11,
+          "Rotation": 0.0
+        },
+        "EnableClipping": true,
+        "EnableAreaLimiting": false,
+        "LockAspectRatio": false
+      },
+      "RelativeModeSettings": {
+        "XSensitivity": 10.0,
+        "YSensitivity": 10.0,
+        "RelativeRotation": 0.0,
+        "RelativeResetDelay": "00:00:00.1000000"
+      },
+      "Bindings": {
+        "TipActivationThreshold": 1.0,
+        "TipButton": {
+          "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
+          "Settings": [
+            {
+              "Property": "Button",
+              "Value": "Left"
+            }
+          ],
+          "Enable": true
+        },
+        "EraserActivationThreshold": 1.0,
+        "EraserButton": null,
+        "PenButtons": [
+          null,
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
+            "Settings": [
+              {
+                "Property": "Button",
+                "Value": "Middle"
+              }
+            ],
+            "Enable": true
+          }
+        ],
+        "AuxButtons": [
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
+            "Settings": [
+              {
+                "Property": "Key",
+                "Value": "D7"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
+            "Settings": [
+              {
+                "Property": "Key",
+                "Value": "D9"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
+            "Settings": [
+              {
+                "Property": "Key",
+                "Value": "D1"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
+            "Settings": [
+              {
+                "Property": "Key",
+                "Value": "D2"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
+            "Settings": [
+              {
+                "Property": "Key",
+                "Value": "D4"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "ScrollBinding.NewBulletproofScrollBinding",
+            "Settings": [
+              {
+                "Property": "Delay",
+                "Value": 15
+              },
+              {
+                "Property": "Property",
+                "Value": "Scroll Forward"
+              },
+              {
+                "Property": "Amount",
+                "Value": 60
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "ScrollBinding.NewBulletproofScrollBinding",
+            "Settings": [
+              {
+                "Property": "Delay",
+                "Value": 15
+              },
+              {
+                "Property": "Property",
+                "Value": "Scroll Backward"
+              },
+              {
+                "Property": "Amount",
+                "Value": 60
+              }
+            ],
+            "Enable": true
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "MouseButtons": [],
+        "MouseScrollUp": null,
+        "MouseScrollDown": null
+      }
+    }
+  ],
+  "LockUsableAreaDisplay": true,
+  "LockUsableAreaTablet": true,
+  "Tools": [
+    {
+      "Path": "TouchGestures.Installer.TouchGesturesInstaller",
+      "Settings": [
+        {
+          "Property": "ForceInstall",
+          "Value": false
+        }
+      ],
+      "Enable": true
+    }
+  ]
+}
