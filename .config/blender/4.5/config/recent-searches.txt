@@ -1,3 +1,17 @@
 F run
 F idle_loop
+F default
+
+base
+F t_pose
+running
+0 run_new
+F stride.rfoot.001
+F stride.rfoot
+F run_right_loop
+F stride.lfoot
+F swap.lfoot
+F swap.lfoot2
+F stride.rfoot3
+0 stride.rfoot
 F run_loop
