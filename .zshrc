@@ -35,6 +35,19 @@ alias src="source ~/.zshrc"
 alias nc="nvim ~/.config/nvim/"
 alias gc="nvim ~/.config/ghostty/config"
 
+# Neovim-Remote
+if [ -n "$NVIM_LISTEN_ADDRESS" ]; then
+    alias nvim=nvr -cc split --remote-wait +'set bufhidden=wipe'
+fi
+
+if [ -n "$NVIM_LISTEN_ADDRESS" ]; then
+    export VISUAL="nvr -cc split --remote-wait +'set bufhidden=wipe'"
+    export EDITOR="nvr -cc split --remote-wait +'set bufhidden=wipe'"
+else
+    export VISUAL="nvim"
+    export EDITOR="nvim"
+fi
+
 # Git
 alias gpush="~/.scripts/gpush.sh"
 alias gnewsub="~/.scripts/gsub.sh"
@@ -42,6 +55,7 @@ alias ginit="~/.scripts/ginit.sh"
 
 alias gs="git status"
 alias gvim="nvim --listen /tmp/godot.pipe"
+alias vim='nvim --listen /tmp/nvim-server.pipe'
 
 # ESPIDF
 alias get_idf='. $HOME/esp/esp-idf/export.sh'
@@ -65,6 +79,9 @@ function expo {
 # GameDev
 alias lovr="~/.local/share/applications/lovr-x86_64.AppImage"
 
+# Homebrew
+#Warning:  is not in your PATH.
+export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 # Bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$HOME/.cargo/bin:$PATH"
