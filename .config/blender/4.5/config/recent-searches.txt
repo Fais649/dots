@@ -1,6 +1,5 @@
 F run
 F idle_loop
-F default
 
 base
 F t_pose
@@ -15,3 +14,6 @@ F swap.lfoot2
 F stride.rfoot3
 0 stride.rfoot
 F run_loop
+Generate ▸ Mirror
+F default
+Generate ▸ Boolean

@@ -3907,3 +3907,585 @@
 [2025-08-26 06:57:25.577] [info]  [SearchService]: isSearchable took 1.9000000000014552 undefined
 [2025-08-26 06:57:25.584] [info]  [SearchService]: isSearchable took 1.7999999999956344 undefined
 [2025-08-26 06:57:25.652] [info]  Autotype disabled.
+[2025-08-28 11:47:01.834] [info]  State version: 72
+[2025-08-28 11:47:01.837] [info]  Migrator MinVersionMigrator (to version 3) should migrate: false - up
+[2025-08-28 11:47:01.837] [info]  Migrator RemoveEverBeenUnlockedMigrator (to version 4) should migrate: false - up
+[2025-08-28 11:47:01.837] [info]  Migrator AddKeyTypeToOrgKeysMigrator (to version 5) should migrate: false - up
+[2025-08-28 11:47:01.837] [info]  Migrator RemoveLegacyEtmKeyMigrator (to version 6) should migrate: false - up
+[2025-08-28 11:47:01.837] [info]  Migrator MoveBiometricAutoPromptToAccount (to version 7) should migrate: false - up
+[2025-08-28 11:47:01.837] [info]  Migrator MoveStateVersionMigrator (to version 8) should migrate: false - up
+[2025-08-28 11:47:01.837] [info]  Migrator MoveBrowserSettingsToGlobal (to version 9) should migrate: false - up
+[2025-08-28 11:47:01.837] [info]  Migrator EverHadUserKeyMigrator (to version 10) should migrate: false - up
+[2025-08-28 11:47:01.838] [info]  Migrator OrganizationKeyMigrator (to version 11) should migrate: false - up
+[2025-08-28 11:47:01.838] [info]  Migrator MoveEnvironmentStateToProviders (to version 12) should migrate: false - up
+[2025-08-28 11:47:01.838] [info]  Migrator ProviderKeyMigrator (to version 13) should migrate: false - up
+[2025-08-28 11:47:01.838] [info]  Migrator MoveBiometricClientKeyHalfToStateProviders (to version 14) should migrate: false - up
+[2025-08-28 11:47:01.838] [info]  Migrator FolderMigrator (to version 15) should migrate: false - up
+[2025-08-28 11:47:01.838] [info]  Migrator LastSyncMigrator (to version 16) should migrate: false - up
+[2025-08-28 11:47:01.838] [info]  Migrator EnablePasskeysMigrator (to version 17) should migrate: false - up
+[2025-08-28 11:47:01.838] [info]  Migrator AutofillSettingsKeyMigrator (to version 18) should migrate: false - up
+[2025-08-28 11:47:01.838] [info]  Migrator RequirePasswordOnStartMigrator (to version 19) should migrate: false - up
+[2025-08-28 11:47:01.838] [info]  Migrator PrivateKeyMigrator (to version 20) should migrate: false - up
+[2025-08-28 11:47:01.838] [info]  Migrator CollectionMigrator (to version 21) should migrate: false - up
+[2025-08-28 11:47:01.838] [info]  Migrator CollapsedGroupingsMigrator (to version 22) should migrate: false - up
+[2025-08-28 11:47:01.838] [info]  Migrator MoveBiometricPromptsToStateProviders (to version 23) should migrate: false - up
+[2025-08-28 11:47:01.838] [info]  Migrator SmOnboardingTasksMigrator (to version 24) should migrate: false - up
+[2025-08-28 11:47:01.838] [info]  Migrator ClearClipboardDelayMigrator (to version 25) should migrate: false - up
+[2025-08-28 11:47:01.838] [info]  Migrator RevertLastSyncMigrator (to version 26) should migrate: false - up
+[2025-08-28 11:47:01.839] [info]  Migrator BadgeSettingsMigrator (to version 27) should migrate: false - up
+[2025-08-28 11:47:01.839] [info]  Migrator MoveBiometricUnlockToStateProviders (to version 28) should migrate: false - up
+[2025-08-28 11:47:01.839] [info]  Migrator UserNotificationSettingsKeyMigrator (to version 29) should migrate: false - up
+[2025-08-28 11:47:01.839] [info]  Migrator PolicyMigrator (to version 30) should migrate: false - up
+[2025-08-28 11:47:01.839] [info]  Migrator EnableContextMenuMigrator (to version 31) should migrate: false - up
+[2025-08-28 11:47:01.839] [info]  Migrator PreferredLanguageMigrator (to version 32) should migrate: false - up
+[2025-08-28 11:47:01.839] [info]  Migrator AppIdMigrator (to version 33) should migrate: false - up
+[2025-08-28 11:47:01.839] [info]  Migrator DomainSettingsMigrator (to version 34) should migrate: false - up
+[2025-08-28 11:47:01.839] [info]  Migrator MoveThemeToStateProviderMigrator (to version 35) should migrate: false - up
+[2025-08-28 11:47:01.839] [info]  Migrator VaultSettingsKeyMigrator (to version 36) should migrate: false - up
+[2025-08-28 11:47:01.839] [info]  Migrator AvatarColorMigrator (to version 37) should migrate: false - up
+[2025-08-28 11:47:01.839] [info]  Migrator TokenServiceStateProviderMigrator (to version 38) should migrate: false - up
+[2025-08-28 11:47:01.839] [info]  Migrator MoveBillingAccountProfileMigrator (to version 39) should migrate: false - up
+[2025-08-28 11:47:01.839] [info]  Migrator OrganizationMigrator (to version 40) should migrate: false - up
+[2025-08-28 11:47:01.839] [info]  Migrator EventCollectionMigrator (to version 41) should migrate: false - up
+[2025-08-28 11:47:01.839] [info]  Migrator EnableFaviconMigrator (to version 42) should migrate: false - up
+[2025-08-28 11:47:01.839] [info]  Migrator AutoConfirmFingerPrintsMigrator (to version 43) should migrate: false - up
+[2025-08-28 11:47:01.839] [info]  Migrator UserDecryptionOptionsMigrator (to version 44) should migrate: false - up
+[2025-08-28 11:47:01.839] [info]  Migrator MergeEnvironmentState (to version 45) should migrate: false - up
+[2025-08-28 11:47:01.839] [info]  Migrator DeleteBiometricPromptCancelledData (to version 46) should migrate: false - up
+[2025-08-28 11:47:01.839] [info]  Migrator MoveDesktopSettingsMigrator (to version 47) should migrate: false - up
+[2025-08-28 11:47:01.839] [info]  Migrator MoveDdgToStateProviderMigrator (to version 48) should migrate: false - up
+[2025-08-28 11:47:01.840] [info]  Migrator AccountServerConfigMigrator (to version 49) should migrate: false - up
+[2025-08-28 11:47:01.840] [info]  Migrator KeyConnectorMigrator (to version 50) should migrate: false - up
+[2025-08-28 11:47:01.840] [info]  Migrator RememberedEmailMigrator (to version 51) should migrate: false - up
+[2025-08-28 11:47:01.840] [info]  Migrator DeleteInstalledVersion (to version 52) should migrate: false - up
+[2025-08-28 11:47:01.840] [info]  Migrator DeviceTrustServiceStateProviderMigrator (to version 53) should migrate: false - up
+[2025-08-28 11:47:01.840] [info]  Migrator SendMigrator (to version 54) should migrate: false - up
+[2025-08-28 11:47:01.840] [info]  Migrator MoveMasterKeyStateToProviderMigrator (to version 55) should migrate: false - up
+[2025-08-28 11:47:01.840] [info]  Migrator AuthRequestMigrator (to version 56) should migrate: false - up
+[2025-08-28 11:47:01.840] [info]  Migrator CipherServiceMigrator (to version 57) should migrate: false - up
+[2025-08-28 11:47:01.840] [info]  Migrator RemoveRefreshTokenMigratedFlagMigrator (to version 58) should migrate: false - up
+[2025-08-28 11:47:01.840] [info]  Migrator KdfConfigMigrator (to version 59) should migrate: false - up
+[2025-08-28 11:47:01.840] [info]  Migrator KnownAccountsMigrator (to version 60) should migrate: false - up
+[2025-08-28 11:47:01.840] [info]  Migrator PinStateMigrator (to version 61) should migrate: false - up
+[2025-08-28 11:47:01.840] [info]  Migrator VaultTimeoutSettingsServiceStateProviderMigrator (to version 62) should migrate: false - up
+[2025-08-28 11:47:01.840] [info]  Migrator PasswordOptionsMigrator (to version 63) should migrate: false - up
+[2025-08-28 11:47:01.840] [info]  Migrator GeneratorHistoryMigrator (to version 64) should migrate: false - up
+[2025-08-28 11:47:01.840] [info]  Migrator ForwarderOptionsMigrator (to version 65) should migrate: false - up
+[2025-08-28 11:47:01.840] [info]  Migrator MoveFinalDesktopSettingsMigrator (to version 66) should migrate: false - up
+[2025-08-28 11:47:01.840] [info]  Migrator RemoveUnassignedItemsBannerDismissed (to version 67) should migrate: false - up
+[2025-08-28 11:47:01.840] [info]  Migrator MoveLastSyncDate (to version 68) should migrate: false - up
+[2025-08-28 11:47:01.840] [info]  Migrator MigrateIncorrectFolderKey (to version 69) should migrate: false - up
+[2025-08-28 11:47:01.840] [info]  Migrator RemoveAcBannersDismissed (to version 70) should migrate: false - up
+[2025-08-28 11:47:01.841] [info]  Migrator RemoveNewCustomizationOptionsCalloutDismissed (to version 71) should migrate: false - up
+[2025-08-28 11:47:01.841] [info]  Migrator RemoveAccountDeprovisioningBannerDismissed (to version 72) should migrate: false - up
+[2025-08-28 11:47:01.908] [info]  Coredumps are disabled in renderer process
+[2025-08-28 11:47:01.908] [info]  Disabling memory dumps in main process
+[2025-08-28 11:47:02.529] [info]  [Native Messaging IPC] Clearing connected apps
+[2025-08-28 11:47:02.530] [info]  State version: 72
+[2025-08-28 11:47:02.991] [info]  [Pin Service] deriving pin key took 428ms
+[2025-08-28 11:47:03.052] [info]  Using SignalR for notifications
+[2025-08-28 11:47:03.096] [info]  [SearchService]: isSearchable took 4.099999999627471 undefined
+[2025-08-28 11:47:03.814] [info]  [CipherService]: decrypt complete took 16.800000000745058 [ [ 'Items', 84 ] ]
+[2025-08-28 11:47:03.831] [info]  [SearchService]: index complete took 12.799999998882413 [ [ 'Items', 84 ] ]
+[2025-08-28 11:47:03.834] [info]  [SearchService]: isSearchable took 1.699999999254942 undefined
+[2025-08-28 11:47:03.840] [info]  [SearchService]: index complete took 6.099999999627471 [ [ 'Items', 84 ] ]
+[2025-08-28 11:47:03.942] [info]  [SignalR] WebSocket connected to wss://notifications.bitwarden.com/hub?access_token=[REDACTED]
+[2025-08-28 11:47:03.942] [info]  [SignalR] Using HubProtocol 'messagepack'.
+[2025-08-28 11:47:04.157] [info]  [SearchService]: isSearchable took 1.3999999985098839 undefined
+[2025-08-28 11:47:04.162] [info]  [SearchService]: index complete took 5 [ [ 'Items', 84 ] ]
+[2025-08-28 11:47:04.169] [info]  [SearchService]: isSearchable took 1.5 undefined
+[2025-08-28 11:47:04.174] [info]  [SearchService]: index complete took 5.399999998509884 [ [ 'Items', 84 ] ]
+[2025-08-28 11:47:04.181] [info]  [SearchService]: isSearchable took 1.400000000372529 undefined
+[2025-08-28 11:47:04.186] [info]  [SearchService]: index complete took 5.199999999254942 [ [ 'Items', 84 ] ]
+[2025-08-28 11:47:04.208] [info]  [SearchService]: isSearchable took 2.099999999627471 undefined
+[2025-08-28 11:47:04.208] [info]  [SearchService]: isSearchable took 0.7999999988824129 undefined
+[2025-08-28 11:47:04.227] [info]  [SearchService]: isSearchable took 1 undefined
+[2025-08-28 11:47:04.251] [info]  [CipherService]: decrypt complete took 11.5 [ [ 'Items', 84 ] ]
+[2025-08-28 11:47:04.257] [info]  [SearchService]: index complete took 5.599999999627471 [ [ 'Items', 84 ] ]
+[2025-08-28 11:47:04.262] [info]  [SearchService]: isSearchable took 4.099999999627471 undefined
+[2025-08-28 11:47:04.268] [info]  [SearchService]: isSearchable took 1 undefined
+[2025-08-28 11:47:04.272] [info]  [SearchService]: index complete took 5 [ [ 'Items', 84 ] ]
+[2025-08-28 11:47:04.280] [info]  [SearchService]: isSearchable took 1.5 undefined
+[2025-08-28 11:47:04.285] [info]  [SearchService]: isSearchable took 1.200000001117587 undefined
+[2025-08-28 11:48:26.489] [info]  [SearchService]: isSearchable took 3.300000000745058 undefined
+[2025-08-28 11:48:26.506] [info]  [SearchService]: isSearchable took 2.199999999254942 undefined
+[2025-08-28 11:48:26.507] [info]  [SearchService]: isSearchable took 1.199999999254942 undefined
+[2025-08-28 11:48:26.509] [info]  [SearchService]: isSearchable took 1.300000000745058 undefined
+[2025-08-28 11:48:26.516] [info]  [SearchService]: isSearchable took 1.800000000745058 undefined
+[2025-08-28 11:48:26.555] [info]  [CipherService]: decrypt complete took 22.799999998882413 [ [ 'Items', 85 ] ]
+[2025-08-28 11:48:26.565] [info]  [SearchService]: index complete took 7.599999999627471 [ [ 'Items', 85 ] ]
+[2025-08-28 11:48:26.566] [info]  [SearchService]: isSearchable took 1.699999999254942 undefined
+[2025-08-28 11:48:26.575] [info]  [SearchService]: isSearchable took 2 undefined
+[2025-08-28 11:48:26.582] [info]  [SearchService]: index complete took 7.199999999254942 [ [ 'Items', 85 ] ]
+[2025-08-28 11:48:28.442] [info]  Retrieving application id
+[2025-08-28 11:49:13.240] [info]  Retrieving application id
+[2025-08-28 11:49:13.421] [info]  [SearchService]: isSearchable took 2.200000001117587 undefined
+[2025-08-28 11:49:13.433] [info]  [SearchService]: isSearchable took 1.099999999627471 undefined
+[2025-08-28 11:49:13.454] [info]  [CipherService]: decrypt complete took 11.699999999254942 [ [ 'Items', 85 ] ]
+[2025-08-28 11:49:13.460] [info]  [SearchService]: index complete took 7.700000001117587 [ [ 'Items', 85 ] ]
+[2025-08-28 11:49:13.462] [info]  [SearchService]: isSearchable took 1.400000000372529 undefined
+[2025-08-28 11:49:13.465] [info]  [SearchService]: isSearchable took 2.400000000372529 undefined
+[2025-08-28 11:49:13.473] [info]  [SearchService]: index complete took 8.200000001117587 [ [ 'Items', 85 ] ]
+[2025-08-28 11:49:18.988] [info]  Retrieving application id
+[2025-08-28 11:49:18.993] [info]  [SearchService]: isSearchable took 1.3999999985098839 undefined
+[2025-08-28 11:49:19.006] [info]  [SearchService]: isSearchable took 1 undefined
+[2025-08-28 11:49:19.022] [info]  [CipherService]: decrypt complete took 7.299999998882413 [ [ 'Items', 84 ] ]
+[2025-08-28 11:49:19.026] [info]  [SearchService]: index complete took 5.300000000745058 [ [ 'Items', 84 ] ]
+[2025-08-28 11:49:19.028] [info]  [SearchService]: isSearchable took 1.200000001117587 undefined
+[2025-08-28 11:49:19.031] [info]  [SearchService]: isSearchable took 1.299999998882413 undefined
+[2025-08-28 11:49:19.035] [info]  [SearchService]: index complete took 4.5 [ [ 'Items', 84 ] ]
+[2025-08-28 11:49:29.017] [info]  Retrieving application id
+[2025-08-28 11:49:29.192] [info]  [SearchService]: isSearchable took 1.6000000014901161 undefined
+[2025-08-28 11:49:29.204] [info]  [SearchService]: isSearchable took 0.8000000007450581 undefined
+[2025-08-28 11:49:29.222] [info]  [CipherService]: decrypt complete took 10.200000001117587 [ [ 'Items', 84 ] ]
+[2025-08-28 11:49:29.228] [info]  [SearchService]: index complete took 7.099999999627471 [ [ 'Items', 84 ] ]
+[2025-08-28 11:49:29.229] [info]  [SearchService]: isSearchable took 1.5 undefined
+[2025-08-28 11:49:29.231] [info]  [SearchService]: isSearchable took 0.900000000372529 undefined
+[2025-08-28 11:49:29.236] [info]  [SearchService]: index complete took 4.699999999254942 [ [ 'Items', 84 ] ]
+[2025-08-28 11:49:34.115] [info]  Retrieving application id
+[2025-08-28 11:49:34.384] [info]  [SearchService]: isSearchable took 3.099999999627471 undefined
+[2025-08-28 11:49:34.396] [info]  [SearchService]: isSearchable took 1.299999998882413 undefined
+[2025-08-28 11:49:34.413] [info]  [CipherService]: decrypt complete took 9.099999999627471 [ [ 'Items', 84 ] ]
+[2025-08-28 11:49:34.419] [info]  [SearchService]: index complete took 6.800000000745058 [ [ 'Items', 84 ] ]
+[2025-08-28 11:49:34.420] [info]  [SearchService]: isSearchable took 1.200000001117587 undefined
+[2025-08-28 11:49:34.421] [info]  [SearchService]: isSearchable took 0.8000000007450581 undefined
+[2025-08-28 11:49:34.426] [info]  [SearchService]: index complete took 4.699999999254942 [ [ 'Items', 84 ] ]
+[2025-08-28 11:51:20.308] [info]  Autotype disabled.
+[2025-08-28 12:01:09.710] [info]  State version: 72
+[2025-08-28 12:01:09.712] [info]  Migrator MinVersionMigrator (to version 3) should migrate: false - up
+[2025-08-28 12:01:09.712] [info]  Migrator RemoveEverBeenUnlockedMigrator (to version 4) should migrate: false - up
+[2025-08-28 12:01:09.713] [info]  Migrator AddKeyTypeToOrgKeysMigrator (to version 5) should migrate: false - up
+[2025-08-28 12:01:09.713] [info]  Migrator RemoveLegacyEtmKeyMigrator (to version 6) should migrate: false - up
+[2025-08-28 12:01:09.713] [info]  Migrator MoveBiometricAutoPromptToAccount (to version 7) should migrate: false - up
+[2025-08-28 12:01:09.713] [info]  Migrator MoveStateVersionMigrator (to version 8) should migrate: false - up
+[2025-08-28 12:01:09.713] [info]  Migrator MoveBrowserSettingsToGlobal (to version 9) should migrate: false - up
+[2025-08-28 12:01:09.713] [info]  Migrator EverHadUserKeyMigrator (to version 10) should migrate: false - up
+[2025-08-28 12:01:09.713] [info]  Migrator OrganizationKeyMigrator (to version 11) should migrate: false - up
+[2025-08-28 12:01:09.713] [info]  Migrator MoveEnvironmentStateToProviders (to version 12) should migrate: false - up
+[2025-08-28 12:01:09.713] [info]  Migrator ProviderKeyMigrator (to version 13) should migrate: false - up
+[2025-08-28 12:01:09.713] [info]  Migrator MoveBiometricClientKeyHalfToStateProviders (to version 14) should migrate: false - up
+[2025-08-28 12:01:09.713] [info]  Migrator FolderMigrator (to version 15) should migrate: false - up
+[2025-08-28 12:01:09.714] [info]  Migrator LastSyncMigrator (to version 16) should migrate: false - up
+[2025-08-28 12:01:09.714] [info]  Migrator EnablePasskeysMigrator (to version 17) should migrate: false - up
+[2025-08-28 12:01:09.714] [info]  Migrator AutofillSettingsKeyMigrator (to version 18) should migrate: false - up
+[2025-08-28 12:01:09.714] [info]  Migrator RequirePasswordOnStartMigrator (to version 19) should migrate: false - up
+[2025-08-28 12:01:09.714] [info]  Migrator PrivateKeyMigrator (to version 20) should migrate: false - up
+[2025-08-28 12:01:09.714] [info]  Migrator CollectionMigrator (to version 21) should migrate: false - up
+[2025-08-28 12:01:09.714] [info]  Migrator CollapsedGroupingsMigrator (to version 22) should migrate: false - up
+[2025-08-28 12:01:09.714] [info]  Migrator MoveBiometricPromptsToStateProviders (to version 23) should migrate: false - up
+[2025-08-28 12:01:09.714] [info]  Migrator SmOnboardingTasksMigrator (to version 24) should migrate: false - up
+[2025-08-28 12:01:09.714] [info]  Migrator ClearClipboardDelayMigrator (to version 25) should migrate: false - up
+[2025-08-28 12:01:09.714] [info]  Migrator RevertLastSyncMigrator (to version 26) should migrate: false - up
+[2025-08-28 12:01:09.714] [info]  Migrator BadgeSettingsMigrator (to version 27) should migrate: false - up
+[2025-08-28 12:01:09.714] [info]  Migrator MoveBiometricUnlockToStateProviders (to version 28) should migrate: false - up
+[2025-08-28 12:01:09.714] [info]  Migrator UserNotificationSettingsKeyMigrator (to version 29) should migrate: false - up
+[2025-08-28 12:01:09.714] [info]  Migrator PolicyMigrator (to version 30) should migrate: false - up
+[2025-08-28 12:01:09.714] [info]  Migrator EnableContextMenuMigrator (to version 31) should migrate: false - up
+[2025-08-28 12:01:09.714] [info]  Migrator PreferredLanguageMigrator (to version 32) should migrate: false - up
+[2025-08-28 12:01:09.714] [info]  Migrator AppIdMigrator (to version 33) should migrate: false - up
+[2025-08-28 12:01:09.714] [info]  Migrator DomainSettingsMigrator (to version 34) should migrate: false - up
+[2025-08-28 12:01:09.714] [info]  Migrator MoveThemeToStateProviderMigrator (to version 35) should migrate: false - up
+[2025-08-28 12:01:09.714] [info]  Migrator VaultSettingsKeyMigrator (to version 36) should migrate: false - up
+[2025-08-28 12:01:09.715] [info]  Migrator AvatarColorMigrator (to version 37) should migrate: false - up
+[2025-08-28 12:01:09.715] [info]  Migrator TokenServiceStateProviderMigrator (to version 38) should migrate: false - up
+[2025-08-28 12:01:09.715] [info]  Migrator MoveBillingAccountProfileMigrator (to version 39) should migrate: false - up
+[2025-08-28 12:01:09.715] [info]  Migrator OrganizationMigrator (to version 40) should migrate: false - up
+[2025-08-28 12:01:09.715] [info]  Migrator EventCollectionMigrator (to version 41) should migrate: false - up
+[2025-08-28 12:01:09.715] [info]  Migrator EnableFaviconMigrator (to version 42) should migrate: false - up
+[2025-08-28 12:01:09.715] [info]  Migrator AutoConfirmFingerPrintsMigrator (to version 43) should migrate: false - up
+[2025-08-28 12:01:09.715] [info]  Migrator UserDecryptionOptionsMigrator (to version 44) should migrate: false - up
+[2025-08-28 12:01:09.715] [info]  Migrator MergeEnvironmentState (to version 45) should migrate: false - up
+[2025-08-28 12:01:09.715] [info]  Migrator DeleteBiometricPromptCancelledData (to version 46) should migrate: false - up
+[2025-08-28 12:01:09.715] [info]  Migrator MoveDesktopSettingsMigrator (to version 47) should migrate: false - up
+[2025-08-28 12:01:09.715] [info]  Migrator MoveDdgToStateProviderMigrator (to version 48) should migrate: false - up
+[2025-08-28 12:01:09.715] [info]  Migrator AccountServerConfigMigrator (to version 49) should migrate: false - up
+[2025-08-28 12:01:09.715] [info]  Migrator KeyConnectorMigrator (to version 50) should migrate: false - up
+[2025-08-28 12:01:09.715] [info]  Migrator RememberedEmailMigrator (to version 51) should migrate: false - up
+[2025-08-28 12:01:09.715] [info]  Migrator DeleteInstalledVersion (to version 52) should migrate: false - up
+[2025-08-28 12:01:09.715] [info]  Migrator DeviceTrustServiceStateProviderMigrator (to version 53) should migrate: false - up
+[2025-08-28 12:01:09.715] [info]  Migrator SendMigrator (to version 54) should migrate: false - up
+[2025-08-28 12:01:09.715] [info]  Migrator MoveMasterKeyStateToProviderMigrator (to version 55) should migrate: false - up
+[2025-08-28 12:01:09.715] [info]  Migrator AuthRequestMigrator (to version 56) should migrate: false - up
+[2025-08-28 12:01:09.715] [info]  Migrator CipherServiceMigrator (to version 57) should migrate: false - up
+[2025-08-28 12:01:09.716] [info]  Migrator RemoveRefreshTokenMigratedFlagMigrator (to version 58) should migrate: false - up
+[2025-08-28 12:01:09.716] [info]  Migrator KdfConfigMigrator (to version 59) should migrate: false - up
+[2025-08-28 12:01:09.716] [info]  Migrator KnownAccountsMigrator (to version 60) should migrate: false - up
+[2025-08-28 12:01:09.716] [info]  Migrator PinStateMigrator (to version 61) should migrate: false - up
+[2025-08-28 12:01:09.716] [info]  Migrator VaultTimeoutSettingsServiceStateProviderMigrator (to version 62) should migrate: false - up
+[2025-08-28 12:01:09.716] [info]  Migrator PasswordOptionsMigrator (to version 63) should migrate: false - up
+[2025-08-28 12:01:09.716] [info]  Migrator GeneratorHistoryMigrator (to version 64) should migrate: false - up
+[2025-08-28 12:01:09.716] [info]  Migrator ForwarderOptionsMigrator (to version 65) should migrate: false - up
+[2025-08-28 12:01:09.716] [info]  Migrator MoveFinalDesktopSettingsMigrator (to version 66) should migrate: false - up
+[2025-08-28 12:01:09.716] [info]  Migrator RemoveUnassignedItemsBannerDismissed (to version 67) should migrate: false - up
+[2025-08-28 12:01:09.716] [info]  Migrator MoveLastSyncDate (to version 68) should migrate: false - up
+[2025-08-28 12:01:09.716] [info]  Migrator MigrateIncorrectFolderKey (to version 69) should migrate: false - up
+[2025-08-28 12:01:09.716] [info]  Migrator RemoveAcBannersDismissed (to version 70) should migrate: false - up
+[2025-08-28 12:01:09.716] [info]  Migrator RemoveNewCustomizationOptionsCalloutDismissed (to version 71) should migrate: false - up
+[2025-08-28 12:01:09.716] [info]  Migrator RemoveAccountDeprovisioningBannerDismissed (to version 72) should migrate: false - up
+[2025-08-28 12:01:09.774] [info]  Coredumps are disabled in renderer process
+[2025-08-28 12:01:09.775] [info]  Disabling memory dumps in main process
+[2025-08-28 12:01:10.287] [info]  [Native Messaging IPC] Clearing connected apps
+[2025-08-28 12:01:10.289] [info]  State version: 72
+[2025-08-28 12:01:10.754] [info]  [Pin Service] deriving pin key took 434ms
+[2025-08-28 12:01:10.817] [info]  Using SignalR for notifications
+[2025-08-28 12:01:10.857] [info]  [SearchService]: isSearchable took 4.400000000372529 undefined
+[2025-08-28 12:01:10.886] [info]  [CipherService]: decrypt complete took 18.09999999962747 [ [ 'Items', 84 ] ]
+[2025-08-28 12:01:10.917] [info]  [SearchService]: index complete took 11.799999998882413 [ [ 'Items', 84 ] ]
+[2025-08-28 12:01:10.921] [info]  [SearchService]: isSearchable took 2.100000001490116 undefined
+[2025-08-28 12:01:10.926] [info]  [SearchService]: index complete took 5.199999999254942 [ [ 'Items', 84 ] ]
+[2025-08-28 12:01:11.809] [info]  [SearchService]: isSearchable took 2.799999998882413 undefined
+[2025-08-28 12:01:11.816] [info]  [SearchService]: index complete took 6.700000001117587 [ [ 'Items', 84 ] ]
+[2025-08-28 12:01:11.823] [info]  [SearchService]: isSearchable took 1.400000000372529 undefined
+[2025-08-28 12:01:11.829] [info]  [SearchService]: index complete took 5.599999999627471 [ [ 'Items', 84 ] ]
+[2025-08-28 12:01:11.837] [info]  [SearchService]: isSearchable took 1.800000000745058 undefined
+[2025-08-28 12:01:11.843] [info]  [SearchService]: index complete took 6.799999998882413 [ [ 'Items', 84 ] ]
+[2025-08-28 12:01:11.870] [info]  [SearchService]: isSearchable took 2 undefined
+[2025-08-28 12:01:11.870] [info]  [SearchService]: isSearchable took 0.7999999988824129 undefined
+[2025-08-28 12:01:11.891] [info]  [SearchService]: isSearchable took 1 undefined
+[2025-08-28 12:01:11.916] [info]  [CipherService]: decrypt complete took 12.299999998882413 [ [ 'Items', 84 ] ]
+[2025-08-28 12:01:11.926] [info]  [SearchService]: index complete took 9.599999999627471 [ [ 'Items', 84 ] ]
+[2025-08-28 12:01:11.927] [info]  [SearchService]: isSearchable took 0.900000000372529 undefined
+[2025-08-28 12:01:11.931] [info]  [SearchService]: isSearchable took 0.8000000007450581 undefined
+[2025-08-28 12:01:11.936] [info]  [SearchService]: index complete took 6.900000000372529 [ [ 'Items', 84 ] ]
+[2025-08-28 12:01:11.946] [info]  [SearchService]: isSearchable took 1.6000000014901161 undefined
+[2025-08-28 12:01:11.951] [info]  [SearchService]: isSearchable took 1.199999999254942 undefined
+[2025-08-28 12:01:12.031] [info]  [SignalR] WebSocket connected to wss://notifications.bitwarden.com/hub?access_token=[REDACTED]
+[2025-08-28 12:01:12.031] [info]  [SignalR] Using HubProtocol 'messagepack'.
+[2025-08-28 12:01:12.316] [info]  [SearchService]: isSearchable took 2 undefined
+[2025-08-28 12:01:12.317] [info]  [SearchService]: isSearchable took 1.099999999627471 undefined
+[2025-08-28 12:01:12.832] [info]  [SearchService]: isSearchable took 2.099999999627471 undefined
+[2025-08-28 12:01:12.833] [info]  [SearchService]: isSearchable took 1 undefined
+[2025-08-28 12:01:13.024] [info]  [SearchService]: isSearchable took 2.199999999254942 undefined
+[2025-08-28 12:01:13.025] [info]  [SearchService]: isSearchable took 1.099999999627471 undefined
+[2025-08-28 12:01:13.207] [info]  [SearchService]: isSearchable took 3.799999998882413 undefined
+[2025-08-28 12:01:13.208] [info]  [SearchService]: isSearchable took 1.5 undefined
+[2025-08-28 12:03:11.417] [info]  Autotype disabled.
+[2025-08-28 12:32:12.219] [info]  State version: 72
+[2025-08-28 12:32:12.222] [info]  Migrator MinVersionMigrator (to version 3) should migrate: false - up
+[2025-08-28 12:32:12.222] [info]  Migrator RemoveEverBeenUnlockedMigrator (to version 4) should migrate: false - up
+[2025-08-28 12:32:12.222] [info]  Migrator AddKeyTypeToOrgKeysMigrator (to version 5) should migrate: false - up
+[2025-08-28 12:32:12.222] [info]  Migrator RemoveLegacyEtmKeyMigrator (to version 6) should migrate: false - up
+[2025-08-28 12:32:12.222] [info]  Migrator MoveBiometricAutoPromptToAccount (to version 7) should migrate: false - up
+[2025-08-28 12:32:12.222] [info]  Migrator MoveStateVersionMigrator (to version 8) should migrate: false - up
+[2025-08-28 12:32:12.222] [info]  Migrator MoveBrowserSettingsToGlobal (to version 9) should migrate: false - up
+[2025-08-28 12:32:12.223] [info]  Migrator EverHadUserKeyMigrator (to version 10) should migrate: false - up
+[2025-08-28 12:32:12.223] [info]  Migrator OrganizationKeyMigrator (to version 11) should migrate: false - up
+[2025-08-28 12:32:12.223] [info]  Migrator MoveEnvironmentStateToProviders (to version 12) should migrate: false - up
+[2025-08-28 12:32:12.223] [info]  Migrator ProviderKeyMigrator (to version 13) should migrate: false - up
+[2025-08-28 12:32:12.223] [info]  Migrator MoveBiometricClientKeyHalfToStateProviders (to version 14) should migrate: false - up
+[2025-08-28 12:32:12.223] [info]  Migrator FolderMigrator (to version 15) should migrate: false - up
+[2025-08-28 12:32:12.223] [info]  Migrator LastSyncMigrator (to version 16) should migrate: false - up
+[2025-08-28 12:32:12.223] [info]  Migrator EnablePasskeysMigrator (to version 17) should migrate: false - up
+[2025-08-28 12:32:12.223] [info]  Migrator AutofillSettingsKeyMigrator (to version 18) should migrate: false - up
+[2025-08-28 12:32:12.223] [info]  Migrator RequirePasswordOnStartMigrator (to version 19) should migrate: false - up
+[2025-08-28 12:32:12.223] [info]  Migrator PrivateKeyMigrator (to version 20) should migrate: false - up
+[2025-08-28 12:32:12.223] [info]  Migrator CollectionMigrator (to version 21) should migrate: false - up
+[2025-08-28 12:32:12.223] [info]  Migrator CollapsedGroupingsMigrator (to version 22) should migrate: false - up
+[2025-08-28 12:32:12.223] [info]  Migrator MoveBiometricPromptsToStateProviders (to version 23) should migrate: false - up
+[2025-08-28 12:32:12.223] [info]  Migrator SmOnboardingTasksMigrator (to version 24) should migrate: false - up
+[2025-08-28 12:32:12.224] [info]  Migrator ClearClipboardDelayMigrator (to version 25) should migrate: false - up
+[2025-08-28 12:32:12.224] [info]  Migrator RevertLastSyncMigrator (to version 26) should migrate: false - up
+[2025-08-28 12:32:12.224] [info]  Migrator BadgeSettingsMigrator (to version 27) should migrate: false - up
+[2025-08-28 12:32:12.224] [info]  Migrator MoveBiometricUnlockToStateProviders (to version 28) should migrate: false - up
+[2025-08-28 12:32:12.224] [info]  Migrator UserNotificationSettingsKeyMigrator (to version 29) should migrate: false - up
+[2025-08-28 12:32:12.224] [info]  Migrator PolicyMigrator (to version 30) should migrate: false - up
+[2025-08-28 12:32:12.224] [info]  Migrator EnableContextMenuMigrator (to version 31) should migrate: false - up
+[2025-08-28 12:32:12.224] [info]  Migrator PreferredLanguageMigrator (to version 32) should migrate: false - up
+[2025-08-28 12:32:12.224] [info]  Migrator AppIdMigrator (to version 33) should migrate: false - up
+[2025-08-28 12:32:12.224] [info]  Migrator DomainSettingsMigrator (to version 34) should migrate: false - up
+[2025-08-28 12:32:12.224] [info]  Migrator MoveThemeToStateProviderMigrator (to version 35) should migrate: false - up
+[2025-08-28 12:32:12.224] [info]  Migrator VaultSettingsKeyMigrator (to version 36) should migrate: false - up
+[2025-08-28 12:32:12.224] [info]  Migrator AvatarColorMigrator (to version 37) should migrate: false - up
+[2025-08-28 12:32:12.224] [info]  Migrator TokenServiceStateProviderMigrator (to version 38) should migrate: false - up
+[2025-08-28 12:32:12.224] [info]  Migrator MoveBillingAccountProfileMigrator (to version 39) should migrate: false - up
+[2025-08-28 12:32:12.224] [info]  Migrator OrganizationMigrator (to version 40) should migrate: false - up
+[2025-08-28 12:32:12.224] [info]  Migrator EventCollectionMigrator (to version 41) should migrate: false - up
+[2025-08-28 12:32:12.224] [info]  Migrator EnableFaviconMigrator (to version 42) should migrate: false - up
+[2025-08-28 12:32:12.224] [info]  Migrator AutoConfirmFingerPrintsMigrator (to version 43) should migrate: false - up
+[2025-08-28 12:32:12.224] [info]  Migrator UserDecryptionOptionsMigrator (to version 44) should migrate: false - up
+[2025-08-28 12:32:12.224] [info]  Migrator MergeEnvironmentState (to version 45) should migrate: false - up
+[2025-08-28 12:32:12.225] [info]  Migrator DeleteBiometricPromptCancelledData (to version 46) should migrate: false - up
+[2025-08-28 12:32:12.225] [info]  Migrator MoveDesktopSettingsMigrator (to version 47) should migrate: false - up
+[2025-08-28 12:32:12.225] [info]  Migrator MoveDdgToStateProviderMigrator (to version 48) should migrate: false - up
+[2025-08-28 12:32:12.225] [info]  Migrator AccountServerConfigMigrator (to version 49) should migrate: false - up
+[2025-08-28 12:32:12.225] [info]  Migrator KeyConnectorMigrator (to version 50) should migrate: false - up
+[2025-08-28 12:32:12.225] [info]  Migrator RememberedEmailMigrator (to version 51) should migrate: false - up
+[2025-08-28 12:32:12.225] [info]  Migrator DeleteInstalledVersion (to version 52) should migrate: false - up
+[2025-08-28 12:32:12.225] [info]  Migrator DeviceTrustServiceStateProviderMigrator (to version 53) should migrate: false - up
+[2025-08-28 12:32:12.225] [info]  Migrator SendMigrator (to version 54) should migrate: false - up
+[2025-08-28 12:32:12.225] [info]  Migrator MoveMasterKeyStateToProviderMigrator (to version 55) should migrate: false - up
+[2025-08-28 12:32:12.225] [info]  Migrator AuthRequestMigrator (to version 56) should migrate: false - up
+[2025-08-28 12:32:12.225] [info]  Migrator CipherServiceMigrator (to version 57) should migrate: false - up
+[2025-08-28 12:32:12.225] [info]  Migrator RemoveRefreshTokenMigratedFlagMigrator (to version 58) should migrate: false - up
+[2025-08-28 12:32:12.225] [info]  Migrator KdfConfigMigrator (to version 59) should migrate: false - up
+[2025-08-28 12:32:12.225] [info]  Migrator KnownAccountsMigrator (to version 60) should migrate: false - up
+[2025-08-28 12:32:12.225] [info]  Migrator PinStateMigrator (to version 61) should migrate: false - up
+[2025-08-28 12:32:12.225] [info]  Migrator VaultTimeoutSettingsServiceStateProviderMigrator (to version 62) should migrate: false - up
+[2025-08-28 12:32:12.225] [info]  Migrator PasswordOptionsMigrator (to version 63) should migrate: false - up
+[2025-08-28 12:32:12.225] [info]  Migrator GeneratorHistoryMigrator (to version 64) should migrate: false - up
+[2025-08-28 12:32:12.225] [info]  Migrator ForwarderOptionsMigrator (to version 65) should migrate: false - up
+[2025-08-28 12:32:12.225] [info]  Migrator MoveFinalDesktopSettingsMigrator (to version 66) should migrate: false - up
+[2025-08-28 12:32:12.226] [info]  Migrator RemoveUnassignedItemsBannerDismissed (to version 67) should migrate: false - up
+[2025-08-28 12:32:12.226] [info]  Migrator MoveLastSyncDate (to version 68) should migrate: false - up
+[2025-08-28 12:32:12.226] [info]  Migrator MigrateIncorrectFolderKey (to version 69) should migrate: false - up
+[2025-08-28 12:32:12.226] [info]  Migrator RemoveAcBannersDismissed (to version 70) should migrate: false - up
+[2025-08-28 12:32:12.226] [info]  Migrator RemoveNewCustomizationOptionsCalloutDismissed (to version 71) should migrate: false - up
+[2025-08-28 12:32:12.226] [info]  Migrator RemoveAccountDeprovisioningBannerDismissed (to version 72) should migrate: false - up
+[2025-08-28 12:32:12.287] [info]  Coredumps are disabled in renderer process
+[2025-08-28 12:32:12.287] [info]  Disabling memory dumps in main process
+[2025-08-28 12:32:12.814] [info]  [Native Messaging IPC] Clearing connected apps
+[2025-08-28 12:32:12.815] [info]  State version: 72
+[2025-08-28 12:32:13.273] [info]  [Pin Service] deriving pin key took 427ms
+[2025-08-28 12:32:13.334] [info]  Using SignalR for notifications
+[2025-08-28 12:32:13.373] [info]  [SearchService]: isSearchable took 4.699999999254942 undefined
+[2025-08-28 12:32:13.402] [info]  [CipherService]: decrypt complete took 19.59999999962747 [ [ 'Items', 84 ] ]
+[2025-08-28 12:32:13.435] [info]  [SearchService]: index complete took 13.099999999627471 [ [ 'Items', 84 ] ]
+[2025-08-28 12:32:13.438] [info]  [SearchService]: isSearchable took 1.599999999627471 undefined
+[2025-08-28 12:32:13.444] [info]  [SearchService]: index complete took 5.400000000372529 [ [ 'Items', 84 ] ]
+[2025-08-28 12:32:13.880] [info]  [SignalR] WebSocket connected to wss://notifications.bitwarden.com/hub?access_token=[REDACTED]
+[2025-08-28 12:32:13.880] [info]  [SignalR] Using HubProtocol 'messagepack'.
+[2025-08-28 12:32:14.298] [info]  [SearchService]: isSearchable took 1.5 undefined
+[2025-08-28 12:32:14.304] [info]  [SearchService]: index complete took 6 [ [ 'Items', 84 ] ]
+[2025-08-28 12:32:14.317] [info]  [SearchService]: isSearchable took 1.5 undefined
+[2025-08-28 12:32:14.323] [info]  [SearchService]: index complete took 5.699999999254942 [ [ 'Items', 84 ] ]
+[2025-08-28 12:32:14.329] [info]  [SearchService]: isSearchable took 1.300000000745058 undefined
+[2025-08-28 12:32:14.334] [info]  [SearchService]: index complete took 4.699999999254942 [ [ 'Items', 84 ] ]
+[2025-08-28 12:32:14.359] [info]  [SearchService]: isSearchable took 2.900000000372529 undefined
+[2025-08-28 12:32:14.359] [info]  [SearchService]: isSearchable took 1.199999999254942 undefined
+[2025-08-28 12:32:14.378] [info]  [SearchService]: isSearchable took 1.300000000745058 undefined
+[2025-08-28 12:32:14.403] [info]  [CipherService]: decrypt complete took 12.400000000372529 [ [ 'Items', 84 ] ]
+[2025-08-28 12:32:14.411] [info]  [SearchService]: index complete took 7.599999999627471 [ [ 'Items', 84 ] ]
+[2025-08-28 12:32:14.412] [info]  [SearchService]: isSearchable took 1.199999999254942 undefined
+[2025-08-28 12:32:14.416] [info]  [SearchService]: isSearchable took 1.200000001117587 undefined
+[2025-08-28 12:32:14.421] [info]  [SearchService]: index complete took 5.900000000372529 [ [ 'Items', 84 ] ]
+[2025-08-28 12:32:14.428] [info]  [SearchService]: isSearchable took 1.3999999985098839 undefined
+[2025-08-28 12:32:14.434] [info]  [SearchService]: isSearchable took 1.3999999985098839 undefined
+[2025-08-28 12:32:14.903] [info]  [SearchService]: isSearchable took 1.900000000372529 undefined
+[2025-08-28 12:32:14.903] [info]  [SearchService]: isSearchable took 0.8000000007450581 undefined
+[2025-08-28 12:32:15.081] [info]  [SearchService]: isSearchable took 1.699999999254942 undefined
+[2025-08-28 12:32:15.081] [info]  [SearchService]: isSearchable took 0.7999999988824129 undefined
+[2025-08-28 12:32:15.216] [info]  [SearchService]: isSearchable took 2 undefined
+[2025-08-28 12:32:15.216] [info]  [SearchService]: isSearchable took 0.900000000372529 undefined
+[2025-08-28 12:32:15.351] [info]  [SearchService]: isSearchable took 1.800000000745058 undefined
+[2025-08-28 12:32:15.351] [info]  [SearchService]: isSearchable took 0.8000000007450581 undefined
+[2025-08-28 12:32:19.192] [info]  Autotype disabled.
+[2025-08-28 12:32:32.479] [info]  State version: 72
+[2025-08-28 12:32:32.481] [info]  Migrator MinVersionMigrator (to version 3) should migrate: false - up
+[2025-08-28 12:32:32.481] [info]  Migrator RemoveEverBeenUnlockedMigrator (to version 4) should migrate: false - up
+[2025-08-28 12:32:32.481] [info]  Migrator AddKeyTypeToOrgKeysMigrator (to version 5) should migrate: false - up
+[2025-08-28 12:32:32.481] [info]  Migrator RemoveLegacyEtmKeyMigrator (to version 6) should migrate: false - up
+[2025-08-28 12:32:32.481] [info]  Migrator MoveBiometricAutoPromptToAccount (to version 7) should migrate: false - up
+[2025-08-28 12:32:32.481] [info]  Migrator MoveStateVersionMigrator (to version 8) should migrate: false - up
+[2025-08-28 12:32:32.481] [info]  Migrator MoveBrowserSettingsToGlobal (to version 9) should migrate: false - up
+[2025-08-28 12:32:32.482] [info]  Migrator EverHadUserKeyMigrator (to version 10) should migrate: false - up
+[2025-08-28 12:32:32.482] [info]  Migrator OrganizationKeyMigrator (to version 11) should migrate: false - up
+[2025-08-28 12:32:32.482] [info]  Migrator MoveEnvironmentStateToProviders (to version 12) should migrate: false - up
+[2025-08-28 12:32:32.482] [info]  Migrator ProviderKeyMigrator (to version 13) should migrate: false - up
+[2025-08-28 12:32:32.482] [info]  Migrator MoveBiometricClientKeyHalfToStateProviders (to version 14) should migrate: false - up
+[2025-08-28 12:32:32.482] [info]  Migrator FolderMigrator (to version 15) should migrate: false - up
+[2025-08-28 12:32:32.482] [info]  Migrator LastSyncMigrator (to version 16) should migrate: false - up
+[2025-08-28 12:32:32.482] [info]  Migrator EnablePasskeysMigrator (to version 17) should migrate: false - up
+[2025-08-28 12:32:32.482] [info]  Migrator AutofillSettingsKeyMigrator (to version 18) should migrate: false - up
+[2025-08-28 12:32:32.482] [info]  Migrator RequirePasswordOnStartMigrator (to version 19) should migrate: false - up
+[2025-08-28 12:32:32.482] [info]  Migrator PrivateKeyMigrator (to version 20) should migrate: false - up
+[2025-08-28 12:32:32.482] [info]  Migrator CollectionMigrator (to version 21) should migrate: false - up
+[2025-08-28 12:32:32.482] [info]  Migrator CollapsedGroupingsMigrator (to version 22) should migrate: false - up
+[2025-08-28 12:32:32.482] [info]  Migrator MoveBiometricPromptsToStateProviders (to version 23) should migrate: false - up
+[2025-08-28 12:32:32.482] [info]  Migrator SmOnboardingTasksMigrator (to version 24) should migrate: false - up
+[2025-08-28 12:32:32.482] [info]  Migrator ClearClipboardDelayMigrator (to version 25) should migrate: false - up
+[2025-08-28 12:32:32.483] [info]  Migrator RevertLastSyncMigrator (to version 26) should migrate: false - up
+[2025-08-28 12:32:32.483] [info]  Migrator BadgeSettingsMigrator (to version 27) should migrate: false - up
+[2025-08-28 12:32:32.483] [info]  Migrator MoveBiometricUnlockToStateProviders (to version 28) should migrate: false - up
+[2025-08-28 12:32:32.483] [info]  Migrator UserNotificationSettingsKeyMigrator (to version 29) should migrate: false - up
+[2025-08-28 12:32:32.483] [info]  Migrator PolicyMigrator (to version 30) should migrate: false - up
+[2025-08-28 12:32:32.483] [info]  Migrator EnableContextMenuMigrator (to version 31) should migrate: false - up
+[2025-08-28 12:32:32.483] [info]  Migrator PreferredLanguageMigrator (to version 32) should migrate: false - up
+[2025-08-28 12:32:32.483] [info]  Migrator AppIdMigrator (to version 33) should migrate: false - up
+[2025-08-28 12:32:32.483] [info]  Migrator DomainSettingsMigrator (to version 34) should migrate: false - up
+[2025-08-28 12:32:32.483] [info]  Migrator MoveThemeToStateProviderMigrator (to version 35) should migrate: false - up
+[2025-08-28 12:32:32.483] [info]  Migrator VaultSettingsKeyMigrator (to version 36) should migrate: false - up
+[2025-08-28 12:32:32.483] [info]  Migrator AvatarColorMigrator (to version 37) should migrate: false - up
+[2025-08-28 12:32:32.483] [info]  Migrator TokenServiceStateProviderMigrator (to version 38) should migrate: false - up
+[2025-08-28 12:32:32.483] [info]  Migrator MoveBillingAccountProfileMigrator (to version 39) should migrate: false - up
+[2025-08-28 12:32:32.483] [info]  Migrator OrganizationMigrator (to version 40) should migrate: false - up
+[2025-08-28 12:32:32.483] [info]  Migrator EventCollectionMigrator (to version 41) should migrate: false - up
+[2025-08-28 12:32:32.483] [info]  Migrator EnableFaviconMigrator (to version 42) should migrate: false - up
+[2025-08-28 12:32:32.483] [info]  Migrator AutoConfirmFingerPrintsMigrator (to version 43) should migrate: false - up
+[2025-08-28 12:32:32.483] [info]  Migrator UserDecryptionOptionsMigrator (to version 44) should migrate: false - up
+[2025-08-28 12:32:32.483] [info]  Migrator MergeEnvironmentState (to version 45) should migrate: false - up
+[2025-08-28 12:32:32.484] [info]  Migrator DeleteBiometricPromptCancelledData (to version 46) should migrate: false - up
+[2025-08-28 12:32:32.484] [info]  Migrator MoveDesktopSettingsMigrator (to version 47) should migrate: false - up
+[2025-08-28 12:32:32.484] [info]  Migrator MoveDdgToStateProviderMigrator (to version 48) should migrate: false - up
+[2025-08-28 12:32:32.484] [info]  Migrator AccountServerConfigMigrator (to version 49) should migrate: false - up
+[2025-08-28 12:32:32.484] [info]  Migrator KeyConnectorMigrator (to version 50) should migrate: false - up
+[2025-08-28 12:32:32.484] [info]  Migrator RememberedEmailMigrator (to version 51) should migrate: false - up
+[2025-08-28 12:32:32.484] [info]  Migrator DeleteInstalledVersion (to version 52) should migrate: false - up
+[2025-08-28 12:32:32.484] [info]  Migrator DeviceTrustServiceStateProviderMigrator (to version 53) should migrate: false - up
+[2025-08-28 12:32:32.484] [info]  Migrator SendMigrator (to version 54) should migrate: false - up
+[2025-08-28 12:32:32.484] [info]  Migrator MoveMasterKeyStateToProviderMigrator (to version 55) should migrate: false - up
+[2025-08-28 12:32:32.484] [info]  Migrator AuthRequestMigrator (to version 56) should migrate: false - up
+[2025-08-28 12:32:32.484] [info]  Migrator CipherServiceMigrator (to version 57) should migrate: false - up
+[2025-08-28 12:32:32.484] [info]  Migrator RemoveRefreshTokenMigratedFlagMigrator (to version 58) should migrate: false - up
+[2025-08-28 12:32:32.484] [info]  Migrator KdfConfigMigrator (to version 59) should migrate: false - up
+[2025-08-28 12:32:32.484] [info]  Migrator KnownAccountsMigrator (to version 60) should migrate: false - up
+[2025-08-28 12:32:32.484] [info]  Migrator PinStateMigrator (to version 61) should migrate: false - up
+[2025-08-28 12:32:32.484] [info]  Migrator VaultTimeoutSettingsServiceStateProviderMigrator (to version 62) should migrate: false - up
+[2025-08-28 12:32:32.484] [info]  Migrator PasswordOptionsMigrator (to version 63) should migrate: false - up
+[2025-08-28 12:32:32.484] [info]  Migrator GeneratorHistoryMigrator (to version 64) should migrate: false - up
+[2025-08-28 12:32:32.484] [info]  Migrator ForwarderOptionsMigrator (to version 65) should migrate: false - up
+[2025-08-28 12:32:32.484] [info]  Migrator MoveFinalDesktopSettingsMigrator (to version 66) should migrate: false - up
+[2025-08-28 12:32:32.484] [info]  Migrator RemoveUnassignedItemsBannerDismissed (to version 67) should migrate: false - up
+[2025-08-28 12:32:32.485] [info]  Migrator MoveLastSyncDate (to version 68) should migrate: false - up
+[2025-08-28 12:32:32.485] [info]  Migrator MigrateIncorrectFolderKey (to version 69) should migrate: false - up
+[2025-08-28 12:32:32.485] [info]  Migrator RemoveAcBannersDismissed (to version 70) should migrate: false - up
+[2025-08-28 12:32:32.485] [info]  Migrator RemoveNewCustomizationOptionsCalloutDismissed (to version 71) should migrate: false - up
+[2025-08-28 12:32:32.485] [info]  Migrator RemoveAccountDeprovisioningBannerDismissed (to version 72) should migrate: false - up
+[2025-08-28 12:32:32.548] [info]  Coredumps are disabled in renderer process
+[2025-08-28 12:32:32.549] [info]  Disabling memory dumps in main process
+[2025-08-28 12:32:33.078] [info]  [Native Messaging IPC] Clearing connected apps
+[2025-08-28 12:32:33.080] [info]  State version: 72
+[2025-08-28 12:32:33.536] [info]  [Pin Service] deriving pin key took 429ms
+[2025-08-28 12:32:33.597] [info]  Using SignalR for notifications
+[2025-08-28 12:32:33.635] [info]  [SearchService]: isSearchable took 4.900000000372529 undefined
+[2025-08-28 12:32:33.663] [info]  [CipherService]: decrypt complete took 18.90000000037253 [ [ 'Items', 84 ] ]
+[2025-08-28 12:32:33.695] [info]  [SearchService]: index complete took 11.800000000745058 [ [ 'Items', 84 ] ]
+[2025-08-28 12:32:33.698] [info]  [SearchService]: isSearchable took 1.5 undefined
+[2025-08-28 12:32:33.705] [info]  [SearchService]: index complete took 6.899999998509884 [ [ 'Items', 84 ] ]
+[2025-08-28 12:32:34.138] [info]  [SignalR] WebSocket connected to wss://notifications.bitwarden.com/hub?access_token=[REDACTED]
+[2025-08-28 12:32:34.138] [info]  [SignalR] Using HubProtocol 'messagepack'.
+[2025-08-28 12:32:34.794] [info]  [SearchService]: isSearchable took 2.300000000745058 undefined
+[2025-08-28 12:32:34.802] [info]  [SearchService]: index complete took 8.199999999254942 [ [ 'Items', 84 ] ]
+[2025-08-28 12:32:34.814] [info]  [SearchService]: isSearchable took 1.200000001117587 undefined
+[2025-08-28 12:32:34.819] [info]  [SearchService]: index complete took 5 [ [ 'Items', 84 ] ]
+[2025-08-28 12:32:34.828] [info]  [SearchService]: isSearchable took 2.099999999627471 undefined
+[2025-08-28 12:32:34.828] [info]  [SearchService]: isSearchable took 0.900000000372529 undefined
+[2025-08-28 12:32:34.830] [info]  [SearchService]: isSearchable took 0.8999999985098839 undefined
+[2025-08-28 12:32:34.836] [info]  [SearchService]: index complete took 6 [ [ 'Items', 84 ] ]
+[2025-08-28 12:32:34.864] [info]  [SearchService]: isSearchable took 2.599999999627471 undefined
+[2025-08-28 12:32:34.865] [info]  [SearchService]: isSearchable took 1.099999999627471 undefined
+[2025-08-28 12:32:34.882] [info]  [SearchService]: isSearchable took 1.200000001117587 undefined
+[2025-08-28 12:32:34.907] [info]  [CipherService]: decrypt complete took 14.700000001117587 [ [ 'Items', 84 ] ]
+[2025-08-28 12:32:34.915] [info]  [SearchService]: index complete took 5.700000001117587 [ [ 'Items', 84 ] ]
+[2025-08-28 12:32:34.916] [info]  [SearchService]: isSearchable took 1.400000000372529 undefined
+[2025-08-28 12:32:34.920] [info]  [SearchService]: isSearchable took 1.199999999254942 undefined
+[2025-08-28 12:32:34.925] [info]  [SearchService]: index complete took 5.600000001490116 [ [ 'Items', 84 ] ]
+[2025-08-28 12:32:34.937] [info]  [SearchService]: isSearchable took 1.400000000372529 undefined
+[2025-08-28 12:32:34.942] [info]  [SearchService]: isSearchable took 1.5 undefined
+[2025-08-28 12:32:35.076] [info]  [SearchService]: isSearchable took 2.099999999627471 undefined
+[2025-08-28 12:32:35.076] [info]  [SearchService]: isSearchable took 0.7999999988824129 undefined
+[2025-08-28 12:32:35.232] [info]  [SearchService]: isSearchable took 2.300000000745058 undefined
+[2025-08-28 12:32:35.233] [info]  [SearchService]: isSearchable took 1.099999999627471 undefined
+[2025-08-28 12:32:35.391] [info]  [SearchService]: isSearchable took 3.399999998509884 undefined
+[2025-08-28 12:32:35.392] [info]  [SearchService]: isSearchable took 1.599999999627471 undefined
+[2025-08-28 12:32:39.318] [info]  [SearchService]: isSearchable took 3.300000000745058 undefined
+[2025-08-28 12:32:39.318] [info]  [SearchService]: isSearchable took 3 undefined
+[2025-08-28 12:32:41.416] [info]  Autotype disabled.
+[2025-08-28 12:32:53.935] [info]  State version: 72
+[2025-08-28 12:32:53.937] [info]  Migrator MinVersionMigrator (to version 3) should migrate: false - up
+[2025-08-28 12:32:53.937] [info]  Migrator RemoveEverBeenUnlockedMigrator (to version 4) should migrate: false - up
+[2025-08-28 12:32:53.937] [info]  Migrator AddKeyTypeToOrgKeysMigrator (to version 5) should migrate: false - up
+[2025-08-28 12:32:53.937] [info]  Migrator RemoveLegacyEtmKeyMigrator (to version 6) should migrate: false - up
+[2025-08-28 12:32:53.937] [info]  Migrator MoveBiometricAutoPromptToAccount (to version 7) should migrate: false - up
+[2025-08-28 12:32:53.938] [info]  Migrator MoveStateVersionMigrator (to version 8) should migrate: false - up
+[2025-08-28 12:32:53.938] [info]  Migrator MoveBrowserSettingsToGlobal (to version 9) should migrate: false - up
+[2025-08-28 12:32:53.938] [info]  Migrator EverHadUserKeyMigrator (to version 10) should migrate: false - up
+[2025-08-28 12:32:53.938] [info]  Migrator OrganizationKeyMigrator (to version 11) should migrate: false - up
+[2025-08-28 12:32:53.938] [info]  Migrator MoveEnvironmentStateToProviders (to version 12) should migrate: false - up
+[2025-08-28 12:32:53.938] [info]  Migrator ProviderKeyMigrator (to version 13) should migrate: false - up
+[2025-08-28 12:32:53.938] [info]  Migrator MoveBiometricClientKeyHalfToStateProviders (to version 14) should migrate: false - up
+[2025-08-28 12:32:53.938] [info]  Migrator FolderMigrator (to version 15) should migrate: false - up
+[2025-08-28 12:32:53.938] [info]  Migrator LastSyncMigrator (to version 16) should migrate: false - up
+[2025-08-28 12:32:53.938] [info]  Migrator EnablePasskeysMigrator (to version 17) should migrate: false - up
+[2025-08-28 12:32:53.938] [info]  Migrator AutofillSettingsKeyMigrator (to version 18) should migrate: false - up
+[2025-08-28 12:32:53.938] [info]  Migrator RequirePasswordOnStartMigrator (to version 19) should migrate: false - up
+[2025-08-28 12:32:53.938] [info]  Migrator PrivateKeyMigrator (to version 20) should migrate: false - up
+[2025-08-28 12:32:53.938] [info]  Migrator CollectionMigrator (to version 21) should migrate: false - up
+[2025-08-28 12:32:53.939] [info]  Migrator CollapsedGroupingsMigrator (to version 22) should migrate: false - up
+[2025-08-28 12:32:53.939] [info]  Migrator MoveBiometricPromptsToStateProviders (to version 23) should migrate: false - up
+[2025-08-28 12:32:53.939] [info]  Migrator SmOnboardingTasksMigrator (to version 24) should migrate: false - up
+[2025-08-28 12:32:53.939] [info]  Migrator ClearClipboardDelayMigrator (to version 25) should migrate: false - up
+[2025-08-28 12:32:53.939] [info]  Migrator RevertLastSyncMigrator (to version 26) should migrate: false - up
+[2025-08-28 12:32:53.939] [info]  Migrator BadgeSettingsMigrator (to version 27) should migrate: false - up
+[2025-08-28 12:32:53.939] [info]  Migrator MoveBiometricUnlockToStateProviders (to version 28) should migrate: false - up
+[2025-08-28 12:32:53.939] [info]  Migrator UserNotificationSettingsKeyMigrator (to version 29) should migrate: false - up
+[2025-08-28 12:32:53.939] [info]  Migrator PolicyMigrator (to version 30) should migrate: false - up
+[2025-08-28 12:32:53.939] [info]  Migrator EnableContextMenuMigrator (to version 31) should migrate: false - up
+[2025-08-28 12:32:53.939] [info]  Migrator PreferredLanguageMigrator (to version 32) should migrate: false - up
+[2025-08-28 12:32:53.939] [info]  Migrator AppIdMigrator (to version 33) should migrate: false - up
+[2025-08-28 12:32:53.939] [info]  Migrator DomainSettingsMigrator (to version 34) should migrate: false - up
+[2025-08-28 12:32:53.939] [info]  Migrator MoveThemeToStateProviderMigrator (to version 35) should migrate: false - up
+[2025-08-28 12:32:53.939] [info]  Migrator VaultSettingsKeyMigrator (to version 36) should migrate: false - up
+[2025-08-28 12:32:53.939] [info]  Migrator AvatarColorMigrator (to version 37) should migrate: false - up
+[2025-08-28 12:32:53.939] [info]  Migrator TokenServiceStateProviderMigrator (to version 38) should migrate: false - up
+[2025-08-28 12:32:53.939] [info]  Migrator MoveBillingAccountProfileMigrator (to version 39) should migrate: false - up
+[2025-08-28 12:32:53.939] [info]  Migrator OrganizationMigrator (to version 40) should migrate: false - up
+[2025-08-28 12:32:53.939] [info]  Migrator EventCollectionMigrator (to version 41) should migrate: false - up
+[2025-08-28 12:32:53.939] [info]  Migrator EnableFaviconMigrator (to version 42) should migrate: false - up
+[2025-08-28 12:32:53.940] [info]  Migrator AutoConfirmFingerPrintsMigrator (to version 43) should migrate: false - up
+[2025-08-28 12:32:53.940] [info]  Migrator UserDecryptionOptionsMigrator (to version 44) should migrate: false - up
+[2025-08-28 12:32:53.940] [info]  Migrator MergeEnvironmentState (to version 45) should migrate: false - up
+[2025-08-28 12:32:53.940] [info]  Migrator DeleteBiometricPromptCancelledData (to version 46) should migrate: false - up
+[2025-08-28 12:32:53.940] [info]  Migrator MoveDesktopSettingsMigrator (to version 47) should migrate: false - up
+[2025-08-28 12:32:53.940] [info]  Migrator MoveDdgToStateProviderMigrator (to version 48) should migrate: false - up
+[2025-08-28 12:32:53.940] [info]  Migrator AccountServerConfigMigrator (to version 49) should migrate: false - up
+[2025-08-28 12:32:53.940] [info]  Migrator KeyConnectorMigrator (to version 50) should migrate: false - up
+[2025-08-28 12:32:53.940] [info]  Migrator RememberedEmailMigrator (to version 51) should migrate: false - up
+[2025-08-28 12:32:53.940] [info]  Migrator DeleteInstalledVersion (to version 52) should migrate: false - up
+[2025-08-28 12:32:53.940] [info]  Migrator DeviceTrustServiceStateProviderMigrator (to version 53) should migrate: false - up
+[2025-08-28 12:32:53.940] [info]  Migrator SendMigrator (to version 54) should migrate: false - up
+[2025-08-28 12:32:53.940] [info]  Migrator MoveMasterKeyStateToProviderMigrator (to version 55) should migrate: false - up
+[2025-08-28 12:32:53.940] [info]  Migrator AuthRequestMigrator (to version 56) should migrate: false - up
+[2025-08-28 12:32:53.940] [info]  Migrator CipherServiceMigrator (to version 57) should migrate: false - up
+[2025-08-28 12:32:53.940] [info]  Migrator RemoveRefreshTokenMigratedFlagMigrator (to version 58) should migrate: false - up
+[2025-08-28 12:32:53.940] [info]  Migrator KdfConfigMigrator (to version 59) should migrate: false - up
+[2025-08-28 12:32:53.940] [info]  Migrator KnownAccountsMigrator (to version 60) should migrate: false - up
+[2025-08-28 12:32:53.940] [info]  Migrator PinStateMigrator (to version 61) should migrate: false - up
+[2025-08-28 12:32:53.940] [info]  Migrator VaultTimeoutSettingsServiceStateProviderMigrator (to version 62) should migrate: false - up
+[2025-08-28 12:32:53.940] [info]  Migrator PasswordOptionsMigrator (to version 63) should migrate: false - up
+[2025-08-28 12:32:53.940] [info]  Migrator GeneratorHistoryMigrator (to version 64) should migrate: false - up
+[2025-08-28 12:32:53.940] [info]  Migrator ForwarderOptionsMigrator (to version 65) should migrate: false - up
+[2025-08-28 12:32:53.941] [info]  Migrator MoveFinalDesktopSettingsMigrator (to version 66) should migrate: false - up
+[2025-08-28 12:32:53.941] [info]  Migrator RemoveUnassignedItemsBannerDismissed (to version 67) should migrate: false - up
+[2025-08-28 12:32:53.941] [info]  Migrator MoveLastSyncDate (to version 68) should migrate: false - up
+[2025-08-28 12:32:53.941] [info]  Migrator MigrateIncorrectFolderKey (to version 69) should migrate: false - up
+[2025-08-28 12:32:53.941] [info]  Migrator RemoveAcBannersDismissed (to version 70) should migrate: false - up
+[2025-08-28 12:32:53.941] [info]  Migrator RemoveNewCustomizationOptionsCalloutDismissed (to version 71) should migrate: false - up
+[2025-08-28 12:32:53.941] [info]  Migrator RemoveAccountDeprovisioningBannerDismissed (to version 72) should migrate: false - up
+[2025-08-28 12:32:54.001] [info]  Coredumps are disabled in renderer process
+[2025-08-28 12:32:54.002] [info]  Disabling memory dumps in main process
+[2025-08-28 12:32:54.521] [info]  [Native Messaging IPC] Clearing connected apps
+[2025-08-28 12:32:54.522] [info]  State version: 72
+[2025-08-28 12:32:54.984] [info]  [Pin Service] deriving pin key took 432ms
+[2025-08-28 12:32:55.044] [info]  Using SignalR for notifications
+[2025-08-28 12:32:55.088] [info]  [SearchService]: isSearchable took 5.5 undefined
+[2025-08-28 12:32:55.130] [info]  [CipherService]: decrypt complete took 31.59999999962747 [ [ 'Items', 84 ] ]
+[2025-08-28 12:32:55.161] [info]  [SearchService]: index complete took 15 [ [ 'Items', 84 ] ]
+[2025-08-28 12:32:55.166] [info]  [SearchService]: isSearchable took 1.599999999627471 undefined
+[2025-08-28 12:32:55.172] [info]  [SearchService]: index complete took 5.599999999627471 [ [ 'Items', 84 ] ]
+[2025-08-28 12:32:55.569] [info]  [SignalR] WebSocket connected to wss://notifications.bitwarden.com/hub?access_token=[REDACTED]
+[2025-08-28 12:32:55.569] [info]  [SignalR] Using HubProtocol 'messagepack'.
+[2025-08-28 12:32:55.755] [info]  [SearchService]: isSearchable took 2.599999999627471 undefined
+[2025-08-28 12:32:55.755] [info]  [SearchService]: isSearchable took 1.199999999254942 undefined
+[2025-08-28 12:32:55.936] [info]  [SearchService]: isSearchable took 4.199999999254942 undefined
+[2025-08-28 12:32:55.937] [info]  [SearchService]: isSearchable took 2.099999999627471 undefined
+[2025-08-28 12:32:56.105] [info]  [SearchService]: isSearchable took 4 undefined
+[2025-08-28 12:32:56.105] [info]  [SearchService]: isSearchable took 1.5 undefined
+[2025-08-28 12:32:56.249] [info]  [SearchService]: isSearchable took 2 undefined
+[2025-08-28 12:32:56.250] [info]  [SearchService]: isSearchable took 1.199999999254942 undefined
+[2025-08-28 12:32:56.919] [info]  [SearchService]: isSearchable took 1.599999999627471 undefined
+[2025-08-28 12:32:56.929] [info]  [SearchService]: index complete took 10.200000001117587 [ [ 'Items', 84 ] ]
+[2025-08-28 12:32:56.936] [info]  [SearchService]: isSearchable took 1.400000000372529 undefined
+[2025-08-28 12:32:56.947] [info]  [SearchService]: index complete took 10.299999998882413 [ [ 'Items', 84 ] ]
+[2025-08-28 12:32:56.953] [info]  [SearchService]: isSearchable took 1.099999999627471 undefined
+[2025-08-28 12:32:56.959] [info]  [SearchService]: index complete took 6.400000000372529 [ [ 'Items', 84 ] ]
+[2025-08-28 12:32:56.986] [info]  [SearchService]: isSearchable took 2.799999998882413 undefined
+[2025-08-28 12:32:56.987] [info]  [SearchService]: isSearchable took 1.599999999627471 undefined
+[2025-08-28 12:32:57.014] [info]  [SearchService]: isSearchable took 1.099999999627471 undefined
+[2025-08-28 12:32:57.041] [info]  [CipherService]: decrypt complete took 10.899999998509884 [ [ 'Items', 84 ] ]
+[2025-08-28 12:32:57.046] [info]  [SearchService]: index complete took 5.5 [ [ 'Items', 84 ] ]
+[2025-08-28 12:32:57.048] [info]  [SearchService]: isSearchable took 1.400000000372529 undefined
+[2025-08-28 12:32:57.055] [info]  [SearchService]: isSearchable took 1.400000000372529 undefined
+[2025-08-28 12:32:57.064] [info]  [SearchService]: index complete took 9.800000000745058 [ [ 'Items', 84 ] ]
+[2025-08-28 12:32:57.071] [info]  [SearchService]: isSearchable took 1.599999999627471 undefined
+[2025-08-28 12:32:57.081] [info]  [SearchService]: isSearchable took 1.900000000372529 undefined
+[2025-08-28 12:33:22.594] [info]  Autotype disabled.

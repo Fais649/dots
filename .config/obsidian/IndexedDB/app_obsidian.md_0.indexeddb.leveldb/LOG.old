@@ -1,18 +1,15 @@
-2025/08/15-09:14:19.075 46bb5 Reusing MANIFEST /home/fais/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2025/08/15-09:14:19.075 46bb5 Recovering log #51
-2025/08/15-09:14:19.083 46bb5 Reusing old log /home/fais/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000051.log 
-2025/08/15-09:18:37.181 46bb5 Level-0 table #56: started
-2025/08/15-09:18:37.200 46bb5 Level-0 table #56: 3793840 bytes OK
-2025/08/15-09:18:37.205 46bb5 Delete type=0 #51
-2025/08/15-09:44:19.263 46bb5 Compacting 1@1 + 1@2 files
-2025/08/15-09:44:19.278 46bb5 Generated table #57@1: 1053 keys, 279501 bytes
-2025/08/15-09:44:19.278 46bb5 Compacted 1@1 + 1@2 files => 279501 bytes
-2025/08/15-09:44:19.281 46bb5 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/08/15-09:44:19.281 46bb5 Delete type=2 #53
-2025/08/15-09:44:19.281 46bb5 Delete type=2 #56
-2025/08/15-16:29:01.163 46bb5 Level-0 table #59: started
-2025/08/15-16:29:01.208 46bb5 Level-0 table #59: 4140238 bytes OK
-2025/08/15-16:29:01.212 46bb5 Delete type=0 #55
-2025/08/15-19:04:34.955 46bb5 Level-0 table #61: started
-2025/08/15-19:04:34.973 46bb5 Level-0 table #61: 4230306 bytes OK
-2025/08/15-19:04:34.977 46bb5 Delete type=0 #58
+2025/08/16-21:30:13.761 537b8 Reusing MANIFEST /home/fais/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/16-21:30:13.761 537b8 Recovering log #60
+2025/08/16-21:30:13.763 537b8 Reusing old log /home/fais/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000060.log 
+2025/08/16-21:30:13.985 537b9 Compacting 1@0 + 1@1 files
+2025/08/16-21:30:13.990 537b9 Generated table #63@0: 1329 keys, 207107 bytes
+2025/08/16-21:30:13.990 537b9 Compacted 1@0 + 1@1 files => 207107 bytes
+2025/08/16-21:30:13.994 537b9 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/16-21:30:13.994 537b9 Delete type=2 #59
+2025/08/16-21:30:13.994 537b9 Delete type=2 #61
+2025/08/16-21:30:14.003 537b8 Compacting 1@1 + 1@2 files
+2025/08/16-21:30:14.007 537b8 Generated table #64@1: 1135 keys, 351680 bytes
+2025/08/16-21:30:14.007 537b8 Compacted 1@1 + 1@2 files => 351680 bytes
+2025/08/16-21:30:14.010 537b8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/08/16-21:30:14.010 537b8 Delete type=2 #57
+2025/08/16-21:30:14.010 537b8 Delete type=2 #63

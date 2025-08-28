@@ -1,3 +1,5 @@
+
+
 # zsh
 export ZSH="$HOME/.oh-my-zsh"
 export SDL_VIDEODRIVER="wayland"
@@ -21,7 +23,8 @@ export PUNKD="$HOME/punk.systems/dots/"
 export PUNKC="$HOME/punk.systems/code/"
 export PUNKT="$HOME/punk.systems/txt/"
 
-alias punkssh="ssh root@punk.systems"
+alias sshpunk="ssh root@punk.systems"
+alias rpush="rsync -a ~/punk.systems/ root@punk.systems:/root/rsync/punk.systems"
 alias punk="cd ~/punk.systems/ ; ls -la"
 alias punkt="cd $PUNKT ; ls -la ;"
 alias punkc="cd $PUNKC ; ls -la ;"
@@ -54,7 +57,7 @@ alias gnewsub="~/.scripts/gsub.sh"
 alias ginit="~/.scripts/ginit.sh"
 
 alias gs="git status"
-alias gvim="nvim --listen /tmp/godot.pipe"
+alias gvim="nvim --listen ~/.cache/nvim/godot.pipe ."
 alias vim='nvim --listen /tmp/nvim-server.pipe'
 
 # ESPIDF
@@ -81,12 +84,8 @@ alias lovr="~/.local/share/applications/lovr-x86_64.AppImage"
 
 # Homebrew
 #Warning:  is not in your PATH.
-export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 # Bun
 export BUN_INSTALL="$HOME/.bun"
-export PATH="$HOME/.cargo/bin:$PATH"
-export PATH="/opt/homebrew/opt/ccache/libexec:$PATH"
-export PATH="$BUN_INSTALL/bin:$PATH"
 [ -s "/Users/faisalalalaiwat/.bun/_bun" ] && source "/Users/faisalalalaiwat/.bun/_bun"
 
 # Key
@@ -95,7 +94,6 @@ export GEMINI_API_KEY="AIzaSyCSSJ9hrChpdGNE8PBqrFP4YNZDi1nMlW4"
 # Misc
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
-export PATH=$PATH:$HOME/.local/bin
 export EDITOR='nvim'
 
 function y() {
@@ -769,4 +767,11 @@ fi
 
 eval "$(zoxide init zsh)"
 
+# Paths
+export PATH="$PATH:$HOME/go/bin"
+export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="/opt/homebrew/opt/ccache/libexec:$PATH"
+export PATH="$BUN_INSTALL/bin:$PATH"
+export PATH="$PATH:$HOME/.local/bin"
 export PATH="/opt/homebrew/opt/python/libexec/bin:$PATH"

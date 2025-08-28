@@ -1,61 +1,32 @@
-# Get editor completions based on the config schema
-"$schema" = 'https://starship.rs/config-schema.json'
-
-# Inserts a blank line between shell prompts
-add_newline = false
-
-format = '''
-\[$username@$hostname\] : $directory| $git_branch$git_status> '''
+add_newline = true
+command_timeout = 200
+format = "[$directory$git_branch$git_status]($style)$character"
 
 [character]
-success_symbol = "[❯](purple)"
-error_symbol = "[❯](red)"
-vimcmd_symbol = "[❮](green)"
+error_symbol = "[✗](bold cyan)"
+success_symbol = "[❯](bold cyan)"
+
+[directory]
+truncation_length = 2
+truncation_symbol = "…/"
+repo_root_style = "bold cyan"
+repo_root_format = "[$repo_root]($repo_root_style)[$path]($style)[$read_only]($read_only_style) "
 
 [git_branch]
-format = "$branch"
-style = "white"
+format = "[$branch]($style) "
+style = "italic cyan"
 
 [git_status]
-format = "[[($conflicted$untracked$modified$staged$renamed$deleted)](218)]($style)"
-style = "white"
-conflicted = "!"
-untracked = "?"
-modified = "*"
-staged = "s"
-renamed = ""
-deleted = "​"
-stashed = "≡"
-
-[git_state]
-format = '\([$state( $progress_current/$progress_total)]($style)\)'
-style = "white"
-
-[cmd_duration]
-format = "[$duration]($style) "
-style = "white"
-
-[python]
-format = "[$virtualenv]($style) "
-style = "white"
-
-
-
-# Replace the '❯' symbol in the prompt with '➜'
-# [character] # The name of the module we are configuring is 'character'
-# success_symbol = '[➜](bold green)' # The 'success_symbol' segment is being set to '➜' with the color 'bold green'
-
-# Disable the package module, hiding it from the prompt completely
-[package]
-disabled = true
-
-[username]
-format = '$user'
-show_always= true
-
-# [git_branch]
-# format = '[$symbol$branch(:$remote_branch)]($style)'
-
-[hostname]
-ssh_only = false
-format='$hostname'
+format     = '[$all_status]($style)'
+style      = "cyan"
+ahead      = "⇡${count} "
+diverged   = "⇕⇡${ahead_count}⇣${behind_count} "
+behind     = "⇣${count} "
+conflicted = " "
+up_to_date = " "
+untracked  = "? "
+modified   = " "
+stashed    = ""
+staged     = ""
+renamed    = ""
+deleted    = ""

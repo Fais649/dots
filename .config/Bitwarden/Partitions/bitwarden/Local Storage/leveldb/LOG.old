@@ -1,3 +1,3 @@
-2025/08/24-10:00:03.224 14f0c Reusing MANIFEST /home/fais/.config/Bitwarden/Partitions/bitwarden/Local Storage/leveldb/MANIFEST-000001
-2025/08/24-10:00:03.225 14f0c Recovering log #3
-2025/08/24-10:00:03.225 14f0c Reusing old log /home/fais/.config/Bitwarden/Partitions/bitwarden/Local Storage/leveldb/000003.log 
+2025/08/28-12:32:32.572 135ba Reusing MANIFEST /home/fais/.config/Bitwarden/Partitions/bitwarden/Local Storage/leveldb/MANIFEST-000001
+2025/08/28-12:32:32.572 135ba Recovering log #3
+2025/08/28-12:32:32.572 135ba Reusing old log /home/fais/.config/Bitwarden/Partitions/bitwarden/Local Storage/leveldb/000003.log 

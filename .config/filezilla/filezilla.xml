@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<FileZilla3 version="3.68.1" platform="mac">
+<FileZilla3 version="3.69.3" platform="*nix">
 	<Settings>
 		<Setting name="Use Pasv mode">1</Setting>
 		<Setting name="Limit local ports">0</Setting>
@@ -119,7 +119,6 @@
 		<Setting name="Disable update footer">0</Setting>
 		<Setting name="Highest shown overlay id">0</Setting>
 		<Setting name="Last automatic update version">3.68.1</Setting>
-		<Setting name="Greeting version">3.68.1</Setting>
 		<Setting name="Prompt password save">0</Setting>
 		<Setting name="Already connected choice">1</Setting>
 		<Setting name="Queue column widths">180 60 180 80 60 150</Setting>
@@ -159,5 +158,12 @@ pdf /System/Applications/Preview.app %f</Setting>
 				</Tab>
 			</Tabs>
 		</Setting>
+		<Setting name="SFTP keyfiles" platform="unix"></Setting>
+		<Setting name="Logging file" platform="unix"></Setting>
+		<Setting name="Cache directory" platform="unix"></Setting>
+		<Setting name="Default editor" platform="unix"></Setting>
+		<Setting name="File associations (v2)" platform="unix"></Setting>
+		<Setting name="Resolve local symlinks" platform="unix">0</Setting>
+		<Setting name="Greeting version">3.69.3</Setting>
 	</Settings>
 </FileZilla3>

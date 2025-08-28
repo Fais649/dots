@@ -3,3 +3,4 @@
 {AMD/AMD Radeon 780M Graphics (radeonsi, phoenix, LLVM 20.1.8, DRM 3.64, 6.16.2-arch1-1)/4.6 (Core Profile) Mesa 25.2.1-arch1.1}=SUPPORTED
 {AMD/AMD Radeon 780M Graphics (radeonsi, phoenix, LLVM 20.1.8, DRM 3.64, 6.16.3-arch1-1)/4.6 (Core Profile) Mesa 25.2.1-arch1.1}=SUPPORTED
 {Advanced Micro Devices/AMD Radeon 780M Graphics/AMD open-source driver 2025.Q2.1 (LLPC)}=SUPPORTED
+{AMD/AMD Radeon 780M Graphics (radeonsi, phoenix, LLVM 20.1.8, DRM 3.64, 6.16.3-arch1-1)/4.6 (Core Profile) Mesa 25.2.1-arch1.2}=SUPPORTED
