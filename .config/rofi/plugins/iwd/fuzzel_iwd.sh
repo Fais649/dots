@@ -1,1 +1,0 @@
-rofi_iwd.sh
