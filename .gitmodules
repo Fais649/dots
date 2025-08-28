@@ -14,7 +14,14 @@
     path = .config/omarchy/themes/ash
     url = https://github.com/bjarneo/omarchy-ash-theme.git
 
-
 [submodule ".config/omarchy/themes/retropc"]
     path = .config/omarchy/themes/retropc
     url = https://github.com/rondilley/omarchy-retropc-theme.git
+
+[submodule ".themes/circle-icons-generator"]
+    path = .themes/circle-icons-generator
+    url = https://github.com/vinceliuice/Tela-circle-icon-theme.git
+
+[submodule ".themes/graphite-theme-generator"]
+    path = .themes/graphite-theme-generator
+    url = https://github.com/vinceliuice/Graphite-gtk-theme.git
