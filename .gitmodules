@@ -5,6 +5,16 @@
 [submodule "typerCorne"]
 	path = typerCorne
 	url = https://github.com/Fais649/typerCorne
+
 [submodule "hyprraise"]
 	path = hyprraise
 	url = https://github.com/fais649/hyprraise.git
+
+[submodule ".config/omarchy/themes/ash"]
+    path = .config/omarchy/themes/ash
+    url = https://github.com/bjarneo/omarchy-ash-theme.git
+
+
+[submodule ".config/omarchy/themes/retropc"]
+    path = .config/omarchy/themes/retropc
+    url = https://github.com/rondilley/omarchy-retropc-theme.git
