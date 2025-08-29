@@ -1,4 +1,5 @@
 esp/
+.config/OpenTabletDriver/Logs/
 .config/discord/
 .config/Epic/
 .config/chromium/
