@@ -1,0 +1,7 @@
+{
+    "require": {
+        "php/xsl": "^8.4",
+        "php/pdo_pgsql": "^8.4",
+        "php/intl": "^8.4"
+    }
+}

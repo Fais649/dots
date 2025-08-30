@@ -22,11 +22,13 @@ export PUNK="$HOME/punk.systems/"
 export PUNKD="$HOME/punk.systems/dots/"
 export PUNKC="$HOME/punk.systems/code/"
 export PUNKT="$HOME/punk.systems/txt/"
+export TPUNK="$HOME/tpunk/"
 
 alias sshpunk="ssh root@punk.systems"
 alias rpush="rsync -a ~/punk.systems/ root@punk.systems:/root/rsync/punk.systems"
 alias punk="cd ~/punk.systems/ ; ls -la"
 alias punkt="cd $PUNKT ; ls -la ;"
+alias tpunk="cd $TPUNK ; ls -la ;"
 alias punkc="cd $PUNKC ; ls -la ;"
 alias punkd="cd $PUNKD ; ls -la"
 
@@ -775,3 +777,8 @@ export PATH="/opt/homebrew/opt/ccache/libexec:$PATH"
 export PATH="$BUN_INSTALL/bin:$PATH"
 export PATH="$PATH:$HOME/.local/bin"
 export PATH="/opt/homebrew/opt/python/libexec/bin:$PATH"
+# The following lines have been added by Docker Desktop to enable Docker CLI completions.
+fpath=(/Users/faisalalalaiwat/.docker/completions $fpath)
+autoload -Uz compinit
+compinit
+# End of Docker CLI completions
