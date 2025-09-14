@@ -1,24 +1,18 @@
-font-size = 12
+font-size = 14
 font-family = "Noto Sans Mono Thin"
 background = #000000
 foreground = #CCCCCC
 window-theme = ghostty
 window-titlebar-background = #000000
 macos-non-native-fullscreen = false
-macos-option-as-alt = false
-macos-titlebar-proxy-icon = visible
+macos-option-as-alt = true
+macos-titlebar-proxy-icon = hidden
 fullscreen = false
 window-decoration = auto
 mouse-hide-while-typing = true
 shell-integration = detect
-quick-terminal-position = bottom
-
-keybind = shift+ctrl+space=equalize_splits
-keybind = ctrl+backspace=esc:[3
-keybind = ctrl+right=esc:f
-keybind = ctrl+left=esc:b
-keybind = ctrl+enter=toggle_fullscreen
+command = /opt/homebrew/bin/tmux
 keybind = ctrl+,=reload_config
+wait-after-command=true
 
-keybind = global:super+shift+enter=toggle_quick_terminal
 

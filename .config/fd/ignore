@@ -1,0 +1,11 @@
+.git/
+.github/
+.cache/
+.oh-my-zsh/
+build/
+target/
+.Trash/
+vendor/
+node_modules/
+.zsh-sessions/
+.zsh_sessions/
