@@ -1,5 +1,5 @@
-font-size = 14
-font-family = "Noto Sans Mono Thin"
+font-size = 16
+font-family = "Terminess Nerd Font Mono"
 background = #000000
 foreground = #CCCCCC
 window-theme = ghostty

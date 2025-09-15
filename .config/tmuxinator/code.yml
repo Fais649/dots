@@ -48,8 +48,7 @@ windows:
   - code:
       layout: 3fa0,141x71,0,0[141x55,0,0,60,141x15,0,56,61]
       panes:
-        - nvim:
-          - cf
+        -
   - term:
       layout: main-vertical
       panes:
