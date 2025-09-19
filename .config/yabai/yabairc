@@ -93,15 +93,18 @@ function setup_space {
   fi
 }
 
-yabai_space_rule 3 app="^Discord$" 
-yabai_space_rule 3 app="^Microsoft Teams$"
-yabai_space_rule 2 app="^Google Chrome$" 
+yabai_space_rule 2 app="^T3 Chat$" 
+yabai_space_rule 2 app="^Obsidian$" 
+yabai_space_rule 2 app="^Discord$" 
+yabai_space_rule 2 app="^Microsoft Teams$"
+yabai_space_rule 1 app="^Google Chrome$" 
 yabai_space_rule 1 app="^Ghostty$" 
 
 yabai -m rule --add label="Finder" app="^Finder$" title="(Co(py|nnect)|Move|Info|Pref)" manage=off
 yabai -m rule --add label="Safari" app="^Safari$" title="^(General|(Tab|Password|Website|Extension)s|AutoFill|Se(arch|curity)|Privacy|Advance)$" manage=off
 yabai -m rule --add label="macfeh" app="^macfeh$" manage=off
-yabai -m rule --add label="System Preferences" app="^System Preferences$" title=".*" manage=off
+yabai -m rule --add label="System Preferences" app="^System Settings$" title=".*" manage=off
+yabai -m rule --add app="^System Preferences$" manage=off
 yabai -m rule --add label="App Store" app="^App Store$" manage=off
 yabai -m rule --add label="Activity Monitor" app="^Activity Monitor$" manage=off
 yabai -m rule --add label="KeePassXC" app="^KeePassXC$" manage=off
