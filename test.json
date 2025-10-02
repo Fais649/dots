@@ -1,0 +1,104 @@
+[
+	{
+		"passwordHistory": [],
+		"revisionDate": "2025-06-06T16:01:01.016Z",
+		"creationDate": "2023-12-01T12:42:00.666Z",
+		"deletedDate": null,
+		"object": "item",
+		"id": "e71b2543-c8c3-4f36-a63d-b0cb00d14ae9",
+		"organizationId": null,
+		"folderId": null,
+		"type": 1,
+		"reprompt": 0,
+		"name": "google.com",
+		"notes": null,
+		"favorite": false,
+		"fields": [],
+		"login": {
+			"uris": [
+				{
+					"match": 0,
+					"uri": "https://myaccount.google.com/signinoptions/passkeys?utm_source=google-account&utm_medium=web&utm_campaign=passkeys-screen&continue=https://myaccount.google.com/security?hl%3Den&pli=1&rapt=AEjHL4PwtEonllWCHSm3p6NJ-pnTX9kwbT7lm0NVFB-uPxGPj-MLAaqUE0bxXIo03BB1obGzH9VShUsdAbXWubSQxrm33m0Y1IdANc5S1MkwjEAB9Sq1M80"
+				},
+				{
+					"match": null,
+					"uri": "https://google.com"
+				}
+			],
+			"fido2Credentials": [
+				{
+					"credentialId": "a1e51b0d-c784-4160-b7fe-325e39688a3c",
+					"keyType": "public-key",
+					"keyAlgorithm": "ECDSA",
+					"keyCurve": "P-256",
+					"keyValue": "MIGHAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBG0wawIBAQQg3bZ9HwD4Y2-DpSrOgA0V6EdhviHLb4DF7P-7F6HeaJ2hRANCAAS-4TFkyr1jivkxgvplN9nMhg5PqyrzPTIGdoYP2h7MnWFcqpuznm_GyaA1U9ynbKY41kucS7QgersLOOoMTke2",
+					"rpId": "google.com",
+					"userHandle": "R09PR0xFX0FDQ09VTlQ6MTExNzUwMzcwNzc4MDkxMDM5MDc4",
+					"userName": "faisalalalaiwat@gmail.com",
+					"counter": "0",
+					"rpName": "Google",
+					"userDisplayName": "FAISAL ALALAIWAT",
+					"discoverable": "true",
+					"creationDate": "2025-06-06T16:01:00.803Z"
+				}
+			],
+			"username": "faisalalalaiwat@gmail.com",
+			"password": "pepsy3-pugxoh-cyhHam",
+			"totp": null,
+			"passwordRevisionDate": null
+		},
+		"collectionIds": [],
+		"attachments": []
+	},
+	{
+		"passwordHistory": [],
+		"revisionDate": "2025-08-08T02:18:33.086Z",
+		"creationDate": "2023-12-01T12:37:55.653Z",
+		"deletedDate": null,
+		"object": "item",
+		"id": "018b75c7-e56f-441d-af55-b0cb00d02bca",
+		"organizationId": null,
+		"folderId": null,
+		"type": 1,
+		"reprompt": 0,
+		"name": "google.com",
+		"notes": null,
+		"favorite": false,
+		"fields": [],
+		"login": {
+			"uris": [
+				{
+					"match": 0,
+					"uri": "https://myaccount.google.com/signinoptions/passkeys?utm_source=google-account&utm_medium=web&utm_campaign=passkeys-screen&continue=https://myaccount.google.com/security?hl%3Den&pli=1&rapt=AEjHL4PwtEonllWCHSm3p6NJ-pnTX9kwbT7lm0NVFB-uPxGPj-MLAaqUE0bxXIo03BB1obGzH9VShUsdAbXWubSQxrm33m0Y1IdANc5S1MkwjEAB9Sq1M80"
+				},
+				{
+					"match": null,
+					"uri": "https://google.com"
+				}
+			],
+			"fido2Credentials": [
+				{
+					"credentialId": "6be25deb-08fa-4fc1-adf7-e29a59522fe9",
+					"keyType": "public-key",
+					"keyAlgorithm": "ECDSA",
+					"keyCurve": "P-256",
+					"keyValue": "MIGHAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBG0wawIBAQQgHeiARMUFVXXpCs0_3bxbkCAMTPnLJAeIdGzi8dsOakChRANCAARVnGabyiD3HPolv9zKNtwR6kfuyI81k9ozZEfxCOjTaE71vYrHh6IbQB5k1NG6AMYkC6-UK6_KnBzGte2nYfZu",
+					"rpId": "google.com",
+					"userHandle": "R09PR0xFX0FDQ09VTlQ6MTA5NDEzNDUxNDM2NzMxMjE0MjE1",
+					"userName": null,
+					"counter": "17",
+					"rpName": "Google",
+					"userDisplayName": null,
+					"discoverable": "true",
+					"creationDate": "2025-08-08T02:18:32.903Z"
+				}
+			],
+			"username": "xial649@gmail.com",
+			"password": "rogbah-8Cukga-cuxsif",
+			"totp": null,
+			"passwordRevisionDate": null
+		},
+		"collectionIds": [],
+		"attachments": []
+	}
+]

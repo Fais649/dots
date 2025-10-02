@@ -2,13 +2,14 @@
 
 * {
   background-color: @background;
-  color: @foreground;
+  color: #CCCCCC;
 
   border: none;
   border-radius: 0;
   min-height: 0;
-  font-family: Terminess Nerd Font Mono;
-  font-size: 12px;
+  font-family: 'Terminess Nerd Font';
+  font-size: 16px;
+	font-weight: bold;
 }
 
 #tray,
@@ -20,13 +21,22 @@
 	font-size: 16px
 }
 
-#bluetooth,
+#bluetooth {
+	font-size: 18px
+}
+
 #power-profiles-daemon {
 	font-size: 13px
 }
 
 #custom-omarchy {
-	font-size: 18px
+	font-size: 14px
+}
+
+#workspaces button,
+#clock {
+	font-size: 18px;
+	font-weight: bold;
 }
 
 #pulseaudio {
@@ -34,7 +44,7 @@
 }
 
 .modules-left {
-  margin-left: 8px;
+  margin-left: 12px;
 }
 
 .modules-right {
@@ -43,7 +53,7 @@
 
 #workspaces button {
   all: initial;
-  padding: 0 12px;
+  padding: 0 14px;
   margin: 0 1.5px;
   min-width: 9px;
 }
@@ -61,8 +71,9 @@
 #pulseaudio,
 #clock,
 #custom-omarchy {
-  min-width: 16px;
-  margin: 0 8px;
+  padding: 0 14px;
+  min-width: 9px;
+  margin: 0 1.5px;
 }
 
 #custom-expand-icon {

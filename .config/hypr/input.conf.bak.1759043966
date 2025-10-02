@@ -1,0 +1,34 @@
+# https://wiki.hyprland.org/Configuring/Variables/#input
+input {
+    kb_layout = us
+    kb_variant =
+    kb_model =
+    kb_options = compose:caps
+    kb_rules =
+
+    follow_mouse = 1
+
+    sensitivity = -0.1
+
+    touchpad {
+				scroll_factor = 0.2
+        natural_scroll = true
+				disable_while_typing = false
+    }
+}
+
+device {
+	name = asus-keyboard-2
+	kb_layout = de
+	kb_variant = nodeadkeys
+  kb_options = caps:escape
+
+	bindd = SUPER, ä, Focus Browser, execr, $(~/.cargo/bin/raise  --class "google-chrome" --launch "gio launch ~/.local/share/applications/google-chrome.desktop")
+	bindd = SUPER SHIFT, ä,  New Browser, exec, $browser
+}
+
+
+gesture = 3, horizontal, workspace
+gesture = 3, up, fullscreen, maximize
+gesture = 3, down, special, secret
+gesture = 4, horizontal, resize

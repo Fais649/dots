@@ -1,7 +1,8 @@
 font-size = 16
-font-family = "Terminess Nerd Font Mono"
-background = #000000
-foreground = #CCCCCC
+font-family = "Terminess Nerd Font"
+# background = #000000
+# foreground = #CCCCCC
+theme  = Ultra Dark
 window-theme = ghostty
 window-titlebar-background = #000000
 macos-non-native-fullscreen = false
@@ -11,8 +12,7 @@ fullscreen = false
 window-decoration = auto
 mouse-hide-while-typing = true
 shell-integration = detect
-command = /opt/homebrew/bin/tmux
+command = tmux
 keybind = ctrl+,=reload_config
 wait-after-command=true
-
 

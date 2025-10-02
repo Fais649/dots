@@ -1361,7 +1361,10 @@
     "bindings": {
       "i": ["vim::PushObject", { "around": false }],
       "a": ["vim::PushObject", { "around": true }],
+<<<<<<< Updated upstream
       "left": "vim::FirstNonWhitespace",
+=======
+>>>>>>> Stashed changes
       "h": "vim::Left",
       "backspace": "vim::WrappingLeft",
       "down": ["workspace::SendKeystrokes", "1 5 j"],
@@ -1459,7 +1462,11 @@
       "#": "vim::MoveToPrevious",
       "n": "vim::MoveToNextMatch",
       "shift-n": "vim::MoveToPreviousMatch",
+<<<<<<< Updated upstream
       "tab": "vim::Matching",
+=======
+      "%": "vim::Matching",
+>>>>>>> Stashed changes
       "] }": ["vim::UnmatchedForward", { "char": "}" }],
       "[ {": ["vim::UnmatchedBackward", { "char": "{" }],
       "] )": ["vim::UnmatchedForward", { "char": ")" }],
@@ -1468,11 +1475,19 @@
       "t": ["vim::PushFindForward", { "before": true, "multiline": true }],
       "shift-f": [
         "vim::PushFindBackward",
+<<<<<<< Updated upstream
         { "after": false, "multiline": false }
       ],
       "shift-t": [
         "vim::PushFindBackward",
         { "after": true, "multiline": false }
+=======
+        { "after": false, "multiline": true }
+      ],
+      "shift-t": [
+        "vim::PushFindBackward",
+        { "after": true, "multiline": true }
+>>>>>>> Stashed changes
       ],
       "m": "vim::PushMark",
       "'": ["vim::PushJump", { "line": true }],
@@ -1543,7 +1558,10 @@
       "g end": ["vim::EndOfLine", { "display_lines": true }],
       "g 0": ["vim::StartOfLine", { "display_lines": true }],
       "g home": ["vim::StartOfLine", { "display_lines": true }],
+<<<<<<< Updated upstream
       "g shift-m": ["vim::MiddleOfLine", { "display_lines": true }],
+=======
+>>>>>>> Stashed changes
       "g ^": ["vim::FirstNonWhitespace", { "display_lines": true }],
       "g v": "vim::RestoreVisualSelection",
       "g ]": "editor::GoToDiagnostic",
@@ -1575,10 +1593,13 @@
       "z f": "editor::FoldSelectedRanges",
       "z shift-m": "editor::FoldAll",
       "z shift-r": "editor::UnfoldAll",
+<<<<<<< Updated upstream
       "z l": "vim::ColumnRight",
       "z h": "vim::ColumnLeft",
       "z shift-l": "vim::HalfPageRight",
       "z shift-h": "vim::HalfPageLeft",
+=======
+>>>>>>> Stashed changes
       "shift-z shift-q": ["pane::CloseActiveItem", { "save_intent": "skip" }],
       "shift-z shift-z": [
         "pane::CloseActiveItem",
@@ -1614,17 +1635,33 @@
       "a": "vim::InsertAfter",
       "ctrl-[": "editor::Cancel",
       ":": "command_palette::Toggle",
+<<<<<<< Updated upstream
       "c": "vim::PushChange",
       "shift-c": "vim::ChangeToEndOfLine",
       "d": "vim::PushDelete",
       "delete": "vim::DeleteRight",
       "g shift-j": "vim::JoinLinesNoWhitespace",
       "y": "vim::PushYank",
+=======
+      ".": "vim::Repeat",
+      "c": "vim::PushChange",
+      "shift-c": "vim::ChangeToEndOfLine",
+      "d": "vim::PushDelete",
+      "shift-d": "vim::DeleteToEndOfLine",
+      "shift-j": "vim::JoinLines",
+      "y": "vim::PushYank",
+      "shift-y": "vim::YankLine",
+      "i": "vim::InsertBefore",
+      "shift-i": "vim::InsertFirstNonWhitespace",
+      "a": "vim::InsertAfter",
+      "shift-a": "vim::InsertEndOfLine",
+>>>>>>> Stashed changes
       "x": "vim::DeleteRight",
       "shift-x": "vim::DeleteLeft",
       "ctrl-a": "vim::Increment",
       "ctrl-x": "vim::Decrement",
       "ctrl-r": "vim::Redo",
+<<<<<<< Updated upstream
       ">": "vim::PushIndent",
       "<": "vim::PushOutdent",
       "=": "vim::PushAutoIndent",
@@ -1636,6 +1673,24 @@
       // "g ?": "vim::PushRot47",
       "g w": "vim::PushRewrap",
       "g q": "vim::PushRewrap",
+=======
+      "r": "vim::PushReplace",
+      "s": ["vim::PushSneak", {}],
+      "S": ["vim::PushSneakBackward", {}],
+      // "s": "vim::Substitute",
+      // "shift-s": "vim::SubstituteLine",
+      ">": "vim::PushIndent",
+      "<": "vim::PushOutdent",
+      "=": "vim::PushAutoIndent",
+      "g u": "vim::PushLowercase",
+      "g shift-u": "vim::PushUppercase",
+      "g ~": "vim::PushOppositeCase",
+      "\"": "vim::PushRegister",
+      "g q": "vim::PushRewrap",
+      "g w": "vim::PushRewrap",
+      "ctrl-pagedown": "pane::ActivateNextItem",
+      "ctrl-pageup": "pane::ActivatePreviousItem",
+>>>>>>> Stashed changes
       "insert": "vim::InsertBefore",
       // tree-sitter related commands
       "[ x": "vim::SelectLargerSyntaxNode",
@@ -1672,6 +1727,14 @@
       "shift-y": "vim::VisualYankLine",
       "p": "vim::Paste",
       "shift-p": ["vim::Paste", { "preserve_clipboard": true }],
+<<<<<<< Updated upstream
+=======
+      // "s": "vim::Substitute",
+      // "shift-s": "vim::SubstituteLine",
+      "s": ["vim::PushSneak", {}],
+      "S": ["vim::PushSneakBackward", {}],
+      "shift-r": "vim::SubstituteLine",
+>>>>>>> Stashed changes
       "c": "vim::Substitute",
       "s": "vim::Substitute",
       "shift-r": "vim::SubstituteLine",
@@ -1688,6 +1751,7 @@
       "g shift-i": "vim::VisualInsertFirstNonWhiteSpace",
       "g shift-a": "vim::VisualInsertEndOfLine",
       "shift-j": "vim::JoinLines",
+<<<<<<< Updated upstream
       "g shift-j": "vim::JoinLinesNoWhitespace",
       "r": "vim::PushReplace",
       "ctrl-c": "vim::SwitchToNormalMode",
@@ -1705,6 +1769,19 @@
       "g w": "vim::Rewrap",
       "g ?": "vim::ConvertToRot13",
       // "g ?": "vim::ConvertToRot47",
+=======
+      "r": "vim::PushReplace",
+      "ctrl-c": "vim::SwitchToNormalMode",
+      "escape": "vim::SwitchToNormalMode",
+      "ctrl-[": "vim::SwitchToNormalMode",
+      ">": "vim::Indent",
+      "<": "vim::Outdent",
+      "=": "vim::AutoIndent",
+      "i": ["vim::PushObject", { "around": false }],
+      "a": ["vim::PushObject", { "around": true }],
+      "g c": "vim::ToggleComments",
+      "g q": "vim::Rewrap",
+>>>>>>> Stashed changes
       "\"": "vim::PushRegister",
       // tree-sitter related commands
       "[ x": "editor::SelectLargerSyntaxNode",
@@ -1729,8 +1806,11 @@
       "ctrl-u": "editor::DeleteToBeginningOfLine",
       "ctrl-t": "vim::Indent",
       "ctrl-d": "vim::Outdent",
+<<<<<<< Updated upstream
       "ctrl-y": "vim::InsertFromAbove",
       "ctrl-e": "vim::InsertFromBelow",
+=======
+>>>>>>> Stashed changes
       "ctrl-k": ["vim::PushDigraph", {}],
       "ctrl-v": ["vim::PushLiteral", {}],
       "ctrl-shift-v": "editor::Paste", // note: this is *very* similar to ctrl-v in vim, but ctrl-shift-v on linux is the typical shortcut for paste when ctrl-v is already in use.
@@ -1884,7 +1964,10 @@
     "bindings": {
       "ctrl-c": "vim::NormalBefore",
       "ctrl-[": "vim::NormalBefore",
+<<<<<<< Updated upstream
       "escape": "vim::NormalBefore",
+=======
+>>>>>>> Stashed changes
       "ctrl-k": ["vim::PushDigraph", {}],
       "ctrl-v": ["vim::PushLiteral", {}],
       "ctrl-shift-v": "editor::Paste", // note: this is *very* similar to ctrl-v in vim, but ctrl-shift-v on linux is the typical shortcut for paste when ctrl-v is already in use.
@@ -1903,6 +1986,7 @@
       "enter": "vim::Enter",
       "ctrl-c": "vim::ClearOperators",
       "ctrl-[": "vim::ClearOperators",
+<<<<<<< Updated upstream
       "escape": "vim::ClearOperators",
       "ctrl-k": ["vim::PushDigraph", {}],
       "ctrl-v": ["vim::PushLiteral", {}],
@@ -1913,6 +1997,11 @@
     "context": "Editor && vim_mode == waiting && (vim_operator == ys || vim_operator == cs)",
     "bindings": {
       "escape": "vim::SwitchToNormalMode"
+=======
+      "ctrl-k": ["vim::PushDigraph", {}],
+      "ctrl-v": ["vim::PushLiteral", {}],
+      "ctrl-q": ["vim::PushLiteral", {}]
+>>>>>>> Stashed changes
     }
   },
   {
@@ -1929,13 +2018,20 @@
     "bindings": {
       "w": "vim::Word",
       "shift-w": ["vim::Word", { "ignore_punctuation": true }],
+<<<<<<< Updated upstream
       // Subword TextObject
       // "w": "vim::Subword",
       // "shift-w": ["vim::Subword", { "ignore_punctuation": true }],
+=======
+>>>>>>> Stashed changes
       "t": "vim::Tag",
       "s": "vim::Sentence",
       "p": "vim::Paragraph",
       "'": "vim::Quotes",
+<<<<<<< Updated upstream
+=======
+      "q": "vim::AnyQuotes",
+>>>>>>> Stashed changes
       "`": "vim::BackQuotes",
       "\"": "vim::DoubleQuotes",
       "q": "vim::AnyQuotes",
@@ -1943,9 +2039,13 @@
       "|": "vim::VerticalBars",
       "(": "vim::Parentheses",
       ")": "vim::Parentheses",
+<<<<<<< Updated upstream
       // "b": "vim::Parentheses",
       "b": "vim::AnyBrackets",
       // "b": "vim::MiniBrackets",
+=======
+      "b": "vim::AnyBrackets",
+>>>>>>> Stashed changes
       "[": "vim::SquareBrackets",
       "]": "vim::SquareBrackets",
       "r": "vim::SquareBrackets",
@@ -1976,12 +2076,17 @@
     "bindings": {
       "d": "vim::CurrentLine",
       "s": "vim::PushDeleteSurrounds",
+<<<<<<< Updated upstream
       "v": "vim::PushForcedMotion", // "d v"
       "o": "editor::ToggleSelectedDiffHunks", // "d o"
       "shift-o": "git::ToggleStaged",
       "p": "git::Restore", // "d p"
       "u": "git::StageAndNext", // "d u"
       "shift-u": "git::UnstageAndNext" // "d shift-u"
+=======
+      "o": "editor::ToggleHunkDiff", // "d o"
+      "p": "editor::RevertSelectedHunks" // "d p"
+>>>>>>> Stashed changes
     }
   },
   {
@@ -2025,7 +2130,10 @@
     "context": "vim_operator == y",
     "bindings": {
       "y": "vim::CurrentLine",
+<<<<<<< Updated upstream
       "v": "vim::PushForcedMotion",
+=======
+>>>>>>> Stashed changes
       "s": ["vim::PushAddSurrounds", {}]
     }
   },
@@ -2138,6 +2246,7 @@
       "ctrl-w right": "workspace::ActivatePaneRight",
       "ctrl-w up": "workspace::ActivatePaneUp",
       "ctrl-w down": "workspace::ActivatePaneDown",
+<<<<<<< Updated upstream
       "ctrl-w ctrl-h": "workspace::ActivatePaneLeft",
       "ctrl-w ctrl-l": "workspace::ActivatePaneRight",
       "ctrl-w ctrl-k": "workspace::ActivatePaneUp",
@@ -2146,10 +2255,19 @@
       "ctrl-shift-alt-l": "workspace::ActivatePaneRight",
       "ctrl-shift-alt-k": "workspace::ActivatePaneUp",
       "ctrl-shift-alt-j": "workspace::ActivatePaneDown",
+=======
+>>>>>>> Stashed changes
       "ctrl-w h": "workspace::ActivatePaneLeft",
       "ctrl-w l": "workspace::ActivatePaneRight",
       "ctrl-w k": "workspace::ActivatePaneUp",
       "ctrl-w j": "workspace::ActivatePaneDown",
+<<<<<<< Updated upstream
+=======
+      "ctrl-w ctrl-h": "workspace::ActivatePaneLeft",
+      "ctrl-w ctrl-l": "workspace::ActivatePaneRight",
+      "ctrl-w ctrl-k": "workspace::ActivatePaneUp",
+      "ctrl-w ctrl-j": "workspace::ActivatePaneDown",
+>>>>>>> Stashed changes
       "ctrl-w shift-left": "workspace::SwapPaneLeft",
       "ctrl-w shift-right": "workspace::SwapPaneRight",
       "ctrl-w shift-up": "workspace::SwapPaneUp",

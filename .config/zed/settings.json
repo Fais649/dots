@@ -7,21 +7,46 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "assistant": {
+  "disable_ai": true,
+  "inlay_hints": {
+    "enabled": true,
+    "show_value_hints": true,
+    "show_type_hints": true,
+    "show_parameter_hints": true,
+    "show_other_hints": true,
+    "show_background": false,
+    "edit_debounce_ms": 700,
+    "scroll_debounce_ms": 50,
+    "toggle_on_modifiers_press": {
+      "control": false,
+      "alt": false,
+      "shift": false,
+      "platform": false,
+      "function": false
+    }
+  },
+  "buffer_font_family": "GohuFont 11 Nerd Font Mono",
+  "ui_font_family": "GohuFont 11 Nerd Font Mono",
+  "icon_theme": "Monospace Icon Theme - Dark",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "base_keymap": "JetBrains",
+  "agent": {
     "default_model": {
       "provider": "ollama",
       "model": "llama3.2:latest"
     },
-    "version": "2"
   },
   "vim_mode": true,
-  "ui_font_size": 16,
+  "ui_font_size": 16.0,
   "buffer_font_size": 16,
   "scrollbar": { "show": "never" },
   "theme": {
-    "mode": "system",
-    "light": "One Light",
-    "dark": "Le Blackque purple"
+    "mode": "dark",
+    "light": "Ayu Light",
+    "dark": "Ultimate Dark Neo"
   },
   "vim": {
     "use_system_clipboard": "always",

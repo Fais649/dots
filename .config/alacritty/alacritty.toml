@@ -7,9 +7,9 @@ shell.program = "/opt/homebrew/bin/tmux"
 TERM = "xterm-256color"
 
 [font]
-normal = { family = "Terminess Nerd Font Mono" }
-bold = { family = "Terminess Nerd Font Mono" }
-italic = { family = "Terminess Nerd Font Mono" }
+normal = { family = "Terminess Nerd Font" }
+bold = { family = "Terminess Nerd Font" }
+italic = { family = "Terminess Nerd Font" }
 size = 9
 
 [window]

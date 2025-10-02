@@ -9,7 +9,7 @@ window {
 }
 
 label {
-  font-family: Terminess Nerd Font Mono;
+  font-family: 'Terminess Nerd Font';
   font-size: 11pt;
 
   color: @label;

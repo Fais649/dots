@@ -13,7 +13,9 @@ F swap.lfoot
 F swap.lfoot2
 F stride.rfoot3
 0 stride.rfoot
-F run_loop
 Generate ▸ Mirror
 F default
 Generate ▸ Boolean
+F run_forward_left_loop
+F run_back_loop
+F run_loop

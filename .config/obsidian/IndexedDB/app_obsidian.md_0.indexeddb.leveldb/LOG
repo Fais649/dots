@@ -1,3 +1,5 @@
-2025/08/28-09:41:14.783 70c0 Reusing MANIFEST /home/fais/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2025/08/28-09:41:14.783 70c0 Recovering log #60
-2025/08/28-09:41:14.786 70c0 Reusing old log /home/fais/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000060.log 
+2025/09/30-08:40:26.173 9a440 Reusing MANIFEST /home/fais/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2025/09/30-08:40:26.173 9a440 Recovering log #95
+2025/09/30-08:40:26.176 9a440 Reusing old log /home/fais/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000095.log 
+2025/09/30-08:40:26.176 9a440 Delete type=2 #93
+2025/09/30-08:40:26.176 9a440 Delete type=2 #96
