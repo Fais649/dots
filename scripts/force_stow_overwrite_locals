@@ -1,0 +1,5 @@
+!#/bin/bash
+cd ..
+stow --adopt *
+git restore .
+stow .
