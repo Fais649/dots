@@ -5,6 +5,7 @@ esp/
 .config/Bitwarden
 .config/OpenTabletDriver/Logs/
 .config/discord/
+.config/go/
 .config/Epic/
 .config/chromium/
 .config/google-chrome/
@@ -12,3 +13,4 @@ esp/
 .config/google-chrome/DeferredBrowserMetrics/
 .config/google-chrome/GrShaderCache/
 .config/tmux/plugins/*
+.config/tmux/plugins/
