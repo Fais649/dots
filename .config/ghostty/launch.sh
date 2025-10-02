@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/usr/bin/zsh
 SESSION_NAME="ghostty"
 
 zsh -c tmux has-session -t $SESSION_NAME 2>/dev/null

@@ -11,3 +11,4 @@ esp/
 .config/omarchy/themes/ash
 .config/google-chrome/DeferredBrowserMetrics/
 .config/google-chrome/GrShaderCache/
+.config/tmux/plugins/*
