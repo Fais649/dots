@@ -1,0 +1,12 @@
+[
+    Home,
+    Documents,
+    Downloads,
+    Music,
+    Pictures,
+    Videos,
+    Path("/home/fais/punk.sys/txt"),
+    Path("/home/fais/punk.sys/dots"),
+    Path("/home/fais/punk.sys/code"),
+    Path("/home/fais/punk.sys/art"),
+]

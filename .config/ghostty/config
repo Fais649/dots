@@ -3,6 +3,7 @@ font-family = "Terminess Nerd Font"
 # background = #000000
 # foreground = #CCCCCC
 theme  = Ultra Dark
+app-notifications = no-clipboard-copy
 window-theme = ghostty
 window-titlebar-background = #000000
 macos-non-native-fullscreen = false

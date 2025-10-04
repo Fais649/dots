@@ -1,0 +1,21 @@
+!#/bin/bash
+
+if [ $# -ne 1 ]; then
+	echo "Usage: $0 <Hybrid|Integrated>"
+	exit 1
+fi
+
+mode=$1
+
+case "$mode" in
+  Hybrid|Integrated)
+    echo "Valid option: $mode"
+    ;;
+  *)
+    echo "Invalid option: $mode"
+		echo "Usage: $0 <Hybrid|Integrated>"
+    exit 1
+    ;;
+esac
+
+supergfxctl -m $mode
