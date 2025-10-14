@@ -1,7 +1,6 @@
-@import "../omarchy/current/theme/waybar.css";
 
 * {
-  background-color: @background;
+  background-color: #000000;
   color: #CCCCCC;
 
   border: none;
@@ -17,6 +16,7 @@
 #battery,
 #power-profiles-daemon,
 #network,
+#language,
 #bluetooth {
 	font-size: 16px
 }

@@ -9,4 +9,6 @@
     Path("/home/fais/punk.sys/dots"),
     Path("/home/fais/punk.sys/code"),
     Path("/home/fais/punk.sys/art"),
+    Path("/home/fais/punk.sys"),
+    Path("/home/fais/punk.sys/localsend"),
 ]

@@ -1,4 +1,6 @@
 esp/
+.config/gh
+.config/gh/*
 .config/composer
 .config/nvm
 .config/Docker*Desktop

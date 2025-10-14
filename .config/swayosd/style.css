@@ -1,22 +1,21 @@
-@import "../omarchy/current/theme/swayosd.css";
 
 window {
   border-radius: 0;
   opacity: 0.97;
-  border: 2px solid @border-color;
+  border: 2px solid #CCCCCC;
 
-  background-color: @background-color;
+  background-color: #000000;
 }
 
 label {
   font-family: 'Terminess Nerd Font';
   font-size: 11pt;
 
-  color: @label;
+  color: #CCCCCC;
 }
 
 image {
-  color: @image;
+  color: #CCCCCC;
 }
 
 progressbar {
@@ -24,5 +23,5 @@ progressbar {
 }
 
 progress {
-  background-color: @progress;
+  background-color: #CCCCCC;
 }

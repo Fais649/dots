@@ -1,7 +1,7 @@
 {
     "telemetry.sqmId": "",
     "telemetry.machineId": "7cd80d4d5f870b66266d90daa6c58af05de7f729d04275497429bd9cae48713c",
-    "telemetry.devDeviceId": "42a082a4-2cfa-4c48-8968-fc5e9e1bd535",
+    "telemetry.devDeviceId": "b915e1b0-f619-49a1-8c99-8536b6934ecc",
     "backupWorkspaces": {
         "workspaces": [],
         "folders": [],
@@ -42,8 +42,8 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
-            "auxiliarySideBarWidth": 0,
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
         }
@@ -53,10 +53,10 @@
             "backupPath": "/home/fais/.config/Code - OSS/Backups/1752360871531",
             "uiState": {
                 "mode": 1,
-                "x": 120,
-                "y": 50,
-                "width": 1200,
-                "height": 800
+                "x": 0,
+                "y": 0,
+                "width": 2390,
+                "height": 1388
             }
         },
         "openedWindows": []

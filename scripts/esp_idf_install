@@ -1,0 +1,11 @@
+mkdir -p ~/esp
+cd ~/esp
+git clone --recursive https://github.com/espressif/esp-idf.git
+cd esp-idf
+echo Installing esp32c3...
+./install.sh esp32c3
+echo Installing esp32s2...
+./install.sh esp32s2
+source ~/.zshrc
+echo Installing esp-specific clang...
+idf_tools.py install esp-clang

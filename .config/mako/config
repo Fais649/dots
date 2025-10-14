@@ -1,1 +1,12 @@
-/home/fais/.config/omarchy/current/theme/mako.ini
+default-timeout=5000
+anchor=top-right
+width=420
+height=110
+text-color=#CCCCCC
+border-color=#CCCCCC
+background-color=#000000
+padding=10
+border-size=2
+font=Terminess Nerd Font
+max-icon-size=32
+outer-margin=20

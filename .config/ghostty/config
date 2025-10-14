@@ -2,9 +2,8 @@ font-size = 16
 font-family = "Terminess Nerd Font"
 # background = #000000
 # foreground = #CCCCCC
-theme  = Ultra Dark
+confirm-close-surface= false
 app-notifications = no-clipboard-copy
-window-theme = ghostty
 window-titlebar-background = #000000
 macos-non-native-fullscreen = false
 macos-option-as-alt = true
@@ -17,3 +16,4 @@ command = tmux
 keybind = ctrl+,=reload_config
 wait-after-command=true
 
+theme = noctalia

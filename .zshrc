@@ -1,6 +1,6 @@
-
-
 # zsh
+eval "$(direnv hook zsh)"  # or 'zsh', 'fish', etc.
+# export DOCKER_HOST=unix:///var/run/docker.sock
 export ZSH="$HOME/.oh-my-zsh"
 export ZSH_CUSTOM="$HOME/.zshcustom"
 export SDL_VIDEODRIVER="wayland"
@@ -48,8 +48,8 @@ alias txs="tmuxinator start"
 alias txk="tmux kill-server"
 alias txo="tmuxinator open"
 alias hc="nvim ~/.config/hypr/bindings.conf"
+alias nc="nvim ~/.config/niri/config.kdl"
 alias src="source ~/.zshrc"
-# alias nc="nvim ~/.config/nvim/"
 alias gc="nvim ~/.config/ghostty/config"
 
 # Neovim-Remote
@@ -412,6 +412,12 @@ export NVM_DIR="$HOME/.config/nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-export OMARCHY_PATH="$HOME/.local/share/omarchy"
 export PATH="$HOME/.local/bin:$PATH"
-export PATH="$OMARCHY_PATH/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/.nix-profile/bin:$PATH"
+
+# AsyncAPI CLI Autocomplete
+
+ASYNCAPI_AC_ZSH_SETUP_PATH=/home/fais/.cache/@asyncapi/cli/autocomplete/zsh_setup && test -f $ASYNCAPI_AC_ZSH_SETUP_PATH && source $ASYNCAPI_AC_ZSH_SETUP_PATH; # asyncapi autocomplete setup
+
+

@@ -1,0 +1,4 @@
+2025-10-06 10:38:50.993 [info] Started local extension host with pid 28863.
+2025-10-06 10:38:51.034 [info] Started initializing default profile extensions in extensions installation folder. file:///home/fais/.vscode-oss/extensions
+2025-10-06 10:38:51.307 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/fais/.vscode-oss/extensions
+2025-10-06 10:38:54.758 [info] [perf] Render performance baseline is 49ms

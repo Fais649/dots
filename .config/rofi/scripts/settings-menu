@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+#
+# Define options
+options="WiFi\nBluetooth"
+
+# Show menu
+chosen=$(echo -e "$options" | rofi -dmenu -p "Select:")
+
+# Run an action based on choice
+case "$chosen" in
+    WiFi)
+        $SCRIPT_DIR/wifi-menu
+        ;;
+    Bluetooth)
+        rofi-bluetooth
+        ;;
+    *)
+        exit 0
+        ;;
+esac
