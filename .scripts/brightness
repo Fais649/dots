@@ -1,0 +1,47 @@
+#!/bin/bash
+
+if [[ $# -ne 1 ]]; then
+  echo "Usage: $0 <value>"
+  echo "  <value> format: <number>[%][+/-]"
+  echo "  Examples: 5, -10, +5, 50%, -10%, +5%"
+  exit 1 # Exit with an error code
+fi
+
+# Get the first argument
+ADJUSTMENT="$1"
+
+if ! [[ "$ADJUSTMENT" =~ ^[0-9]+%?[+-]?$ ]]; then
+  echo "Error: Invalid adjustment format."
+  echo "Expected format: <number>[%][+/-]"
+  echo "Examples: 5, -10, +5, 50%, -10%, +5%"
+  exit 1 # Exit with an error code
+fi
+
+if [ $(cat /sys/class/drm/card*/device/power_state | wc -l) -eq 2 ]; then
+  GPU_MODE="Hybrid"
+else
+  GPU_MODE="Integrated"
+fi
+
+
+if [[ "$GPU_MODE" == "Integrated" ]]; then
+    # For Integrated mode, qs commands are hardcoded to 'increase'/'decrease'.
+    # We need to interpret the ADJUSTMENT to decide which to call.
+    # Check if the adjustment starts with '+' or is a positive number.
+    # Note: `brightnessctl` understands `+5`, `-5` or `5%`. `qs` might not.
+    # Assuming `qs` needs explicit 'increase'/'decrease'.
+
+    # If ADJUSTMENT contains '+', or if it's a number > 0
+    if [[ "$ADJUSTMENT" == "+"* ]] || [[ "$ADJUSTMENT" =~ ^[0-9]+%?$ && "${ADJUSTMENT/\%}" -gt 0 ]]; then
+        qs -c noctalia-shell ipc call brightness increase
+    # If ADJUSTMENT contains '-', or if it's a number < 0
+    elif [[ "$ADJUSTMENT" == "-"* ]] || [[ "$ADJUSTMENT" =~ ^-[0-9]+%?$ ]]; then
+        qs -c noctalia-shell ipc call brightness decrease
+    else
+        echo "Integrated GPU: Could not determine 'increase'/'decrease' action from '$ADJUSTMENT'."
+        exit 1
+    fi
+else # GPU_MODE is "Hybrid"
+    # brightnessctl accepts the ADJUSTMENT value directly.
+    brightnessctl -d nvidia_wmi_ec_backlight s "$ADJUSTMENT"
+fi
