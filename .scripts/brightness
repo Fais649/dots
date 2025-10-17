@@ -32,10 +32,10 @@ if [[ "$GPU_MODE" == "Integrated" ]]; then
     # Assuming `qs` needs explicit 'increase'/'decrease'.
 
     # If ADJUSTMENT contains '+', or if it's a number > 0
-    if [[ "$ADJUSTMENT" == "+"* ]] || [[ "$ADJUSTMENT" =~ ^[0-9]+%?$ && "${ADJUSTMENT/\%}" -gt 0 ]]; then
+    if [[ "$ADJUSTMENT" == *"+" ]] || [[ "$ADJUSTMENT" =~ ^[0-9]+%?+?$ && "${ADJUSTMENT/\%}" -gt 0 ]]; then
         qs -c noctalia-shell ipc call brightness increase
     # If ADJUSTMENT contains '-', or if it's a number < 0
-    elif [[ "$ADJUSTMENT" == "-"* ]] || [[ "$ADJUSTMENT" =~ ^-[0-9]+%?$ ]]; then
+    elif [[ "$ADJUSTMENT" == *"-" ]] || [[ "$ADJUSTMENT" =~ ^[0-9]+%?-$ ]]; then
         qs -c noctalia-shell ipc call brightness decrease
     else
         echo "Integrated GPU: Could not determine 'increase'/'decrease' action from '$ADJUSTMENT'."
