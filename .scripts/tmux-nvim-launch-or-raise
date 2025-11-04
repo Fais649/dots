@@ -1,0 +1,41 @@
+#!/bin/bash
+#
+# Tmux toggle for Neovim window:
+# - If current window is "nvim": move its process to a new window and replace
+#   with a terminal
+# - If another "nvim" window exists: focus it
+# - If none exist: start nvim here
+#
+
+SESSION_NAME=$(tmux display-message -p '#S')
+CURRENT_WIN_NAME=$(tmux display-message -p '#W')
+CURRENT_WIN_INDEX=$(tmux display-message -p '#I')
+
+# Check if nvim window exists (other than current)
+NVIM_WINDOW_INDEX=$(tmux list-windows -F '#{window_index} #{pane_current_command}' |
+  awk -v cur="$CURRENT_WIN_INDEX" '$2=="nvim" && $1!=cur {print $1; exit}')
+
+# ------------------------------------------------------------
+# CASE 1: Current window *is* nvim → detach it
+# ------------------------------------------------------------
+if [ "$CURRENT_WIN_NAME" = "nvim" ]; then
+  exit 0
+fi
+
+# ------------------------------------------------------------
+# CASE 2: Another nvim window exists → select it
+# ------------------------------------------------------------
+if [ -n "$NVIM_WINDOW_INDEX" ]; then
+  tmux select-window -t "$NVIM_WINDOW_INDEX"
+  exit 0
+fi
+
+# # ------------------------------------------------------------
+# # CASE 3: No nvim window exists → open one here
+# # ------------------------------------------------------------
+if [[ "$(tmux display-message -p '#{pane_current_command}')" =~ ^(bash|zsh|fish)$ ]]; then
+  tmux send-keys 'nvim' C-m
+else
+	exit 0
+  echo "Current pane is not on a shell — skipping."
+fi

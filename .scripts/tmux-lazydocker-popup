@@ -1,0 +1,52 @@
+# #!/bin/bash
+# #
+# # Toggles a tmux pane running lazydocker:
+# # - creates one if missing
+# # - hides (shrinks) if visible
+# # - expands if hidden
+# #
+#
+# PANE_ID=$(tmux list-panes -F '#{pane_id} #{pane_current_command}' | grep -m1 lazydocker | awk '{print $1}')
+#
+# # If no lazydocker pane exists -> create one
+# if [ -z "$PANE_ID" ]; then
+#   tmux split-window -v -l 20 lazydocker
+#   exit 0
+# fi
+#
+# # Get current height of the pane (as number of lines)
+# PANE_HEIGHT=$(tmux list-panes -F '#{pane_id} #{pane_height}' | awk -v id="$PANE_ID" '$1==id {print $2}')
+#
+# # Toggle logic
+# if [ "$PANE_HEIGHT" -gt 1 ]; then
+#   # visible → hide
+#   tmux resize-pane -t "$PANE_ID" -y 1
+# else
+#   # hidden → expand
+#   tmux resize-pane -t "$PANE_ID" -y 20
+# fi
+
+#!/bin/bash
+
+SESSION_NAME=$(tmux display-message -p '#S')
+WINDOW_ID=$(tmux display-message -p '#{window_id}')
+
+PANE_INDEX=$(tmux list-panes -F '#{pane_index} #{pane_current_command}' |
+  awk '$2=="lazydocker" {print $1; exit}')
+
+DETACHED_WINDOW=$(tmux list-windows -a -F '#{session_name}:#{window_name}' |
+  grep -F "${SESSION_NAME}:lazydocker" || true)
+
+if [ -n "$PANE_INDEX" ]; then
+  tmux select-pane -t "$PANE_INDEX"
+  tmux break-pane -d -n lazydocker
+  exit 0
+fi
+#
+
+if [ -n "$DETACHED_WINDOW" ]; then
+  tmux join-pane -s "${SESSION_NAME}:lazydocker" -t "$WINDOW_ID" -v -l 20
+  exit 0
+fi
+
+tmux split-window -v -l 20 lazydocker

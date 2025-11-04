@@ -62,6 +62,7 @@ x-scheme-handler/https=chromium.desktop
 x-scheme-handler/mailto=google-chrome.desktop
 x-scheme-handler/terminal=com.mitchellh.ghostty.desktop
 x-scheme-handler/unknown=chromium.desktop
+x-scheme-handler/readest=readest-handler.desktop
 
 [Added Associations]
 application/x-extension-htm=zen.desktop

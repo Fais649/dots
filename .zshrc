@@ -1,4 +1,5 @@
 # zsh
+export TERM=xterm-256color
 eval "$(direnv hook zsh)"  # or 'zsh', 'fish', etc.
 # export DOCKER_HOST=unix:///var/run/docker.sock
 export ZSH="$HOME/.oh-my-zsh"
@@ -65,6 +66,32 @@ else
     export EDITOR="nvim"
 fi
 
+# nvim() {
+#   if [[ -n "$TMUX" ]]; then
+#     local win_name cur_index args
+#
+#     # Determine window name
+#     if [[ $# -gt 0 ]]; then
+#       win_name=$(basename "$1")
+#     elif [[ "$PWD" == "$HOME" ]]; then
+#       win_name="home"
+#     else
+#       win_name=$(basename "$PWD")
+#     fi
+#
+#     # Get current window index
+#     cur_index=$(tmux display-message -p '#I')
+#
+#     # Quote arguments safely
+#     args=$(printf '%q ' "$@")
+#
+#     # Create a new tmux window to the right and run nvim with args
+#     tmux new-window -a -t "$cur_index" -n "$win_name" "nvim $args"
+#   else
+#     command nvim "$@"
+#   fi
+# }
+
 # Git
 alias gpush="~/.scripts/gpush.sh"
 alias gnewsub="~/.scripts/gsub.sh"
@@ -99,6 +126,8 @@ alias lovr="~/.local/share/applications/lovr-x86_64.AppImage"
 # Homebrew
 #Warning:  is not in your PATH.
 # Bun
+#
+export PATH="$HOME/.bun/bin:$PATH"
 export BUN_INSTALL="$HOME/.bun"
 [ -s "/Users/faisalalalaiwat/.bun/_bun" ] && source "/Users/faisalalalaiwat/.bun/_bun"
 
@@ -412,6 +441,7 @@ export NVM_DIR="$HOME/.config/nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+export PATH="$HOME/go/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.nix-profile/bin:$PATH"

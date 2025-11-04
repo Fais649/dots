@@ -1,6 +1,5 @@
 font-size = 16
 font-family = "Terminess Nerd Font"
-# background = #000000
 # foreground = #CCCCCC
 confirm-close-surface= false
 app-notifications = no-clipboard-copy
@@ -12,8 +11,9 @@ fullscreen = false
 window-decoration = none
 mouse-hide-while-typing = true
 shell-integration = detect
-command = tmux
+command = tmux ls &>/dev/null && tmux attach || tmux
 keybind = ctrl+,=reload_config
 wait-after-command=true
 
 theme = noctalia
+background = #000000
